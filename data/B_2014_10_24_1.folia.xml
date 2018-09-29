@@ -1,0 +1,1769 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" version="1.5.1" xml:id="B_2014_10_24_1" generator="pynlpl.formats.folia-v1.5.1.88">
+  <metadata type="native">
+    <annotations>
+      <pos-annotation annotator="BiRCh group" set="https://url/to/set_of_pos"/>
+      <syntax-annotation annotator="BiRCh group" set="https://url/to/set_of_su"/>
+    </annotations>
+  </metadata>
+  <speech xml:id="B_2014_10_24_1.speech.1">
+    <utt begintime="00:00:01.310" endtime="00:00:02.390" speaker="Мама" xml:id="a26">
+      <w xml:id="a26.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a26.w.2">
+        <t>Что</t>
+      </w>
+      <w xml:id="a26.w.3">
+        <t>значит</t>
+      </w>
+      <w xml:id="a26.w.4">
+        <t>""</t>
+      </w>
+      <w xml:id="a26.w.5">
+        <t>бэ-бэ-бэ</t>
+      </w>
+      <w xml:id="a26.w.6">
+        <t>""</t>
+      </w>
+      <w xml:id="a26.w.7">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:01.510" endtime="00:00:03.170" speaker="Ребенок" xml:id="a1">
+      <w xml:id="a1.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a1.w.2">
+        <t>Бе-бе-бе</t>
+      </w>
+      <w xml:id="a1.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:03.198" endtime="00:00:05.448" speaker="Папа" xml:id="a77">
+      <w xml:id="a77.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a77.w.2">
+        <t>{NS}</t>
+      </w>
+      <w xml:id="a77.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:06.290" endtime="00:00:07.920" speaker="Папа" xml:id="a58">
+      <w xml:id="a58.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a58.w.2">
+        <t>И</t>
+      </w>
+      <w xml:id="a58.w.3">
+        <t>в</t>
+      </w>
+      <w xml:id="a58.w.4">
+        <t>этот</t>
+      </w>
+      <w xml:id="a58.w.5">
+        <t>же</t>
+      </w>
+      <w xml:id="a58.w.6">
+        <t>мешок</t>
+      </w>
+      <w xml:id="a58.w.7">
+        <t>его</t>
+      </w>
+      <w xml:id="a58.w.8">
+        <t>сложим</t>
+      </w>
+      <w xml:id="a58.w.9">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:08.210" endtime="00:00:09.750" speaker="Мама" xml:id="a27">
+      <w xml:id="a27.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a27.w.2">
+        <t>Да</t>
+      </w>
+      <w xml:id="a27.w.3">
+        <t>{SN}</t>
+      </w>
+      <w xml:id="a27.w.4">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:09.440" endtime="00:00:12.210" speaker="Папа" xml:id="a78">
+      <w xml:id="a78.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a78.w.2">
+        <t>{NS}</t>
+      </w>
+      <w xml:id="a78.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:12.348" endtime="00:00:17.388" speaker="Ребенок" xml:id="a2">
+      <w xml:id="a2.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a2.w.2">
+        <t>Бэ</t>
+      </w>
+      <w xml:id="a2.w.3">
+        <t>бе-бе-бе-бе-бе-бе</t>
+      </w>
+      <w xml:id="a2.w.4">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:16.380" endtime="00:00:18.474" speaker="Папа" xml:id="a59">
+      <w xml:id="a59.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a59.w.2">
+        <t>Жалко</t>
+      </w>
+      <w xml:id="a59.w.3">
+        <t>конечно</t>
+      </w>
+      <w xml:id="a59.w.4">
+        <t>такая</t>
+      </w>
+      <w xml:id="a59.w.5">
+        <t>ээ</t>
+      </w>
+      <w xml:id="a59.w.6">
+        <t>&lt;$BREAK&gt;</t>
+      </w>
+      <w xml:id="a59.w.7">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:17.499" endtime="00:00:26.213" speaker="Ребенок" xml:id="a3">
+      <w xml:id="a3.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a3.w.2">
+        <t>{SE}</t>
+      </w>
+      <w xml:id="a3.w.3">
+        <t>Бэ-бэ-бэ-бэ</t>
+      </w>
+      <w xml:id="a3.w.4">
+        <t>бэ-бэ-бэ-бэ-бэ-бэ</t>
+      </w>
+      <w xml:id="a3.w.5">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:19.120" endtime="00:00:20.050" speaker="Мама" xml:id="a28">
+      <w xml:id="a28.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a28.w.2">
+        <t>Что</t>
+      </w>
+      <w xml:id="a28.w.3">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:20.470" endtime="00:00:22.390" speaker="Папа" xml:id="a60">
+      <w xml:id="a60.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a60.w.2">
+        <t>&lt;$UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a60.w.3">
+        <t>&lt;$FS&gt;</t>
+      </w>
+      <w xml:id="a60.w.4">
+        <t>Зд-</t>
+      </w>
+      <w xml:id="a60.w.5">
+        <t>+Здоровый</t>
+      </w>
+      <w xml:id="a60.w.6">
+        <t>&lt;$$FS&gt;</t>
+      </w>
+      <w xml:id="a60.w.7">
+        <t>&lt;$$UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a60.w.8">
+        <t>Здоровый</t>
+      </w>
+      <w xml:id="a60.w.9">
+        <t>кусок</t>
+      </w>
+      <w xml:id="a60.w.10">
+        <t>пластика</t>
+      </w>
+      <w xml:id="a60.w.11">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:22.410" endtime="00:00:23.230" speaker="Мама" xml:id="a29">
+      <w xml:id="a29.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a29.w.2">
+        <t>Ну</t>
+      </w>
+      <w xml:id="a29.w.3">
+        <t>да</t>
+      </w>
+      <w xml:id="a29.w.4">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:26.318" endtime="00:00:33.710" speaker="Ребенок" xml:id="a4">
+      <w xml:id="a4.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a4.w.2">
+        <t>Бэ</t>
+      </w>
+      <w xml:id="a4.w.3">
+        <t>бе-бе-бе-бе</t>
+      </w>
+      <w xml:id="a4.w.4">
+        <t>бе-бе</t>
+      </w>
+      <w xml:id="a4.w.5">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:27.660" endtime="00:00:36.680" speaker="Папа" xml:id="a61">
+      <w xml:id="a61.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a61.w.2">
+        <t>То</t>
+      </w>
+      <w xml:id="a61.w.3">
+        <t>есть</t>
+      </w>
+      <w xml:id="a61.w.4">
+        <t>,</t>
+      </w>
+      <w xml:id="a61.w.5">
+        <t>они</t>
+      </w>
+      <w xml:id="a61.w.6">
+        <t>&lt;$FS&gt;</t>
+      </w>
+      <w xml:id="a61.w.7">
+        <t>не</t>
+      </w>
+      <w xml:id="a61.w.8">
+        <t>не</t>
+      </w>
+      <w xml:id="a61.w.9">
+        <t>с-</t>
+      </w>
+      <w xml:id="a61.w.10">
+        <t>&lt;$$FS&gt;</t>
+      </w>
+      <w xml:id="a61.w.11">
+        <t>ээ</t>
+      </w>
+      <w xml:id="a61.w.12">
+        <t>&lt;$FS&gt;</t>
+      </w>
+      <w xml:id="a61.w.13">
+        <t>не</t>
+      </w>
+      <w xml:id="a61.w.14">
+        <t>прис-</t>
+      </w>
+      <w xml:id="a61.w.15">
+        <t>&lt;$$FS&gt;</t>
+      </w>
+      <w xml:id="a61.w.16">
+        <t>&lt;$FS&gt;</t>
+      </w>
+      <w xml:id="a61.w.17">
+        <t>не</t>
+      </w>
+      <w xml:id="a61.w.18">
+        <t>&lt;$$FS&gt;</t>
+      </w>
+      <w xml:id="a61.w.19">
+        <t>ээ</t>
+      </w>
+      <w xml:id="a61.w.20">
+        <t>&lt;$FS&gt;</t>
+      </w>
+      <w xml:id="a61.w.21">
+        <t>не</t>
+      </w>
+      <w xml:id="a61.w.22">
+        <t>прив-</t>
+      </w>
+      <w xml:id="a61.w.23">
+        <t>&lt;$$FS&gt;</t>
+      </w>
+      <w xml:id="a61.w.24">
+        <t>ээ</t>
+      </w>
+      <w xml:id="a61.w.25">
+        <t>не</t>
+      </w>
+      <w xml:id="a61.w.26">
+        <t>&lt;$UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a61.w.27">
+        <t>соединяются</t>
+      </w>
+      <w xml:id="a61.w.28">
+        <t>&lt;$$UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a61.w.29">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:34.872" endtime="00:00:37.772" speaker="Ребенок" xml:id="a71">
+      <w xml:id="a71.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a71.w.2">
+        <t>{NS}</t>
+      </w>
+      <w xml:id="a71.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:35.520" endtime="00:00:36.520" speaker="Мама" xml:id="a30">
+      <w xml:id="a30.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a30.w.2">
+        <t>Олечка</t>
+      </w>
+      <w xml:id="a30.w.3">
+        <t>,</t>
+      </w>
+      <w xml:id="a30.w.4">
+        <t>где</t>
+      </w>
+      <w xml:id="a30.w.5">
+        <t>Б</t>
+      </w>
+      <w xml:id="a30.w.6">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:36.520" endtime="00:00:38.010" speaker="Мама" xml:id="a163">
+      <w xml:id="a163.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a163.w.2">
+        <t>Покажи</t>
+      </w>
+      <w xml:id="a163.w.3">
+        <t>пальчиком</t>
+      </w>
+      <w xml:id="a163.w.4">
+        <t>где</t>
+      </w>
+      <w xml:id="a163.w.5">
+        <t>Б</t>
+      </w>
+      <w xml:id="a163.w.6">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:38.810" endtime="00:00:39.480" speaker="Ребенок" xml:id="a5">
+      <w xml:id="a5.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a5.w.2">
+        <t>Ээ</t>
+      </w>
+      <w xml:id="a5.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:39.360" endtime="00:00:41.900" speaker="Мама" xml:id="a31">
+      <w xml:id="a31.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a31.w.2">
+        <t>Не</t>
+      </w>
+      <w xml:id="a31.w.3">
+        <t>,</t>
+      </w>
+      <w xml:id="a31.w.4">
+        <t>это</t>
+      </w>
+      <w xml:id="a31.w.5">
+        <t>&lt;$PR</t>
+      </w>
+      <w xml:id="a31.w.6">
+        <t>з</t>
+      </w>
+      <w xml:id="a31.w.7">
+        <t>&gt;</t>
+      </w>
+      <w xml:id="a31.w.8">
+        <t>З</t>
+      </w>
+      <w xml:id="a31.w.9">
+        <t>&lt;$$PR&gt;</t>
+      </w>
+      <w xml:id="a31.w.10">
+        <t>,</t>
+      </w>
+      <w xml:id="a31.w.11">
+        <t>это</t>
+      </w>
+      <w xml:id="a31.w.12">
+        <t>&lt;$PR</t>
+      </w>
+      <w xml:id="a31.w.13">
+        <t>з</t>
+      </w>
+      <w xml:id="a31.w.14">
+        <t>&gt;</t>
+      </w>
+      <w xml:id="a31.w.15">
+        <t>З</t>
+      </w>
+      <w xml:id="a31.w.16">
+        <t>&lt;$$PR&gt;</t>
+      </w>
+      <w xml:id="a31.w.17">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:49.878" endtime="00:00:50.438" speaker="Мама" xml:id="a73">
+      <w xml:id="a73.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a73.w.2">
+        <t>{NS}</t>
+      </w>
+      <w xml:id="a73.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:51.440" endtime="00:00:53.426" speaker="Мама" xml:id="a32">
+      <w xml:id="a32.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a32.w.2">
+        <t>Сделай</t>
+      </w>
+      <w xml:id="a32.w.3">
+        <t>турбо</t>
+      </w>
+      <w xml:id="a32.w.4">
+        <t>на</t>
+      </w>
+      <w xml:id="a32.w.5">
+        <t>пять</t>
+      </w>
+      <w xml:id="a32.w.6">
+        <t>минут</t>
+      </w>
+      <w xml:id="a32.w.7">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:00:54.066" endtime="00:00:55.917" speaker="Мама" xml:id="a33">
+      <w xml:id="a33.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a33.w.2">
+        <t>{CG}</t>
+      </w>
+      <w xml:id="a33.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:02.649" endtime="00:01:04.420" speaker="Мама" xml:id="a34">
+      <w xml:id="a34.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a34.w.2">
+        <t>{SN}</t>
+      </w>
+      <w xml:id="a34.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:07.223" endtime="00:01:10.353" speaker="Ребенок" xml:id="a72">
+      <w xml:id="a72.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a72.w.2">
+        <t>{NS}</t>
+      </w>
+      <w xml:id="a72.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:07.430" endtime="00:01:21.610" speaker="Папа" xml:id="a62">
+      <w xml:id="a62.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a62.w.2">
+        <t>Откуда-то</t>
+      </w>
+      <w xml:id="a62.w.3">
+        <t>из</t>
+      </w>
+      <w xml:id="a62.w.4">
+        <t>ээ</t>
+      </w>
+      <w xml:id="a62.w.5">
+        <t>сильно</t>
+      </w>
+      <w xml:id="a62.w.6">
+        <t>теплых</t>
+      </w>
+      <w xml:id="a62.w.7">
+        <t>мест</t>
+      </w>
+      <w xml:id="a62.w.8">
+        <t>&lt;$ELAB&gt;</t>
+      </w>
+      <w xml:id="a62.w.9">
+        <t>там</t>
+      </w>
+      <w xml:id="a62.w.10">
+        <t>какой-то</t>
+      </w>
+      <w xml:id="a62.w.11">
+        <t>ээ</t>
+      </w>
+      <w xml:id="a62.w.12">
+        <t>Техас</t>
+      </w>
+      <w xml:id="a62.w.13">
+        <t>Луизиана</t>
+      </w>
+      <w xml:id="a62.w.14">
+        <t>&lt;$$ELAB&gt;</t>
+      </w>
+      <w xml:id="a62.w.15">
+        <t>кто-то</t>
+      </w>
+      <w xml:id="a62.w.16">
+        <t>жаловался</t>
+      </w>
+      <w xml:id="a62.w.17">
+        <t>на</t>
+      </w>
+      <w xml:id="a62.w.18">
+        <t>этот</t>
+      </w>
+      <w xml:id="a62.w.19">
+        <t>ээ</t>
+      </w>
+      <w xml:id="a62.w.20">
+        <t>фильтр</t>
+      </w>
+      <w xml:id="a62.w.21">
+        <t>,</t>
+      </w>
+      <w xml:id="a62.w.22">
+        <t>&lt;$ELAB&gt;</t>
+      </w>
+      <w xml:id="a62.w.23">
+        <t>всю</t>
+      </w>
+      <w xml:id="a62.w.24">
+        <t>систему</t>
+      </w>
+      <w xml:id="a62.w.25">
+        <t>,</t>
+      </w>
+      <w xml:id="a62.w.26">
+        <t>&lt;$$ELAB&gt;</t>
+      </w>
+      <w xml:id="a62.w.27">
+        <t>что</t>
+      </w>
+      <w xml:id="a62.w.28">
+        <t>она</t>
+      </w>
+      <w xml:id="a62.w.29">
+        <t>существенно</t>
+      </w>
+      <w xml:id="a62.w.30">
+        <t>согревает</t>
+      </w>
+      <w xml:id="a62.w.31">
+        <t>квартиру</t>
+      </w>
+      <w xml:id="a62.w.32">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:08.181" endtime="00:01:09.148" speaker="Мама" xml:id="a74">
+      <w xml:id="a74.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a74.w.2">
+        <t>{SN}</t>
+      </w>
+      <w xml:id="a74.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:17.023" endtime="00:01:17.870" speaker="Мама" xml:id="a75">
+      <w xml:id="a75.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a75.w.2">
+        <t>Угу</t>
+      </w>
+      <w xml:id="a75.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:22.202" endtime="00:01:24.985" speaker="Мама" xml:id="a35">
+      <w xml:id="a35.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a35.w.2">
+        <t>&lt;$UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a35.w.3">
+        <t>У-у</t>
+      </w>
+      <w xml:id="a35.w.4">
+        <t>|</t>
+      </w>
+      <w xml:id="a35.w.5">
+        <t>{inaudible}</t>
+      </w>
+      <w xml:id="a35.w.6">
+        <t>&lt;$$UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a35.w.7">
+        <t>.</t>
+      </w>
+      <w xml:id="a35.w.8">
+        <t>Нам</t>
+      </w>
+      <w xml:id="a35.w.9">
+        <t>это</t>
+      </w>
+      <w xml:id="a35.w.10">
+        <t>не</t>
+      </w>
+      <w xml:id="a35.w.11">
+        <t>страшно</t>
+      </w>
+      <w xml:id="a35.w.12">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:25.049" endtime="00:01:26.941" speaker="Мама" xml:id="a36">
+      <w xml:id="a36.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a36.w.2">
+        <t>Олечка</t>
+      </w>
+      <w xml:id="a36.w.3">
+        <t>,</t>
+      </w>
+      <w xml:id="a36.w.4">
+        <t>а</t>
+      </w>
+      <w xml:id="a36.w.5">
+        <t>что</t>
+      </w>
+      <w xml:id="a36.w.6">
+        <t>ты</t>
+      </w>
+      <w xml:id="a36.w.7">
+        <t>делаешь</t>
+      </w>
+      <w xml:id="a36.w.8">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:28.340" endtime="00:01:31.039" speaker="Мама" xml:id="a37">
+      <w xml:id="a37.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a37.w.2">
+        <t>Что</t>
+      </w>
+      <w xml:id="a37.w.3">
+        <t>ты</t>
+      </w>
+      <w xml:id="a37.w.4">
+        <t>делаешь</t>
+      </w>
+      <w xml:id="a37.w.5">
+        <t>Ольчоныш</t>
+      </w>
+      <w xml:id="a37.w.6">
+        <t>,</t>
+      </w>
+      <w xml:id="a37.w.7">
+        <t>&lt;$ELAB&gt;</t>
+      </w>
+      <w xml:id="a37.w.8">
+        <t>читаешь</t>
+      </w>
+      <w xml:id="a37.w.9">
+        <t>книжку</t>
+      </w>
+      <w xml:id="a37.w.10">
+        <t>&lt;$$ELAB&gt;</t>
+      </w>
+      <w xml:id="a37.w.11">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:31.500" endtime="00:01:32.840" speaker="Ребенок" xml:id="a6">
+      <w xml:id="a6.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a6.w.2">
+        <t>Б</t>
+      </w>
+      <w xml:id="a6.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:33.034" endtime="00:01:34.614" speaker="Мама" xml:id="a38">
+      <w xml:id="a38.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a38.w.2">
+        <t>Ага</t>
+      </w>
+      <w xml:id="a38.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:35.228" endtime="00:01:38.310" speaker="Ребенок" xml:id="a7">
+      <w xml:id="a7.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a7.w.2">
+        <t>Б-Б-Б-Б</t>
+      </w>
+      <w xml:id="a7.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:38.330" endtime="00:01:41.538" speaker="Мама" xml:id="a39">
+      <w xml:id="a39.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a39.w.2">
+        <t>Ага</t>
+      </w>
+      <w xml:id="a39.w.3">
+        <t>,</t>
+      </w>
+      <w xml:id="a39.w.4">
+        <t>я</t>
+      </w>
+      <w xml:id="a39.w.5">
+        <t>поняла</t>
+      </w>
+      <w xml:id="a39.w.6">
+        <t>{SN}</t>
+      </w>
+      <w xml:id="a39.w.7">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:42.279" endtime="00:01:43.330" speaker="Папа" xml:id="a63">
+      <w xml:id="a63.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a63.w.2">
+        <t>Поможешь</t>
+      </w>
+      <w xml:id="a63.w.3">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:43.370" endtime="00:01:44.100" speaker="Мама" xml:id="a40">
+      <w xml:id="a40.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a40.w.2">
+        <t>Да</t>
+      </w>
+      <w xml:id="a40.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:45.510" endtime="00:01:46.240" speaker="Мама" xml:id="a41">
+      <w xml:id="a41.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a41.w.2">
+        <t>А</t>
+      </w>
+      <w xml:id="a41.w.3">
+        <t>чем</t>
+      </w>
+      <w xml:id="a41.w.4">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:47.030" endtime="00:01:47.860" speaker="Папа" xml:id="a64">
+      <w xml:id="a64.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a64.w.2">
+        <t>Держи</t>
+      </w>
+      <w xml:id="a64.w.3">
+        <t>&lt;$UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a64.w.4">
+        <t>кулечек</t>
+      </w>
+      <w xml:id="a64.w.5">
+        <t>&lt;$$UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a64.w.6">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:47.760" endtime="00:01:49.811" speaker="Мама" xml:id="a164">
+      <w xml:id="a164.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a164.w.2">
+        <t>А</t>
+      </w>
+      <w xml:id="a164.w.3">
+        <t>ты</t>
+      </w>
+      <w xml:id="a164.w.4">
+        <t>неправильной</t>
+      </w>
+      <w xml:id="a164.w.5">
+        <t>стороной</t>
+      </w>
+      <w xml:id="a164.w.6">
+        <t>его</t>
+      </w>
+      <w xml:id="a164.w.7">
+        <t>вставляешь</t>
+      </w>
+      <w xml:id="a164.w.8">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:49.540" endtime="00:01:50.140" speaker="Папа" xml:id="a65">
+      <w xml:id="a65.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a65.w.2">
+        <t>Правильной</t>
+      </w>
+      <w xml:id="a65.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:50.110" endtime="00:01:50.580" speaker="Мама" xml:id="a42">
+      <w xml:id="a42.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a42.w.2">
+        <t>Нет</t>
+      </w>
+      <w xml:id="a42.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:50.630" endtime="00:01:53.880" speaker="Папа" xml:id="a66">
+      <w xml:id="a66.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a66.w.2">
+        <t>Да</t>
+      </w>
+      <w xml:id="a66.w.3">
+        <t>,</t>
+      </w>
+      <w xml:id="a66.w.4">
+        <t>я</t>
+      </w>
+      <w xml:id="a66.w.5">
+        <t>специально</t>
+      </w>
+      <w xml:id="a66.w.6">
+        <t>проследил</t>
+      </w>
+      <w xml:id="a66.w.7">
+        <t>что</t>
+      </w>
+      <w xml:id="a66.w.8">
+        <t>оно</t>
+      </w>
+      <w xml:id="a66.w.9">
+        <t>было</t>
+      </w>
+      <w xml:id="a66.w.10">
+        <t>&lt;$FS&gt;</t>
+      </w>
+      <w xml:id="a66.w.11">
+        <t>шире-</t>
+      </w>
+      <w xml:id="a66.w.12">
+        <t>&lt;$$FS&gt;</t>
+      </w>
+      <w xml:id="a66.w.13">
+        <t>широкой</t>
+      </w>
+      <w xml:id="a66.w.14">
+        <t>стороной</t>
+      </w>
+      <w xml:id="a66.w.15">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:50.890" endtime="00:01:51.480" speaker="Мама" xml:id="a76">
+      <w xml:id="a76.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a76.w.2">
+        <t>{SN}</t>
+      </w>
+      <w xml:id="a76.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:54.040" endtime="00:01:55.120" speaker="Папа" xml:id="a171">
+      <w xml:id="a171.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a171.w.2">
+        <t>&lt;$PAREN&gt;</t>
+      </w>
+      <w xml:id="a171.w.3">
+        <t>Видишь</t>
+      </w>
+      <w xml:id="a171.w.4">
+        <t>&lt;$$PAREN&gt;</t>
+      </w>
+      <w xml:id="a171.w.5">
+        <t>оно</t>
+      </w>
+      <w xml:id="a171.w.6">
+        <t>идет</t>
+      </w>
+      <w xml:id="a171.w.7">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:55.120" endtime="00:01:57.450" speaker="Мама" xml:id="a43">
+      <w xml:id="a43.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a43.w.2">
+        <t>Да</t>
+      </w>
+      <w xml:id="a43.w.3">
+        <t>,</t>
+      </w>
+      <w xml:id="a43.w.4">
+        <t>а</t>
+      </w>
+      <w xml:id="a43.w.5">
+        <t>почему</t>
+      </w>
+      <w xml:id="a43.w.6">
+        <t>ты</t>
+      </w>
+      <w xml:id="a43.w.7">
+        <t>не</t>
+      </w>
+      <w xml:id="a43.w.8">
+        <t>хочешь</t>
+      </w>
+      <w xml:id="a43.w.9">
+        <t>одеть</t>
+      </w>
+      <w xml:id="a43.w.10">
+        <t>его</t>
+      </w>
+      <w xml:id="a43.w.11">
+        <t>узкой</t>
+      </w>
+      <w xml:id="a43.w.12">
+        <t>стороной</t>
+      </w>
+      <w xml:id="a43.w.13">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:57.590" endtime="00:01:58.300" speaker="Папа" xml:id="a67">
+      <w xml:id="a67.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a67.w.2">
+        <t>Не</t>
+      </w>
+      <w xml:id="a67.w.3">
+        <t>знаю</t>
+      </w>
+      <w xml:id="a67.w.4">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:58.460" endtime="00:01:59.780" speaker="Мама" xml:id="a170">
+      <w xml:id="a170.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a170.w.2">
+        <t>{inaudible}</t>
+      </w>
+      <w xml:id="a170.w.3">
+        <t>проще</t>
+      </w>
+      <w xml:id="a170.w.4">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:01:59.830" endtime="00:02:00.940" speaker="Папа" xml:id="a68">
+      <w xml:id="a68.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a68.w.2">
+        <t>Тоже</t>
+      </w>
+      <w xml:id="a68.w.3">
+        <t>правда</t>
+      </w>
+      <w xml:id="a68.w.4">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:01.995" endtime="00:02:04.261" speaker="Мама" xml:id="a44">
+      <w xml:id="a44.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a44.w.2">
+        <t>{SN}</t>
+      </w>
+      <w xml:id="a44.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:07.146" endtime="00:02:09.514" speaker="Ребенок" xml:id="a8">
+      <w xml:id="a8.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a8.w.2">
+        <t>Бе-бе-бе</t>
+      </w>
+      <w xml:id="a8.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:10.550" endtime="00:02:15.270" speaker="Ребенок" xml:id="a9">
+      <w xml:id="a9.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a9.w.2">
+        <t>Бе-бе-бе</t>
+      </w>
+      <w xml:id="a9.w.3">
+        <t>бе-бе-бе</t>
+      </w>
+      <w xml:id="a9.w.4">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:12.060" endtime="00:02:13.310" speaker="Папа" xml:id="a69">
+      <w xml:id="a69.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a69.w.2">
+        <t>&lt;$UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a69.w.3">
+        <t>{inaudible}</t>
+      </w>
+      <w xml:id="a69.w.4">
+        <t>&lt;$$UNCLEAR&gt;</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:15.293" endtime="00:02:17.805" speaker="Папа" xml:id="a79">
+      <w xml:id="a79.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a79.w.2">
+        <t>{NS}</t>
+      </w>
+      <w xml:id="a79.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:15.521" endtime="00:02:19.130" speaker="Ребенок" xml:id="a10">
+      <w xml:id="a10.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a10.w.2">
+        <t>Бэ-бэ-бэ</t>
+      </w>
+      <w xml:id="a10.w.3">
+        <t>.</t>
+      </w>
+      <w xml:id="a10.w.4">
+        <t>Бэ</t>
+      </w>
+      <w xml:id="a10.w.5">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:18.460" endtime="00:02:19.946" speaker="Мама" xml:id="a45">
+      <w xml:id="a45.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a45.w.2">
+        <t>{SN}</t>
+      </w>
+      <w xml:id="a45.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:19.238" endtime="00:02:22.670" speaker="Ребенок" xml:id="a11">
+      <w xml:id="a11.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a11.w.2">
+        <t>Бэ-бэ-бэ</t>
+      </w>
+      <w xml:id="a11.w.3">
+        <t>.</t>
+      </w>
+      <w xml:id="a11.w.4">
+        <t>Бэ</t>
+      </w>
+      <w xml:id="a11.w.5">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:19.270" endtime="00:02:21.711" speaker="Папа" xml:id="a70">
+      <w xml:id="a70.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a70.w.2">
+        <t>Ой</t>
+      </w>
+      <w xml:id="a70.w.3">
+        <t>,</t>
+      </w>
+      <w xml:id="a70.w.4">
+        <t>осторожно</t>
+      </w>
+      <w xml:id="a70.w.5">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:21.782" endtime="00:02:23.062" speaker="Папа" xml:id="a80">
+      <w xml:id="a80.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a80.w.2">
+        <t>{NS}</t>
+      </w>
+      <w xml:id="a80.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:23.200" endtime="00:02:24.151" speaker="Мама" xml:id="a165">
+      <w xml:id="a165.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a165.w.2">
+        <t>Да</t>
+      </w>
+      <w xml:id="a165.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:23.770" endtime="00:02:24.990" speaker="Ребенок" xml:id="a12">
+      <w xml:id="a12.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a12.w.2">
+        <t>Бэ</t>
+      </w>
+      <w xml:id="a12.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:25.029" endtime="00:02:26.690" speaker="Ребенок" xml:id="a13">
+      <w xml:id="a13.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a13.w.2">
+        <t>Бэ-бэ-бэ</t>
+      </w>
+      <w xml:id="a13.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:25.270" endtime="00:02:26.940" speaker="Мама" xml:id="a46">
+      <w xml:id="a46.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a46.w.2">
+        <t>Ты</t>
+      </w>
+      <w xml:id="a46.w.3">
+        <t>про</t>
+      </w>
+      <w xml:id="a46.w.4">
+        <t>барана</t>
+      </w>
+      <w xml:id="a46.w.5">
+        <t>читаешь</t>
+      </w>
+      <w xml:id="a46.w.6">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:27.012" endtime="00:02:28.620" speaker="Мама" xml:id="a47">
+      <w xml:id="a47.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a47.w.2">
+        <t>Где</t>
+      </w>
+      <w xml:id="a47.w.3">
+        <t>буква</t>
+      </w>
+      <w xml:id="a47.w.4">
+        <t>Б</t>
+      </w>
+      <w xml:id="a47.w.5">
+        <t>,</t>
+      </w>
+      <w xml:id="a47.w.6">
+        <t>&lt;$PAREN&gt;</t>
+      </w>
+      <w xml:id="a47.w.7">
+        <t>покажи</t>
+      </w>
+      <w xml:id="a47.w.8">
+        <t>&lt;$$PAREN&gt;</t>
+      </w>
+      <w xml:id="a47.w.9">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:28.420" endtime="00:02:29.450" speaker="Ребенок" xml:id="a14">
+      <w xml:id="a14.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a14.w.2">
+        <t>Это</t>
+      </w>
+      <w xml:id="a14.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:28.758" endtime="00:02:30.870" speaker="Мама" xml:id="a166">
+      <w xml:id="a166.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a166.w.2">
+        <t>Да</t>
+      </w>
+      <w xml:id="a166.w.3">
+        <t>,</t>
+      </w>
+      <w xml:id="a166.w.4">
+        <t>&lt;$PAREN&gt;</t>
+      </w>
+      <w xml:id="a166.w.5">
+        <t>правильно</t>
+      </w>
+      <w xml:id="a166.w.6">
+        <t>,</t>
+      </w>
+      <w xml:id="a166.w.7">
+        <t>&lt;$$PAREN&gt;</t>
+      </w>
+      <w xml:id="a166.w.8">
+        <t>это</t>
+      </w>
+      <w xml:id="a166.w.9">
+        <t>буква</t>
+      </w>
+      <w xml:id="a166.w.10">
+        <t>Б</t>
+      </w>
+      <w xml:id="a166.w.11">
+        <t>{SN}</t>
+      </w>
+      <w xml:id="a166.w.12">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:31.420" endtime="00:02:32.060" speaker="Ребенок" xml:id="a15">
+      <w xml:id="a15.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a15.w.2">
+        <t>Это</t>
+      </w>
+      <w xml:id="a15.w.3">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:32.080" endtime="00:02:33.070" speaker="Мама" xml:id="a48">
+      <w xml:id="a48.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a48.w.2">
+        <t>Это</t>
+      </w>
+      <w xml:id="a48.w.3">
+        <t>бегемот</t>
+      </w>
+      <w xml:id="a48.w.4">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:33.110" endtime="00:02:33.920" speaker="Ребенок" xml:id="a16">
+      <w xml:id="a16.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a16.w.2">
+        <t>Это</t>
+      </w>
+      <w xml:id="a16.w.3">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:33.700" endtime="00:02:34.460" speaker="Мама" xml:id="a49">
+      <w xml:id="a49.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a49.w.2">
+        <t>Белка</t>
+      </w>
+      <w xml:id="a49.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:34.540" endtime="00:02:35.200" speaker="Ребенок" xml:id="a17">
+      <w xml:id="a17.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a17.w.2">
+        <t>Это</t>
+      </w>
+      <w xml:id="a17.w.3">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:35.235" endtime="00:02:36.570" speaker="Мама" xml:id="a50">
+      <w xml:id="a50.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a50.w.2">
+        <t>{LS}</t>
+      </w>
+      <w xml:id="a50.w.3">
+        <t>Белка</t>
+      </w>
+      <w xml:id="a50.w.4">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:36.611" endtime="00:02:37.550" speaker="Ребенок" xml:id="a18">
+      <w xml:id="a18.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a18.w.2">
+        <t>Это</t>
+      </w>
+      <w xml:id="a18.w.3">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:37.590" endtime="00:02:38.636" speaker="Мама" xml:id="a51">
+      <w xml:id="a51.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a51.w.2">
+        <t>Баран</t>
+      </w>
+      <w xml:id="a51.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:38.636" endtime="00:02:39.430" speaker="Мама" xml:id="a167">
+      <w xml:id="a167.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a167.w.2">
+        <t>Все</t>
+      </w>
+      <w xml:id="a167.w.3">
+        <t>правильно</t>
+      </w>
+      <w xml:id="a167.w.4">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:39.430" endtime="00:02:40.320" speaker="Мама" xml:id="a168">
+      <w xml:id="a168.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a168.w.2">
+        <t>А</t>
+      </w>
+      <w xml:id="a168.w.3">
+        <t>где</t>
+      </w>
+      <w xml:id="a168.w.4">
+        <t>буква</t>
+      </w>
+      <w xml:id="a168.w.5">
+        <t>&lt;$PR</t>
+      </w>
+      <w xml:id="a168.w.6">
+        <t>б</t>
+      </w>
+      <w xml:id="a168.w.7">
+        <t>&gt;</t>
+      </w>
+      <w xml:id="a168.w.8">
+        <t>Б</t>
+      </w>
+      <w xml:id="a168.w.9">
+        <t>&lt;$$PR&gt;</t>
+      </w>
+      <w xml:id="a168.w.10">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:40.764" endtime="00:02:44.590" speaker="Мама" xml:id="a52">
+      <w xml:id="a52.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a52.w.2">
+        <t>{SN}</t>
+      </w>
+      <w xml:id="a52.w.3">
+        <t>.</t>
+      </w>
+      <w xml:id="a52.w.4">
+        <t>А</t>
+      </w>
+      <w xml:id="a52.w.5">
+        <t>еще</t>
+      </w>
+      <w xml:id="a52.w.6">
+        <t>покажи</t>
+      </w>
+      <w xml:id="a52.w.7">
+        <t>&lt;$REP&gt;</t>
+      </w>
+      <w xml:id="a52.w.8">
+        <t>а</t>
+      </w>
+      <w xml:id="a52.w.9">
+        <t>еще</t>
+      </w>
+      <w xml:id="a52.w.10">
+        <t>покажи</t>
+      </w>
+      <w xml:id="a52.w.11">
+        <t>&lt;$$REP&gt;</t>
+      </w>
+      <w xml:id="a52.w.12">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:40.960" endtime="00:02:41.740" speaker="Ребенок" xml:id="a19">
+      <w xml:id="a19.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a19.w.2">
+        <t>Эй</t>
+      </w>
+      <w xml:id="a19.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:45.140" endtime="00:02:45.900" speaker="Ребенок" xml:id="a20">
+      <w xml:id="a20.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a20.w.2">
+        <t>Эй</t>
+      </w>
+      <w xml:id="a20.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:45.273" endtime="00:02:49.163" speaker="Мама" xml:id="a53">
+      <w xml:id="a53.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a53.w.2">
+        <t>А</t>
+      </w>
+      <w xml:id="a53.w.3">
+        <t>{inaudible}</t>
+      </w>
+      <w xml:id="a53.w.4">
+        <t>&lt;$FS&gt;</t>
+      </w>
+      <w xml:id="a53.w.5">
+        <t>здесь</t>
+      </w>
+      <w xml:id="a53.w.6">
+        <t>&lt;$$FS&gt;</t>
+      </w>
+      <w xml:id="a53.w.7">
+        <t>здесь</t>
+      </w>
+      <w xml:id="a53.w.8">
+        <t>покажи</t>
+      </w>
+      <w xml:id="a53.w.9">
+        <t>&lt;$FS&gt;</t>
+      </w>
+      <w xml:id="a53.w.10">
+        <t>б-</t>
+      </w>
+      <w xml:id="a53.w.11">
+        <t>&lt;$$FS&gt;</t>
+      </w>
+      <w xml:id="a53.w.12">
+        <t>букву</t>
+      </w>
+      <w xml:id="a53.w.13">
+        <t>Б</t>
+      </w>
+      <w xml:id="a53.w.14">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:50.580" endtime="00:02:51.701" speaker="Мама" xml:id="a54">
+      <w xml:id="a54.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a54.w.2">
+        <t>Покажи</t>
+      </w>
+      <w xml:id="a54.w.3">
+        <t>.</t>
+      </w>
+      <w xml:id="a54.w.4">
+        <t>{SN}</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:50.670" endtime="00:02:52.090" speaker="Ребенок" xml:id="a21">
+      <w xml:id="a21.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a21.w.2">
+        <t>{inaudible}</t>
+      </w>
+      <w xml:id="a21.w.3">
+        <t>эта</t>
+      </w>
+      <w xml:id="a21.w.4">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:51.701" endtime="00:02:53.240" speaker="Мама" xml:id="a169">
+      <w xml:id="a169.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a169.w.2">
+        <t>Это</t>
+      </w>
+      <w xml:id="a169.w.3">
+        <t>белка</t>
+      </w>
+      <w xml:id="a169.w.4">
+        <t>,</t>
+      </w>
+      <w xml:id="a169.w.5">
+        <t>а</t>
+      </w>
+      <w xml:id="a169.w.6">
+        <t>где</t>
+      </w>
+      <w xml:id="a169.w.7">
+        <t>буква</t>
+      </w>
+      <w xml:id="a169.w.8">
+        <t>&lt;$PR</t>
+      </w>
+      <w xml:id="a169.w.9">
+        <t>б</t>
+      </w>
+      <w xml:id="a169.w.10">
+        <t>&gt;</t>
+      </w>
+      <w xml:id="a169.w.11">
+        <t>Б</t>
+      </w>
+      <w xml:id="a169.w.12">
+        <t>&lt;$$PR&gt;</t>
+      </w>
+      <w xml:id="a169.w.13">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:53.630" endtime="00:02:54.310" speaker="Ребенок" xml:id="a22">
+      <w xml:id="a22.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a22.w.2">
+        <t>Эй</t>
+      </w>
+      <w xml:id="a22.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:54.360" endtime="00:02:59.480" speaker="Мама" xml:id="a55">
+      <w xml:id="a55.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a55.w.2">
+        <t>Покажи</t>
+      </w>
+      <w xml:id="a55.w.3">
+        <t>&lt;$REP</t>
+      </w>
+      <w xml:id="a55.w.4">
+        <t>-</t>
+      </w>
+      <w xml:id="a55.w.5">
+        <t>C&gt;</t>
+      </w>
+      <w xml:id="a55.w.6">
+        <t>-покажи-покажи</t>
+      </w>
+      <w xml:id="a55.w.7">
+        <t>&lt;$$REP</t>
+      </w>
+      <w xml:id="a55.w.8">
+        <t>-</t>
+      </w>
+      <w xml:id="a55.w.9">
+        <t>C&gt;</t>
+      </w>
+      <w xml:id="a55.w.10">
+        <t>,</t>
+      </w>
+      <w xml:id="a55.w.11">
+        <t>вот</t>
+      </w>
+      <w xml:id="a55.w.12">
+        <t>.</t>
+      </w>
+      <w xml:id="a55.w.13">
+        <t>{SN}</t>
+      </w>
+    </utt>
+    <utt begintime="00:02:59.950" endtime="00:03:01.040" speaker="Ребенок" xml:id="a23">
+      <w xml:id="a23.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a23.w.2">
+        <t>Это</t>
+      </w>
+      <w xml:id="a23.w.3">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:03:01.420" endtime="00:03:02.320" speaker="Мама" xml:id="a56">
+      <w xml:id="a56.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a56.w.2">
+        <t>Да</t>
+      </w>
+      <w xml:id="a56.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:03:01.806" endtime="00:03:06.696" speaker="Папа" xml:id="a81">
+      <w xml:id="a81.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a81.w.2">
+        <t>{NS}</t>
+      </w>
+      <w xml:id="a81.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:03:02.420" endtime="00:03:03.170" speaker="Ребенок" xml:id="a24">
+      <w xml:id="a24.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a24.w.2">
+        <t>Это</t>
+      </w>
+      <w xml:id="a24.w.3">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt begintime="00:03:03.198" endtime="00:03:04.480" speaker="Мама" xml:id="a57">
+      <w xml:id="a57.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a57.w.2">
+        <t>Ага</t>
+      </w>
+      <w xml:id="a57.w.3">
+        <t>,</t>
+      </w>
+      <w xml:id="a57.w.4">
+        <t>это</t>
+      </w>
+      <w xml:id="a57.w.5">
+        <t>баран</t>
+      </w>
+      <w xml:id="a57.w.6">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt begintime="00:03:04.790" endtime="00:03:06.774" speaker="Ребенок" xml:id="a25">
+      <w xml:id="a25.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a25.w.2">
+        <t>Это</t>
+      </w>
+      <w xml:id="a25.w.3">
+        <t>&lt;$REP&gt;</t>
+      </w>
+      <w xml:id="a25.w.4">
+        <t>это</t>
+      </w>
+      <w xml:id="a25.w.5">
+        <t>&lt;$$REP&gt;</t>
+      </w>
+      <w xml:id="a25.w.6">
+        <t>.</t>
+      </w>
+    </utt>
+  </speech>
+</FoLiA>
