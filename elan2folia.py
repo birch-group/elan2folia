@@ -1,4 +1,3 @@
-#%%
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -21,7 +20,9 @@ from pympi import Eaf
 from pynlpl.formats import folia
 import re
 from operator import itemgetter
-#from pymystem3 import Mystem
+from pymystem3 import Mystem
+# exclude {'text':'\n'} from mystem's result list
+m = Mystem(entire_input=False)
 
 # Helper function
 # https://docs.python.org/3.6/library/time.html
@@ -41,26 +42,42 @@ def millisec2foliatime(ms): # type(ms) == int
 #re_token_ru = re.compile(r'[а-яА-Я+-]+')
 #re_punctuation = re.compile(r'([.,!?])')
 # how about quotation mark? (e.g. ""пошой""-то)
-re_token_ru = re.compile(r'[а-яА-Я+-]+|[.,!?]')
+re_token_ru = re.compile(r'[а-яА-Я+-–]+|[.,!?]')
 #re_token_ru = re.compile(r'[а-яА-Я+-]+')
 def get_tokens_ru(t): # t: ELAN transcript text of a segment
     """ -> Cyrillic tokens and punctuation marks """
     return re_token_ru.finditer(t)
 
 def get_token_offsets(t): # t: ELAN transcript text of a segment
-    """..."""
+    """ -> sorted list of the offset indices of tokens in t """
     return sorted(set(w.start() for w in get_tokens_ru(t)).\
                       union(set(w.end() for w in get_tokens_ru(t))).\
                       union({0,len(t)}))
 
 def get_tokens(t):
-    """..."""
+    """ -> list of token strings in t """
     tokens = []
     offsets = get_token_offsets(t)
     for i in range(len(offsets)-1):
         temp = t[offsets[i]:offsets[i+1]].strip().split()
         tokens.extend(temp)
     return tokens
+
+#letters_russian = set('АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя')
+letters_russian = set('абвгдеёжзийклмнопрстуфхцчшщъыьэюя')
+def is_token_mystem(token): # type(token): str
+    """ consider those tokens consisting of only Cyrillic letters """
+    return all(l in letters_russian for l in token.lower())
+
+sep_mystem = re.compile(r'[,=|]')
+def analyze_mystem_gr(gr_value): # type(gr_value): str
+    """ -> tuple of (pos, features) """
+    temp = sep_mystem.search(gr_value)
+    if temp:
+        sep_index = temp.start()
+        return (gr_value[:sep_index].strip(),
+                gr_value[sep_index+1:].strip())
+    return (gr_value,'')
 
 # Reference: chronological_order.py (in "workspace/birch/nsf_report" folder)
 def get_aas(doc_elan): # alignable annotation info
@@ -83,6 +100,8 @@ def create_conversation(aas): #aas: iterable of alinable annotation info
     # https://stackoverflow.com/questions/4233476/sort-a-list-by-multiple-attributes
     return sorted(aas,key=itemgetter(2,3))
 
+SET_LEMMA_MYSTEM = "https://url/to/set_of_lemmas_mystem"
+SET_POS_MYSTEM = "https://url/to/set_of_pos_mystem"   # parts of speech
 SET_POS = "https://url/to/set_of_pos"   # parts of speech
 SET_SU = "https://url/to/set_of_su"     # syntactic units
 
@@ -107,6 +126,9 @@ def convert(f_i, f_o=None):
     # https://pynlpl.readthedocs.io/en/latest/folia.html#structure-annotation-types
     print(os.path.basename(f_o))
     doc_o = folia.Document(id=os.path.basename(f_o))
+    # https://github.com/proycon/folia/blob/master/foliatools/conllu2folia.py
+    doc_o.declare(folia.LemmaAnnotation, set=SET_LEMMA_MYSTEM , annotator="Mystem")
+    doc_o.declare(folia.PosAnnotation, set=SET_POS_MYSTEM , annotator="Mystem")
     doc_o.declare(folia.PosAnnotation, set=SET_POS, annotator="BiRCh group")
     doc_o.declare(folia.SyntacticUnit, set=SET_SU, annotator="BiRCh group")
     speech = doc_o.append(folia.Speech)
@@ -123,7 +145,24 @@ def convert(f_i, f_o=None):
             if len(w)>1 and w[0]=='<' and w[1]!='$':
                 #print(w)
                 w = '<$' + w[1:]
-            utterance.append(folia.Word,w)
+            token = utterance.append(folia.Word,w)
+            if is_token_mystem(w):
+                analysis_mystem = m.analyze(w)[0]['analysis']
+                if analysis_mystem:
+                    # mystem's lexeme -> lemma annotation (???)
+                    if 'lex' in analysis_mystem[0]:
+                        token.append(folia.LemmaAnnotation,
+                                     cls=analysis_mystem[0]['lex'],
+                                     set=SET_LEMMA_MYSTEM)
+                    if 'gr' in analysis_mystem[0]:
+                        pos_plus = analysis_mystem[0]['gr'].strip()
+                        pos,features = analyze_mystem_gr(pos_plus)
+                        an_pos = token.append(folia.PosAnnotation,
+                                              head=pos,
+                                              cls=pos_plus,
+                                              set=SET_POS_MYSTEM)
+                        # https://pynlpl.readthedocs.io/en/latest/folia.html#features
+                        an_pos.append(folia.Feature,subset='all',cls=features)                    
 
     doc_o.save(''.join([f_i, '.folia.xml']))
 

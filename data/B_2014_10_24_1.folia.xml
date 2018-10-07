@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" version="1.5.1" xml:id="B_2014_10_24_1" generator="pynlpl.formats.folia-v1.5.1.88">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="B_2014_10_24_1" version="1.5.1" generator="pynlpl.formats.folia-v1.5.1.88">
   <metadata type="native">
     <annotations>
+      <lemma-annotation annotator="Mystem" set="https://url/to/set_of_lemmas_mystem"/>
+      <pos-annotation annotator="Mystem" set="https://url/to/set_of_pos_mystem"/>
       <pos-annotation annotator="BiRCh group" set="https://url/to/set_of_pos"/>
       <syntax-annotation annotator="BiRCh group" set="https://url/to/set_of_su"/>
     </annotations>
@@ -13,9 +15,17 @@
       </w>
       <w xml:id="a26.w.2">
         <t>Что</t>
+        <lemma class="что"/>
+        <pos head="SPRO" class="SPRO,ед,сред,неод=(вин|им)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,сред,неод=(вин|им)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a26.w.3">
         <t>значит</t>
+        <lemma class="значит"/>
+        <pos head="ADV" class="ADV,вводн=" set="https://url/to/set_of_pos_mystem">
+          <feat class="вводн=" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a26.w.4">
         <t>""</t>
@@ -35,10 +45,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a1.w.2">
-        <t>Бе-бе-бе</t>
-      </w>
-      <w xml:id="a1.w.3">
-        <t>.</t>
+        <t>Бе-бе-бе.</t>
       </w>
     </utt>
     <utt begintime="00:00:03.198" endtime="00:00:05.448" speaker="Папа" xml:id="a77">
@@ -58,27 +65,48 @@
       </w>
       <w xml:id="a58.w.2">
         <t>И</t>
+        <lemma class="и"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a58.w.3">
         <t>в</t>
+        <lemma class="в"/>
+        <pos head="S" class="S,сокр=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" set="https://url/to/set_of_pos_mystem">
+          <feat class="сокр=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a58.w.4">
         <t>этот</t>
+        <lemma class="этот"/>
+        <pos head="APRO" class="APRO=(вин,ед,муж,неод|им,ед,муж)" set="https://url/to/set_of_pos_mystem">
+          <feat class="(вин,ед,муж,неод|им,ед,муж)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a58.w.5">
         <t>же</t>
+        <lemma class="же"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a58.w.6">
         <t>мешок</t>
+        <lemma class="мешок"/>
+        <pos head="S" class="S,муж,неод=(вин,ед|им,ед)" set="https://url/to/set_of_pos_mystem">
+          <feat class="муж,неод=(вин,ед|им,ед)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a58.w.7">
         <t>его</t>
+        <lemma class="он"/>
+        <pos head="SPRO" class="SPRO,ед,3-л,муж=(вин|род)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,3-л,муж=(вин|род)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a58.w.8">
-        <t>сложим</t>
-      </w>
-      <w xml:id="a58.w.9">
-        <t>.</t>
+        <t>сложим.</t>
       </w>
     </utt>
     <utt begintime="00:00:08.210" endtime="00:00:09.750" speaker="Мама" xml:id="a27">
@@ -87,12 +115,13 @@
       </w>
       <w xml:id="a27.w.2">
         <t>Да</t>
+        <lemma class="да"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a27.w.3">
-        <t>{SN}</t>
-      </w>
-      <w xml:id="a27.w.4">
-        <t>.</t>
+        <t>{SN}.</t>
       </w>
     </utt>
     <utt begintime="00:00:09.440" endtime="00:00:12.210" speaker="Папа" xml:id="a78">
@@ -100,10 +129,7 @@
         <t>ПАПА:</t>
       </w>
       <w xml:id="a78.w.2">
-        <t>{NS}</t>
-      </w>
-      <w xml:id="a78.w.3">
-        <t>.</t>
+        <t>{NS}.</t>
       </w>
     </utt>
     <utt begintime="00:00:12.348" endtime="00:00:17.388" speaker="Ребенок" xml:id="a2">
@@ -112,12 +138,13 @@
       </w>
       <w xml:id="a2.w.2">
         <t>Бэ</t>
+        <lemma class="бэ"/>
+        <pos head="S" class="S,сред,неод=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" set="https://url/to/set_of_pos_mystem">
+          <feat class="сред,неод=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a2.w.3">
-        <t>бе-бе-бе-бе-бе-бе</t>
-      </w>
-      <w xml:id="a2.w.4">
-        <t>.</t>
+        <t>бе-бе-бе-бе-бе-бе.</t>
       </w>
     </utt>
     <utt begintime="00:00:16.380" endtime="00:00:18.474" speaker="Папа" xml:id="a59">
@@ -126,12 +153,24 @@
       </w>
       <w xml:id="a59.w.2">
         <t>Жалко</t>
+        <lemma class="жалко"/>
+        <pos head="ADV" class="ADV=вводн" set="https://url/to/set_of_pos_mystem">
+          <feat class="вводн" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a59.w.3">
         <t>конечно</t>
+        <lemma class="конечно"/>
+        <pos head="ADV" class="ADV,вводн=" set="https://url/to/set_of_pos_mystem">
+          <feat class="вводн=" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a59.w.4">
         <t>такая</t>
+        <lemma class="такой"/>
+        <pos head="APRO" class="APRO=им,ед,жен" set="https://url/to/set_of_pos_mystem">
+          <feat class="им,ед,жен" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a59.w.5">
         <t>ээ</t>
@@ -154,10 +193,7 @@
         <t>Бэ-бэ-бэ-бэ</t>
       </w>
       <w xml:id="a3.w.4">
-        <t>бэ-бэ-бэ-бэ-бэ-бэ</t>
-      </w>
-      <w xml:id="a3.w.5">
-        <t>.</t>
+        <t>бэ-бэ-бэ-бэ-бэ-бэ.</t>
       </w>
     </utt>
     <utt begintime="00:00:19.120" endtime="00:00:20.050" speaker="Мама" xml:id="a28">
@@ -165,10 +201,7 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a28.w.2">
-        <t>Что</t>
-      </w>
-      <w xml:id="a28.w.3">
-        <t>?</t>
+        <t>Что?</t>
       </w>
     </utt>
     <utt begintime="00:00:20.470" endtime="00:00:22.390" speaker="Папа" xml:id="a60">
@@ -188,22 +221,39 @@
         <t>+Здоровый</t>
       </w>
       <w xml:id="a60.w.6">
-        <t>&lt;$$FS&gt;</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a60.w.7">
-        <t>&lt;$$UNCLEAR&gt;</t>
+        <t>$$</t>
       </w>
       <w xml:id="a60.w.8">
-        <t>Здоровый</t>
+        <t>FS&gt;</t>
       </w>
       <w xml:id="a60.w.9">
-        <t>кусок</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a60.w.10">
-        <t>пластика</t>
+        <t>$$</t>
       </w>
       <w xml:id="a60.w.11">
-        <t>.</t>
+        <t>UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a60.w.12">
+        <t>Здоровый</t>
+        <lemma class="здоровый"/>
+        <pos head="A" class="A=(вин,ед,полн,муж,неод|им,ед,полн,муж)" set="https://url/to/set_of_pos_mystem">
+          <feat class="(вин,ед,полн,муж,неод|им,ед,полн,муж)" subset="all"/>
+        </pos>
+      </w>
+      <w xml:id="a60.w.13">
+        <t>кусок</t>
+        <lemma class="кусок"/>
+        <pos head="S" class="S,муж,неод=(вин,ед|им,ед)" set="https://url/to/set_of_pos_mystem">
+          <feat class="муж,неод=(вин,ед|им,ед)" subset="all"/>
+        </pos>
+      </w>
+      <w xml:id="a60.w.14">
+        <t>пластика.</t>
       </w>
     </utt>
     <utt begintime="00:00:22.410" endtime="00:00:23.230" speaker="Мама" xml:id="a29">
@@ -212,12 +262,13 @@
       </w>
       <w xml:id="a29.w.2">
         <t>Ну</t>
+        <lemma class="ну"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a29.w.3">
-        <t>да</t>
-      </w>
-      <w xml:id="a29.w.4">
-        <t>.</t>
+        <t>да.</t>
       </w>
     </utt>
     <utt begintime="00:00:26.318" endtime="00:00:33.710" speaker="Ребенок" xml:id="a4">
@@ -226,15 +277,16 @@
       </w>
       <w xml:id="a4.w.2">
         <t>Бэ</t>
+        <lemma class="бэ"/>
+        <pos head="S" class="S,сред,неод=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" set="https://url/to/set_of_pos_mystem">
+          <feat class="сред,неод=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a4.w.3">
         <t>бе-бе-бе-бе</t>
       </w>
       <w xml:id="a4.w.4">
-        <t>бе-бе</t>
-      </w>
-      <w xml:id="a4.w.5">
-        <t>.</t>
+        <t>бе-бе.</t>
       </w>
     </utt>
     <utt begintime="00:00:27.660" endtime="00:00:36.680" speaker="Папа" xml:id="a61">
@@ -243,86 +295,149 @@
       </w>
       <w xml:id="a61.w.2">
         <t>То</t>
+        <lemma class="то"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a61.w.3">
-        <t>есть</t>
+        <t>есть,</t>
       </w>
       <w xml:id="a61.w.4">
-        <t>,</t>
+        <t>они</t>
+        <lemma class="они"/>
+        <pos head="SPRO" class="SPRO,мн=им" set="https://url/to/set_of_pos_mystem">
+          <feat class="мн=им" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a61.w.5">
-        <t>они</t>
+        <t>&lt;$FS&gt;</t>
       </w>
       <w xml:id="a61.w.6">
-        <t>&lt;$FS&gt;</t>
+        <t>не</t>
+        <lemma class="не"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a61.w.7">
         <t>не</t>
+        <lemma class="не"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a61.w.8">
-        <t>не</t>
-      </w>
-      <w xml:id="a61.w.9">
         <t>с-</t>
       </w>
+      <w xml:id="a61.w.9">
+        <t>&lt;</t>
+      </w>
       <w xml:id="a61.w.10">
-        <t>&lt;$$FS&gt;</t>
+        <t>$$</t>
       </w>
       <w xml:id="a61.w.11">
-        <t>ээ</t>
+        <t>FS&gt;</t>
       </w>
       <w xml:id="a61.w.12">
-        <t>&lt;$FS&gt;</t>
-      </w>
-      <w xml:id="a61.w.13">
-        <t>не</t>
-      </w>
-      <w xml:id="a61.w.14">
-        <t>прис-</t>
-      </w>
-      <w xml:id="a61.w.15">
-        <t>&lt;$$FS&gt;</t>
-      </w>
-      <w xml:id="a61.w.16">
-        <t>&lt;$FS&gt;</t>
-      </w>
-      <w xml:id="a61.w.17">
-        <t>не</t>
-      </w>
-      <w xml:id="a61.w.18">
-        <t>&lt;$$FS&gt;</t>
-      </w>
-      <w xml:id="a61.w.19">
         <t>ээ</t>
       </w>
-      <w xml:id="a61.w.20">
+      <w xml:id="a61.w.13">
         <t>&lt;$FS&gt;</t>
       </w>
-      <w xml:id="a61.w.21">
+      <w xml:id="a61.w.14">
         <t>не</t>
+        <lemma class="не"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
+      </w>
+      <w xml:id="a61.w.15">
+        <t>прис-</t>
+      </w>
+      <w xml:id="a61.w.16">
+        <t>&lt;</t>
+      </w>
+      <w xml:id="a61.w.17">
+        <t>$$</t>
+      </w>
+      <w xml:id="a61.w.18">
+        <t>FS&gt;</t>
+      </w>
+      <w xml:id="a61.w.19">
+        <t>&lt;$FS&gt;</t>
+      </w>
+      <w xml:id="a61.w.20">
+        <t>не</t>
+        <lemma class="не"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
+      </w>
+      <w xml:id="a61.w.21">
+        <t>&lt;</t>
       </w>
       <w xml:id="a61.w.22">
-        <t>прив-</t>
+        <t>$$</t>
       </w>
       <w xml:id="a61.w.23">
-        <t>&lt;$$FS&gt;</t>
+        <t>FS&gt;</t>
       </w>
       <w xml:id="a61.w.24">
         <t>ээ</t>
       </w>
       <w xml:id="a61.w.25">
-        <t>не</t>
+        <t>&lt;$FS&gt;</t>
       </w>
       <w xml:id="a61.w.26">
-        <t>&lt;$UNCLEAR&gt;</t>
+        <t>не</t>
+        <lemma class="не"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a61.w.27">
-        <t>соединяются</t>
+        <t>прив-</t>
       </w>
       <w xml:id="a61.w.28">
-        <t>&lt;$$UNCLEAR&gt;</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a61.w.29">
+        <t>$$</t>
+      </w>
+      <w xml:id="a61.w.30">
+        <t>FS&gt;</t>
+      </w>
+      <w xml:id="a61.w.31">
+        <t>ээ</t>
+      </w>
+      <w xml:id="a61.w.32">
+        <t>не</t>
+        <lemma class="не"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
+      </w>
+      <w xml:id="a61.w.33">
+        <t>&lt;$UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a61.w.34">
+        <t>соединяются</t>
+        <lemma class="соединяться"/>
+        <pos head="V" class="V,нп=непрош,мн,изъяв,3-л,несов" set="https://url/to/set_of_pos_mystem">
+          <feat class="нп=непрош,мн,изъяв,3-л,несов" subset="all"/>
+        </pos>
+      </w>
+      <w xml:id="a61.w.35">
+        <t>&lt;</t>
+      </w>
+      <w xml:id="a61.w.36">
+        <t>$$</t>
+      </w>
+      <w xml:id="a61.w.37">
+        <t>UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a61.w.38">
         <t>.</t>
       </w>
     </utt>
@@ -342,19 +457,17 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a30.w.2">
-        <t>Олечка</t>
+        <t>Олечка,</t>
       </w>
       <w xml:id="a30.w.3">
-        <t>,</t>
+        <t>где</t>
+        <lemma class="где"/>
+        <pos head="ADVPRO" class="ADVPRO=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a30.w.4">
-        <t>где</t>
-      </w>
-      <w xml:id="a30.w.5">
-        <t>Б</t>
-      </w>
-      <w xml:id="a30.w.6">
-        <t>?</t>
+        <t>Б?</t>
       </w>
     </utt>
     <utt begintime="00:00:36.520" endtime="00:00:38.010" speaker="Мама" xml:id="a163">
@@ -363,18 +476,27 @@
       </w>
       <w xml:id="a163.w.2">
         <t>Покажи</t>
+        <lemma class="показывать"/>
+        <pos head="V" class="V=ед,пов,2-л,сов" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,пов,2-л,сов" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a163.w.3">
         <t>пальчиком</t>
+        <lemma class="пальчик"/>
+        <pos head="S" class="S,муж,неод=твор,ед" set="https://url/to/set_of_pos_mystem">
+          <feat class="муж,неод=твор,ед" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a163.w.4">
         <t>где</t>
+        <lemma class="где"/>
+        <pos head="ADVPRO" class="ADVPRO=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a163.w.5">
-        <t>Б</t>
-      </w>
-      <w xml:id="a163.w.6">
-        <t>?</t>
+        <t>Б?</t>
       </w>
     </utt>
     <utt begintime="00:00:38.810" endtime="00:00:39.480" speaker="Ребенок" xml:id="a5">
@@ -382,10 +504,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a5.w.2">
-        <t>Ээ</t>
-      </w>
-      <w xml:id="a5.w.3">
-        <t>.</t>
+        <t>Ээ.</t>
       </w>
     </utt>
     <utt begintime="00:00:39.360" endtime="00:00:41.900" speaker="Мама" xml:id="a31">
@@ -393,49 +512,65 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a31.w.2">
-        <t>Не</t>
+        <t>Не,</t>
       </w>
       <w xml:id="a31.w.3">
-        <t>,</t>
+        <t>это</t>
+        <lemma class="это"/>
+        <pos head="SPRO" class="SPRO,ед,сред,неод=(вин|им)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,сред,неод=(вин|им)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a31.w.4">
-        <t>это</t>
+        <t>&lt;$PR</t>
       </w>
       <w xml:id="a31.w.5">
-        <t>&lt;$PR</t>
+        <t>з&gt;</t>
       </w>
       <w xml:id="a31.w.6">
-        <t>з</t>
+        <t>З</t>
+        <lemma class="з"/>
+        <pos head="S" class="S,сокр=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" set="https://url/to/set_of_pos_mystem">
+          <feat class="сокр=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a31.w.7">
-        <t>&gt;</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a31.w.8">
-        <t>З</t>
+        <t>$$</t>
       </w>
       <w xml:id="a31.w.9">
-        <t>&lt;$$PR&gt;</t>
+        <t>PR&gt;,</t>
       </w>
       <w xml:id="a31.w.10">
-        <t>,</t>
+        <t>это</t>
+        <lemma class="это"/>
+        <pos head="SPRO" class="SPRO,ед,сред,неод=(вин|им)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,сред,неод=(вин|им)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a31.w.11">
-        <t>это</t>
-      </w>
-      <w xml:id="a31.w.12">
         <t>&lt;$PR</t>
       </w>
+      <w xml:id="a31.w.12">
+        <t>з&gt;</t>
+      </w>
       <w xml:id="a31.w.13">
-        <t>з</t>
+        <t>З</t>
+        <lemma class="з"/>
+        <pos head="S" class="S,сокр=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" set="https://url/to/set_of_pos_mystem">
+          <feat class="сокр=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a31.w.14">
-        <t>&gt;</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a31.w.15">
-        <t>З</t>
+        <t>$$</t>
       </w>
       <w xml:id="a31.w.16">
-        <t>&lt;$$PR&gt;</t>
+        <t>PR&gt;</t>
       </w>
       <w xml:id="a31.w.17">
         <t>.</t>
@@ -458,21 +593,34 @@
       </w>
       <w xml:id="a32.w.2">
         <t>Сделай</t>
+        <lemma class="сделать"/>
+        <pos head="V" class="V,сов,пе=ед,пов,2-л" set="https://url/to/set_of_pos_mystem">
+          <feat class="сов,пе=ед,пов,2-л" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a32.w.3">
         <t>турбо</t>
+        <lemma class="турбо"/>
+        <pos head="ADV" class="ADV=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a32.w.4">
         <t>на</t>
+        <lemma class="на"/>
+        <pos head="PR" class="PR=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a32.w.5">
         <t>пять</t>
+        <lemma class="пять"/>
+        <pos head="NUM" class="NUM=(вин|им)" set="https://url/to/set_of_pos_mystem">
+          <feat class="(вин|им)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a32.w.6">
-        <t>минут</t>
-      </w>
-      <w xml:id="a32.w.7">
-        <t>.</t>
+        <t>минут.</t>
       </w>
     </utt>
     <utt begintime="00:00:54.066" endtime="00:00:55.917" speaker="Мама" xml:id="a33">
@@ -480,10 +628,7 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a33.w.2">
-        <t>{CG}</t>
-      </w>
-      <w xml:id="a33.w.3">
-        <t>.</t>
+        <t>{CG}.</t>
       </w>
     </utt>
     <utt begintime="00:01:02.649" endtime="00:01:04.420" speaker="Мама" xml:id="a34">
@@ -491,10 +636,7 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a34.w.2">
-        <t>{SN}</t>
-      </w>
-      <w xml:id="a34.w.3">
-        <t>.</t>
+        <t>{SN}.</t>
       </w>
     </utt>
     <utt begintime="00:01:07.223" endtime="00:01:10.353" speaker="Ребенок" xml:id="a72">
@@ -517,24 +659,44 @@
       </w>
       <w xml:id="a62.w.3">
         <t>из</t>
+        <lemma class="из"/>
+        <pos head="PR" class="PR=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.4">
         <t>ээ</t>
       </w>
       <w xml:id="a62.w.5">
         <t>сильно</t>
+        <lemma class="сильно"/>
+        <pos head="ADV" class="ADV=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.6">
         <t>теплых</t>
+        <lemma class="теплый"/>
+        <pos head="A" class="A=(пр,мн,полн|вин,мн,полн,од|род,мн,полн)" set="https://url/to/set_of_pos_mystem">
+          <feat class="(пр,мн,полн|вин,мн,полн,од|род,мн,полн)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.7">
         <t>мест</t>
+        <lemma class="место"/>
+        <pos head="S" class="S,сред,неод=род,мн" set="https://url/to/set_of_pos_mystem">
+          <feat class="сред,неод=род,мн" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.8">
         <t>&lt;$ELAB&gt;</t>
       </w>
       <w xml:id="a62.w.9">
         <t>там</t>
+        <lemma class="там"/>
+        <pos head="ADVPRO" class="ADVPRO=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.10">
         <t>какой-то</t>
@@ -544,66 +706,109 @@
       </w>
       <w xml:id="a62.w.12">
         <t>Техас</t>
+        <lemma class="техас"/>
+        <pos head="S" class="S,муж,неод=(вин,ед|им,ед)" set="https://url/to/set_of_pos_mystem">
+          <feat class="муж,неод=(вин,ед|им,ед)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.13">
         <t>Луизиана</t>
+        <lemma class="луизиана"/>
+        <pos head="S" class="S,жен,неод=им,ед" set="https://url/to/set_of_pos_mystem">
+          <feat class="жен,неод=им,ед" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.14">
-        <t>&lt;$$ELAB&gt;</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a62.w.15">
-        <t>кто-то</t>
+        <t>$$</t>
       </w>
       <w xml:id="a62.w.16">
-        <t>жаловался</t>
+        <t>ELAB&gt;</t>
       </w>
       <w xml:id="a62.w.17">
-        <t>на</t>
+        <t>кто-то</t>
       </w>
       <w xml:id="a62.w.18">
-        <t>этот</t>
+        <t>жаловался</t>
+        <lemma class="жаловаться"/>
+        <pos head="V" class="V,несов,нп=прош,ед,изъяв,муж" set="https://url/to/set_of_pos_mystem">
+          <feat class="несов,нп=прош,ед,изъяв,муж" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.19">
-        <t>ээ</t>
+        <t>на</t>
+        <lemma class="на"/>
+        <pos head="PR" class="PR=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.20">
-        <t>фильтр</t>
+        <t>этот</t>
+        <lemma class="этот"/>
+        <pos head="APRO" class="APRO=(вин,ед,муж,неод|им,ед,муж)" set="https://url/to/set_of_pos_mystem">
+          <feat class="(вин,ед,муж,неод|им,ед,муж)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.21">
-        <t>,</t>
+        <t>ээ</t>
       </w>
       <w xml:id="a62.w.22">
-        <t>&lt;$ELAB&gt;</t>
+        <t>фильтр,</t>
       </w>
       <w xml:id="a62.w.23">
-        <t>всю</t>
+        <t>&lt;$ELAB&gt;</t>
       </w>
       <w xml:id="a62.w.24">
-        <t>систему</t>
+        <t>всю</t>
+        <lemma class="весь"/>
+        <pos head="APRO" class="APRO=вин,ед,жен" set="https://url/to/set_of_pos_mystem">
+          <feat class="вин,ед,жен" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.25">
-        <t>,</t>
+        <t>систему,</t>
       </w>
       <w xml:id="a62.w.26">
-        <t>&lt;$$ELAB&gt;</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a62.w.27">
-        <t>что</t>
+        <t>$$</t>
       </w>
       <w xml:id="a62.w.28">
-        <t>она</t>
+        <t>ELAB&gt;</t>
       </w>
       <w xml:id="a62.w.29">
-        <t>существенно</t>
+        <t>что</t>
+        <lemma class="что"/>
+        <pos head="SPRO" class="SPRO,ед,сред,неод=(вин|им)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,сред,неод=(вин|им)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.30">
-        <t>согревает</t>
+        <t>она</t>
+        <lemma class="она"/>
+        <pos head="SPRO" class="SPRO,ед,3-л,жен=им" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,3-л,жен=им" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.31">
-        <t>квартиру</t>
+        <t>существенно</t>
+        <lemma class="существенно"/>
+        <pos head="ADV" class="ADV=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.32">
-        <t>.</t>
+        <t>согревает</t>
+        <lemma class="согревать"/>
+        <pos head="V" class="V,пе=непрош,ед,изъяв,3-л,несов" set="https://url/to/set_of_pos_mystem">
+          <feat class="пе=непрош,ед,изъяв,3-л,несов" subset="all"/>
+        </pos>
+      </w>
+      <w xml:id="a62.w.33">
+        <t>квартиру.</t>
       </w>
     </utt>
     <utt begintime="00:01:08.181" endtime="00:01:09.148" speaker="Мама" xml:id="a74">
@@ -611,10 +816,7 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a74.w.2">
-        <t>{SN}</t>
-      </w>
-      <w xml:id="a74.w.3">
-        <t>.</t>
+        <t>{SN}.</t>
       </w>
     </utt>
     <utt begintime="00:01:17.023" endtime="00:01:17.870" speaker="Мама" xml:id="a75">
@@ -622,10 +824,7 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a75.w.2">
-        <t>Угу</t>
-      </w>
-      <w xml:id="a75.w.3">
-        <t>.</t>
+        <t>Угу.</t>
       </w>
     </utt>
     <utt begintime="00:01:22.202" endtime="00:01:24.985" speaker="Мама" xml:id="a35">
@@ -645,25 +844,40 @@
         <t>{inaudible}</t>
       </w>
       <w xml:id="a35.w.6">
-        <t>&lt;$$UNCLEAR&gt;</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a35.w.7">
-        <t>.</t>
+        <t>$$</t>
       </w>
       <w xml:id="a35.w.8">
-        <t>Нам</t>
+        <t>UNCLEAR&gt;</t>
       </w>
       <w xml:id="a35.w.9">
-        <t>это</t>
+        <t>.</t>
       </w>
       <w xml:id="a35.w.10">
-        <t>не</t>
+        <t>Нам</t>
+        <lemma class="мы"/>
+        <pos head="SPRO" class="SPRO,мн,1-л=дат" set="https://url/to/set_of_pos_mystem">
+          <feat class="мн,1-л=дат" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a35.w.11">
-        <t>страшно</t>
+        <t>это</t>
+        <lemma class="это"/>
+        <pos head="SPRO" class="SPRO,ед,сред,неод=(вин|им)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,сред,неод=(вин|им)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a35.w.12">
-        <t>.</t>
+        <t>не</t>
+        <lemma class="не"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
+      </w>
+      <w xml:id="a35.w.13">
+        <t>страшно.</t>
       </w>
     </utt>
     <utt begintime="00:01:25.049" endtime="00:01:26.941" speaker="Мама" xml:id="a36">
@@ -671,25 +885,31 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a36.w.2">
-        <t>Олечка</t>
+        <t>Олечка,</t>
       </w>
       <w xml:id="a36.w.3">
-        <t>,</t>
+        <t>а</t>
+        <lemma class="а"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a36.w.4">
-        <t>а</t>
+        <t>что</t>
+        <lemma class="что"/>
+        <pos head="SPRO" class="SPRO,ед,сред,неод=(вин|им)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,сред,неод=(вин|им)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a36.w.5">
-        <t>что</t>
+        <t>ты</t>
+        <lemma class="ты"/>
+        <pos head="SPRO" class="SPRO,ед,2-л=им" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,2-л=им" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a36.w.6">
-        <t>ты</t>
-      </w>
-      <w xml:id="a36.w.7">
-        <t>делаешь</t>
-      </w>
-      <w xml:id="a36.w.8">
-        <t>?</t>
+        <t>делаешь?</t>
       </w>
     </utt>
     <utt begintime="00:01:28.340" endtime="00:01:31.039" speaker="Мама" xml:id="a37">
@@ -698,32 +918,55 @@
       </w>
       <w xml:id="a37.w.2">
         <t>Что</t>
+        <lemma class="что"/>
+        <pos head="SPRO" class="SPRO,ед,сред,неод=(вин|им)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,сред,неод=(вин|им)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a37.w.3">
         <t>ты</t>
+        <lemma class="ты"/>
+        <pos head="SPRO" class="SPRO,ед,2-л=им" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,2-л=им" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a37.w.4">
         <t>делаешь</t>
+        <lemma class="делать"/>
+        <pos head="V" class="V,несов,пе=непрош,ед,изъяв,2-л" set="https://url/to/set_of_pos_mystem">
+          <feat class="несов,пе=непрош,ед,изъяв,2-л" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a37.w.5">
-        <t>Ольчоныш</t>
+        <t>Ольчоныш,</t>
       </w>
       <w xml:id="a37.w.6">
-        <t>,</t>
-      </w>
-      <w xml:id="a37.w.7">
         <t>&lt;$ELAB&gt;</t>
       </w>
-      <w xml:id="a37.w.8">
+      <w xml:id="a37.w.7">
         <t>читаешь</t>
+        <lemma class="читать"/>
+        <pos head="V" class="V,несов,пе=непрош,ед,изъяв,2-л" set="https://url/to/set_of_pos_mystem">
+          <feat class="несов,пе=непрош,ед,изъяв,2-л" subset="all"/>
+        </pos>
+      </w>
+      <w xml:id="a37.w.8">
+        <t>книжку</t>
+        <lemma class="книжка"/>
+        <pos head="S" class="S,жен,неод=вин,ед" set="https://url/to/set_of_pos_mystem">
+          <feat class="жен,неод=вин,ед" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a37.w.9">
-        <t>книжку</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a37.w.10">
-        <t>&lt;$$ELAB&gt;</t>
+        <t>$$</t>
       </w>
       <w xml:id="a37.w.11">
+        <t>ELAB&gt;</t>
+      </w>
+      <w xml:id="a37.w.12">
         <t>?</t>
       </w>
     </utt>
@@ -732,10 +975,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a6.w.2">
-        <t>Б</t>
-      </w>
-      <w xml:id="a6.w.3">
-        <t>.</t>
+        <t>Б.</t>
       </w>
     </utt>
     <utt begintime="00:01:33.034" endtime="00:01:34.614" speaker="Мама" xml:id="a38">
@@ -743,10 +983,7 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a38.w.2">
-        <t>Ага</t>
-      </w>
-      <w xml:id="a38.w.3">
-        <t>.</t>
+        <t>Ага.</t>
       </w>
     </utt>
     <utt begintime="00:01:35.228" endtime="00:01:38.310" speaker="Ребенок" xml:id="a7">
@@ -754,10 +991,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a7.w.2">
-        <t>Б-Б-Б-Б</t>
-      </w>
-      <w xml:id="a7.w.3">
-        <t>.</t>
+        <t>Б-Б-Б-Б.</t>
       </w>
     </utt>
     <utt begintime="00:01:38.330" endtime="00:01:41.538" speaker="Мама" xml:id="a39">
@@ -765,21 +999,26 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a39.w.2">
-        <t>Ага</t>
+        <t>Ага,</t>
       </w>
       <w xml:id="a39.w.3">
-        <t>,</t>
+        <t>я</t>
+        <lemma class="я"/>
+        <pos head="SPRO" class="SPRO,ед,1-л=им" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,1-л=им" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a39.w.4">
-        <t>я</t>
+        <t>поняла</t>
+        <lemma class="понимать"/>
+        <pos head="V" class="V=прош,ед,изъяв,жен,сов" set="https://url/to/set_of_pos_mystem">
+          <feat class="прош,ед,изъяв,жен,сов" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a39.w.5">
-        <t>поняла</t>
-      </w>
-      <w xml:id="a39.w.6">
         <t>{SN}</t>
       </w>
-      <w xml:id="a39.w.7">
+      <w xml:id="a39.w.6">
         <t>.</t>
       </w>
     </utt>
@@ -788,10 +1027,7 @@
         <t>ПАПА:</t>
       </w>
       <w xml:id="a63.w.2">
-        <t>Поможешь</t>
-      </w>
-      <w xml:id="a63.w.3">
-        <t>?</t>
+        <t>Поможешь?</t>
       </w>
     </utt>
     <utt begintime="00:01:43.370" endtime="00:01:44.100" speaker="Мама" xml:id="a40">
@@ -799,10 +1035,7 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a40.w.2">
-        <t>Да</t>
-      </w>
-      <w xml:id="a40.w.3">
-        <t>.</t>
+        <t>Да.</t>
       </w>
     </utt>
     <utt begintime="00:01:45.510" endtime="00:01:46.240" speaker="Мама" xml:id="a41">
@@ -811,12 +1044,13 @@
       </w>
       <w xml:id="a41.w.2">
         <t>А</t>
+        <lemma class="а"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a41.w.3">
-        <t>чем</t>
-      </w>
-      <w xml:id="a41.w.4">
-        <t>?</t>
+        <t>чем?</t>
       </w>
     </utt>
     <utt begintime="00:01:47.030" endtime="00:01:47.860" speaker="Папа" xml:id="a64">
@@ -825,17 +1059,31 @@
       </w>
       <w xml:id="a64.w.2">
         <t>Держи</t>
+        <lemma class="держать"/>
+        <pos head="V" class="V,несов,пе=ед,пов,2-л" set="https://url/to/set_of_pos_mystem">
+          <feat class="несов,пе=ед,пов,2-л" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a64.w.3">
         <t>&lt;$UNCLEAR&gt;</t>
       </w>
       <w xml:id="a64.w.4">
         <t>кулечек</t>
+        <lemma class="кулечек"/>
+        <pos head="S" class="S,муж,неод=(вин,ед|им,ед)" set="https://url/to/set_of_pos_mystem">
+          <feat class="муж,неод=(вин,ед|им,ед)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a64.w.5">
-        <t>&lt;$$UNCLEAR&gt;</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a64.w.6">
+        <t>$$</t>
+      </w>
+      <w xml:id="a64.w.7">
+        <t>UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a64.w.8">
         <t>.</t>
       </w>
     </utt>
@@ -845,24 +1093,41 @@
       </w>
       <w xml:id="a164.w.2">
         <t>А</t>
+        <lemma class="а"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a164.w.3">
         <t>ты</t>
+        <lemma class="ты"/>
+        <pos head="SPRO" class="SPRO,ед,2-л=им" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,2-л=им" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a164.w.4">
         <t>неправильной</t>
+        <lemma class="неправильный"/>
+        <pos head="A" class="A=(пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)" set="https://url/to/set_of_pos_mystem">
+          <feat class="(пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a164.w.5">
         <t>стороной</t>
+        <lemma class="сторона"/>
+        <pos head="S" class="S,жен,неод=твор,ед" set="https://url/to/set_of_pos_mystem">
+          <feat class="жен,неод=твор,ед" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a164.w.6">
         <t>его</t>
+        <lemma class="он"/>
+        <pos head="SPRO" class="SPRO,ед,3-л,муж=(вин|род)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,3-л,муж=(вин|род)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a164.w.7">
-        <t>вставляешь</t>
-      </w>
-      <w xml:id="a164.w.8">
-        <t>.</t>
+        <t>вставляешь.</t>
       </w>
     </utt>
     <utt begintime="00:01:49.540" endtime="00:01:50.140" speaker="Папа" xml:id="a65">
@@ -870,10 +1135,7 @@
         <t>ПАПА:</t>
       </w>
       <w xml:id="a65.w.2">
-        <t>Правильной</t>
-      </w>
-      <w xml:id="a65.w.3">
-        <t>.</t>
+        <t>Правильной.</t>
       </w>
     </utt>
     <utt begintime="00:01:50.110" endtime="00:01:50.580" speaker="Мама" xml:id="a42">
@@ -881,10 +1143,7 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a42.w.2">
-        <t>Нет</t>
-      </w>
-      <w xml:id="a42.w.3">
-        <t>.</t>
+        <t>Нет.</t>
       </w>
     </utt>
     <utt begintime="00:01:50.630" endtime="00:01:53.880" speaker="Папа" xml:id="a66">
@@ -892,46 +1151,74 @@
         <t>ПАПА:</t>
       </w>
       <w xml:id="a66.w.2">
-        <t>Да</t>
+        <t>Да,</t>
       </w>
       <w xml:id="a66.w.3">
-        <t>,</t>
+        <t>я</t>
+        <lemma class="я"/>
+        <pos head="SPRO" class="SPRO,ед,1-л=им" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,1-л=им" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a66.w.4">
-        <t>я</t>
+        <t>специально</t>
+        <lemma class="специально"/>
+        <pos head="ADV" class="ADV=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a66.w.5">
-        <t>специально</t>
+        <t>проследил</t>
+        <lemma class="прослеживать"/>
+        <pos head="V" class="V=прош,ед,изъяв,муж,сов" set="https://url/to/set_of_pos_mystem">
+          <feat class="прош,ед,изъяв,муж,сов" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a66.w.6">
-        <t>проследил</t>
+        <t>что</t>
+        <lemma class="что"/>
+        <pos head="SPRO" class="SPRO,ед,сред,неод=(вин|им)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,сред,неод=(вин|им)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a66.w.7">
-        <t>что</t>
+        <t>оно</t>
+        <lemma class="оно"/>
+        <pos head="SPRO" class="SPRO,ед,3-л,сред=им" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,3-л,сред=им" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a66.w.8">
-        <t>оно</t>
+        <t>было</t>
+        <lemma class="быть"/>
+        <pos head="V" class="V,нп=прош,ед,изъяв,сред,несов" set="https://url/to/set_of_pos_mystem">
+          <feat class="нп=прош,ед,изъяв,сред,несов" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a66.w.9">
-        <t>было</t>
-      </w>
-      <w xml:id="a66.w.10">
         <t>&lt;$FS&gt;</t>
       </w>
-      <w xml:id="a66.w.11">
+      <w xml:id="a66.w.10">
         <t>шире-</t>
       </w>
+      <w xml:id="a66.w.11">
+        <t>&lt;</t>
+      </w>
       <w xml:id="a66.w.12">
-        <t>&lt;$$FS&gt;</t>
+        <t>$$</t>
       </w>
       <w xml:id="a66.w.13">
-        <t>широкой</t>
+        <t>FS&gt;</t>
       </w>
       <w xml:id="a66.w.14">
-        <t>стороной</t>
+        <t>широкой</t>
+        <lemma class="широкий"/>
+        <pos head="A" class="A=(пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)" set="https://url/to/set_of_pos_mystem">
+          <feat class="(пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a66.w.15">
-        <t>.</t>
+        <t>стороной.</t>
       </w>
     </utt>
     <utt begintime="00:01:50.890" endtime="00:01:51.480" speaker="Мама" xml:id="a76">
@@ -954,18 +1241,29 @@
       </w>
       <w xml:id="a171.w.3">
         <t>Видишь</t>
+        <lemma class="видеть"/>
+        <pos head="V" class="V,несов,пе=непрош,ед,изъяв,2-л" set="https://url/to/set_of_pos_mystem">
+          <feat class="несов,пе=непрош,ед,изъяв,2-л" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a171.w.4">
-        <t>&lt;$$PAREN&gt;</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a171.w.5">
-        <t>оно</t>
+        <t>$$</t>
       </w>
       <w xml:id="a171.w.6">
-        <t>идет</t>
+        <t>PAREN&gt;</t>
       </w>
       <w xml:id="a171.w.7">
-        <t>.</t>
+        <t>оно</t>
+        <lemma class="оно"/>
+        <pos head="SPRO" class="SPRO,ед,3-л,сред=им" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,3-л,сред=им" subset="all"/>
+        </pos>
+      </w>
+      <w xml:id="a171.w.8">
+        <t>идет.</t>
       </w>
     </utt>
     <utt begintime="00:01:55.120" endtime="00:01:57.450" speaker="Мама" xml:id="a43">
@@ -973,40 +1271,66 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a43.w.2">
-        <t>Да</t>
+        <t>Да,</t>
       </w>
       <w xml:id="a43.w.3">
-        <t>,</t>
+        <t>а</t>
+        <lemma class="а"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a43.w.4">
-        <t>а</t>
+        <t>почему</t>
+        <lemma class="почему"/>
+        <pos head="ADVPRO" class="ADVPRO=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a43.w.5">
-        <t>почему</t>
+        <t>ты</t>
+        <lemma class="ты"/>
+        <pos head="SPRO" class="SPRO,ед,2-л=им" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,2-л=им" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a43.w.6">
-        <t>ты</t>
+        <t>не</t>
+        <lemma class="не"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a43.w.7">
-        <t>не</t>
+        <t>хочешь</t>
+        <lemma class="хотеть"/>
+        <pos head="V" class="V,несов,пе=непрош,ед,изъяв,2-л" set="https://url/to/set_of_pos_mystem">
+          <feat class="несов,пе=непрош,ед,изъяв,2-л" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a43.w.8">
-        <t>хочешь</t>
+        <t>одеть</t>
+        <lemma class="одевать"/>
+        <pos head="V" class="V,пе=инф,сов" set="https://url/to/set_of_pos_mystem">
+          <feat class="пе=инф,сов" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a43.w.9">
-        <t>одеть</t>
+        <t>его</t>
+        <lemma class="он"/>
+        <pos head="SPRO" class="SPRO,ед,3-л,муж=(вин|род)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,3-л,муж=(вин|род)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a43.w.10">
-        <t>его</t>
+        <t>узкой</t>
+        <lemma class="узкий"/>
+        <pos head="A" class="A=(пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)" set="https://url/to/set_of_pos_mystem">
+          <feat class="(пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a43.w.11">
-        <t>узкой</t>
-      </w>
-      <w xml:id="a43.w.12">
-        <t>стороной</t>
-      </w>
-      <w xml:id="a43.w.13">
-        <t>?</t>
+        <t>стороной?</t>
       </w>
     </utt>
     <utt begintime="00:01:57.590" endtime="00:01:58.300" speaker="Папа" xml:id="a67">
@@ -1015,12 +1339,13 @@
       </w>
       <w xml:id="a67.w.2">
         <t>Не</t>
+        <lemma class="не"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a67.w.3">
-        <t>знаю</t>
-      </w>
-      <w xml:id="a67.w.4">
-        <t>.</t>
+        <t>знаю.</t>
       </w>
     </utt>
     <utt begintime="00:01:58.460" endtime="00:01:59.780" speaker="Мама" xml:id="a170">
@@ -1031,10 +1356,7 @@
         <t>{inaudible}</t>
       </w>
       <w xml:id="a170.w.3">
-        <t>проще</t>
-      </w>
-      <w xml:id="a170.w.4">
-        <t>.</t>
+        <t>проще.</t>
       </w>
     </utt>
     <utt begintime="00:01:59.830" endtime="00:02:00.940" speaker="Папа" xml:id="a68">
@@ -1043,12 +1365,13 @@
       </w>
       <w xml:id="a68.w.2">
         <t>Тоже</t>
+        <lemma class="тоже"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a68.w.3">
-        <t>правда</t>
-      </w>
-      <w xml:id="a68.w.4">
-        <t>.</t>
+        <t>правда.</t>
       </w>
     </utt>
     <utt begintime="00:02:01.995" endtime="00:02:04.261" speaker="Мама" xml:id="a44">
@@ -1067,10 +1390,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a8.w.2">
-        <t>Бе-бе-бе</t>
-      </w>
-      <w xml:id="a8.w.3">
-        <t>.</t>
+        <t>Бе-бе-бе.</t>
       </w>
     </utt>
     <utt begintime="00:02:10.550" endtime="00:02:15.270" speaker="Ребенок" xml:id="a9">
@@ -1081,10 +1401,7 @@
         <t>Бе-бе-бе</t>
       </w>
       <w xml:id="a9.w.3">
-        <t>бе-бе-бе</t>
-      </w>
-      <w xml:id="a9.w.4">
-        <t>.</t>
+        <t>бе-бе-бе.</t>
       </w>
     </utt>
     <utt begintime="00:02:12.060" endtime="00:02:13.310" speaker="Папа" xml:id="a69">
@@ -1098,7 +1415,13 @@
         <t>{inaudible}</t>
       </w>
       <w xml:id="a69.w.4">
-        <t>&lt;$$UNCLEAR&gt;</t>
+        <t>&lt;</t>
+      </w>
+      <w xml:id="a69.w.5">
+        <t>$$</t>
+      </w>
+      <w xml:id="a69.w.6">
+        <t>UNCLEAR&gt;</t>
       </w>
     </utt>
     <utt begintime="00:02:15.293" endtime="00:02:17.805" speaker="Папа" xml:id="a79">
@@ -1106,10 +1429,7 @@
         <t>ПАПА:</t>
       </w>
       <w xml:id="a79.w.2">
-        <t>{NS}</t>
-      </w>
-      <w xml:id="a79.w.3">
-        <t>.</t>
+        <t>{NS}.</t>
       </w>
     </utt>
     <utt begintime="00:02:15.521" endtime="00:02:19.130" speaker="Ребенок" xml:id="a10">
@@ -1117,16 +1437,10 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a10.w.2">
-        <t>Бэ-бэ-бэ</t>
+        <t>Бэ-бэ-бэ.</t>
       </w>
       <w xml:id="a10.w.3">
-        <t>.</t>
-      </w>
-      <w xml:id="a10.w.4">
-        <t>Бэ</t>
-      </w>
-      <w xml:id="a10.w.5">
-        <t>.</t>
+        <t>Бэ.</t>
       </w>
     </utt>
     <utt begintime="00:02:18.460" endtime="00:02:19.946" speaker="Мама" xml:id="a45">
@@ -1134,10 +1448,7 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a45.w.2">
-        <t>{SN}</t>
-      </w>
-      <w xml:id="a45.w.3">
-        <t>.</t>
+        <t>{SN}.</t>
       </w>
     </utt>
     <utt begintime="00:02:19.238" endtime="00:02:22.670" speaker="Ребенок" xml:id="a11">
@@ -1145,16 +1456,10 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a11.w.2">
-        <t>Бэ-бэ-бэ</t>
+        <t>Бэ-бэ-бэ.</t>
       </w>
       <w xml:id="a11.w.3">
-        <t>.</t>
-      </w>
-      <w xml:id="a11.w.4">
-        <t>Бэ</t>
-      </w>
-      <w xml:id="a11.w.5">
-        <t>.</t>
+        <t>Бэ.</t>
       </w>
     </utt>
     <utt begintime="00:02:19.270" endtime="00:02:21.711" speaker="Папа" xml:id="a70">
@@ -1162,16 +1467,10 @@
         <t>ПАПА:</t>
       </w>
       <w xml:id="a70.w.2">
-        <t>Ой</t>
+        <t>Ой,</t>
       </w>
       <w xml:id="a70.w.3">
-        <t>,</t>
-      </w>
-      <w xml:id="a70.w.4">
-        <t>осторожно</t>
-      </w>
-      <w xml:id="a70.w.5">
-        <t>.</t>
+        <t>осторожно.</t>
       </w>
     </utt>
     <utt begintime="00:02:21.782" endtime="00:02:23.062" speaker="Папа" xml:id="a80">
@@ -1179,10 +1478,7 @@
         <t>ПАПА:</t>
       </w>
       <w xml:id="a80.w.2">
-        <t>{NS}</t>
-      </w>
-      <w xml:id="a80.w.3">
-        <t>.</t>
+        <t>{NS}.</t>
       </w>
     </utt>
     <utt begintime="00:02:23.200" endtime="00:02:24.151" speaker="Мама" xml:id="a165">
@@ -1190,10 +1486,7 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a165.w.2">
-        <t>Да</t>
-      </w>
-      <w xml:id="a165.w.3">
-        <t>.</t>
+        <t>Да.</t>
       </w>
     </utt>
     <utt begintime="00:02:23.770" endtime="00:02:24.990" speaker="Ребенок" xml:id="a12">
@@ -1201,10 +1494,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a12.w.2">
-        <t>Бэ</t>
-      </w>
-      <w xml:id="a12.w.3">
-        <t>.</t>
+        <t>Бэ.</t>
       </w>
     </utt>
     <utt begintime="00:02:25.029" endtime="00:02:26.690" speaker="Ребенок" xml:id="a13">
@@ -1212,10 +1502,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a13.w.2">
-        <t>Бэ-бэ-бэ</t>
-      </w>
-      <w xml:id="a13.w.3">
-        <t>.</t>
+        <t>Бэ-бэ-бэ.</t>
       </w>
     </utt>
     <utt begintime="00:02:25.270" endtime="00:02:26.940" speaker="Мама" xml:id="a46">
@@ -1224,18 +1511,27 @@
       </w>
       <w xml:id="a46.w.2">
         <t>Ты</t>
+        <lemma class="ты"/>
+        <pos head="SPRO" class="SPRO,ед,2-л=им" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,2-л=им" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a46.w.3">
         <t>про</t>
+        <lemma class="про"/>
+        <pos head="PR" class="PR=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a46.w.4">
         <t>барана</t>
+        <lemma class="баран"/>
+        <pos head="S" class="S,муж,од=(вин,ед|род,ед)" set="https://url/to/set_of_pos_mystem">
+          <feat class="муж,од=(вин,ед|род,ед)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a46.w.5">
-        <t>читаешь</t>
-      </w>
-      <w xml:id="a46.w.6">
-        <t>?</t>
+        <t>читаешь?</t>
       </w>
     </utt>
     <utt begintime="00:02:27.012" endtime="00:02:28.620" speaker="Мама" xml:id="a47">
@@ -1244,26 +1540,41 @@
       </w>
       <w xml:id="a47.w.2">
         <t>Где</t>
+        <lemma class="где"/>
+        <pos head="ADVPRO" class="ADVPRO=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a47.w.3">
         <t>буква</t>
+        <lemma class="буква"/>
+        <pos head="S" class="S,жен,неод=им,ед" set="https://url/to/set_of_pos_mystem">
+          <feat class="жен,неод=им,ед" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a47.w.4">
-        <t>Б</t>
+        <t>Б,</t>
       </w>
       <w xml:id="a47.w.5">
-        <t>,</t>
-      </w>
-      <w xml:id="a47.w.6">
         <t>&lt;$PAREN&gt;</t>
       </w>
-      <w xml:id="a47.w.7">
+      <w xml:id="a47.w.6">
         <t>покажи</t>
+        <lemma class="показывать"/>
+        <pos head="V" class="V=ед,пов,2-л,сов" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,пов,2-л,сов" subset="all"/>
+        </pos>
+      </w>
+      <w xml:id="a47.w.7">
+        <t>&lt;</t>
       </w>
       <w xml:id="a47.w.8">
-        <t>&lt;$$PAREN&gt;</t>
+        <t>$$</t>
       </w>
       <w xml:id="a47.w.9">
+        <t>PAREN&gt;</t>
+      </w>
+      <w xml:id="a47.w.10">
         <t>?</t>
       </w>
     </utt>
@@ -1272,10 +1583,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a14.w.2">
-        <t>Это</t>
-      </w>
-      <w xml:id="a14.w.3">
-        <t>.</t>
+        <t>Это.</t>
       </w>
     </utt>
     <utt begintime="00:02:28.758" endtime="00:02:30.870" speaker="Мама" xml:id="a166">
@@ -1283,31 +1591,43 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a166.w.2">
-        <t>Да</t>
+        <t>Да,</t>
       </w>
       <w xml:id="a166.w.3">
-        <t>,</t>
-      </w>
-      <w xml:id="a166.w.4">
         <t>&lt;$PAREN&gt;</t>
       </w>
+      <w xml:id="a166.w.4">
+        <t>правильно,</t>
+      </w>
       <w xml:id="a166.w.5">
-        <t>правильно</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a166.w.6">
-        <t>,</t>
+        <t>$$</t>
       </w>
       <w xml:id="a166.w.7">
-        <t>&lt;$$PAREN&gt;</t>
+        <t>PAREN&gt;</t>
       </w>
       <w xml:id="a166.w.8">
         <t>это</t>
+        <lemma class="это"/>
+        <pos head="SPRO" class="SPRO,ед,сред,неод=(вин|им)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,сред,неод=(вин|им)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a166.w.9">
         <t>буква</t>
+        <lemma class="буква"/>
+        <pos head="S" class="S,жен,неод=им,ед" set="https://url/to/set_of_pos_mystem">
+          <feat class="жен,неод=им,ед" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a166.w.10">
         <t>Б</t>
+        <lemma class="б"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a166.w.11">
         <t>{SN}</t>
@@ -1321,10 +1641,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a15.w.2">
-        <t>Это</t>
-      </w>
-      <w xml:id="a15.w.3">
-        <t>?</t>
+        <t>Это?</t>
       </w>
     </utt>
     <utt begintime="00:02:32.080" endtime="00:02:33.070" speaker="Мама" xml:id="a48">
@@ -1333,12 +1650,13 @@
       </w>
       <w xml:id="a48.w.2">
         <t>Это</t>
+        <lemma class="это"/>
+        <pos head="SPRO" class="SPRO,ед,сред,неод=(вин|им)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,сред,неод=(вин|им)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a48.w.3">
-        <t>бегемот</t>
-      </w>
-      <w xml:id="a48.w.4">
-        <t>.</t>
+        <t>бегемот.</t>
       </w>
     </utt>
     <utt begintime="00:02:33.110" endtime="00:02:33.920" speaker="Ребенок" xml:id="a16">
@@ -1346,10 +1664,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a16.w.2">
-        <t>Это</t>
-      </w>
-      <w xml:id="a16.w.3">
-        <t>?</t>
+        <t>Это?</t>
       </w>
     </utt>
     <utt begintime="00:02:33.700" endtime="00:02:34.460" speaker="Мама" xml:id="a49">
@@ -1357,10 +1672,7 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a49.w.2">
-        <t>Белка</t>
-      </w>
-      <w xml:id="a49.w.3">
-        <t>.</t>
+        <t>Белка.</t>
       </w>
     </utt>
     <utt begintime="00:02:34.540" endtime="00:02:35.200" speaker="Ребенок" xml:id="a17">
@@ -1368,10 +1680,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a17.w.2">
-        <t>Это</t>
-      </w>
-      <w xml:id="a17.w.3">
-        <t>?</t>
+        <t>Это?</t>
       </w>
     </utt>
     <utt begintime="00:02:35.235" endtime="00:02:36.570" speaker="Мама" xml:id="a50">
@@ -1382,10 +1691,7 @@
         <t>{LS}</t>
       </w>
       <w xml:id="a50.w.3">
-        <t>Белка</t>
-      </w>
-      <w xml:id="a50.w.4">
-        <t>.</t>
+        <t>Белка.</t>
       </w>
     </utt>
     <utt begintime="00:02:36.611" endtime="00:02:37.550" speaker="Ребенок" xml:id="a18">
@@ -1393,10 +1699,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a18.w.2">
-        <t>Это</t>
-      </w>
-      <w xml:id="a18.w.3">
-        <t>?</t>
+        <t>Это?</t>
       </w>
     </utt>
     <utt begintime="00:02:37.590" endtime="00:02:38.636" speaker="Мама" xml:id="a51">
@@ -1404,10 +1707,7 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a51.w.2">
-        <t>Баран</t>
-      </w>
-      <w xml:id="a51.w.3">
-        <t>.</t>
+        <t>Баран.</t>
       </w>
     </utt>
     <utt begintime="00:02:38.636" endtime="00:02:39.430" speaker="Мама" xml:id="a167">
@@ -1416,12 +1716,13 @@
       </w>
       <w xml:id="a167.w.2">
         <t>Все</t>
+        <lemma class="все"/>
+        <pos head="SPRO" class="SPRO,мн=(вин|им)" set="https://url/to/set_of_pos_mystem">
+          <feat class="мн=(вин|им)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a167.w.3">
-        <t>правильно</t>
-      </w>
-      <w xml:id="a167.w.4">
-        <t>.</t>
+        <t>правильно.</t>
       </w>
     </utt>
     <utt begintime="00:02:39.430" endtime="00:02:40.320" speaker="Мама" xml:id="a168">
@@ -1430,29 +1731,48 @@
       </w>
       <w xml:id="a168.w.2">
         <t>А</t>
+        <lemma class="а"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a168.w.3">
         <t>где</t>
+        <lemma class="где"/>
+        <pos head="ADVPRO" class="ADVPRO=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a168.w.4">
         <t>буква</t>
+        <lemma class="буква"/>
+        <pos head="S" class="S,жен,неод=им,ед" set="https://url/to/set_of_pos_mystem">
+          <feat class="жен,неод=им,ед" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a168.w.5">
         <t>&lt;$PR</t>
       </w>
       <w xml:id="a168.w.6">
-        <t>б</t>
+        <t>б&gt;</t>
       </w>
       <w xml:id="a168.w.7">
-        <t>&gt;</t>
+        <t>Б</t>
+        <lemma class="б"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a168.w.8">
-        <t>Б</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a168.w.9">
-        <t>&lt;$$PR&gt;</t>
+        <t>$$</t>
       </w>
       <w xml:id="a168.w.10">
+        <t>PR&gt;</t>
+      </w>
+      <w xml:id="a168.w.11">
         <t>?</t>
       </w>
     </utt>
@@ -1461,36 +1781,63 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a52.w.2">
-        <t>{SN}</t>
+        <t>{SN}.</t>
       </w>
       <w xml:id="a52.w.3">
-        <t>.</t>
+        <t>А</t>
+        <lemma class="а"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a52.w.4">
-        <t>А</t>
+        <t>еще</t>
+        <lemma class="еще"/>
+        <pos head="ADV" class="ADV=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a52.w.5">
-        <t>еще</t>
+        <t>покажи</t>
+        <lemma class="показывать"/>
+        <pos head="V" class="V=ед,пов,2-л,сов" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,пов,2-л,сов" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a52.w.6">
-        <t>покажи</t>
-      </w>
-      <w xml:id="a52.w.7">
         <t>&lt;$REP&gt;</t>
       </w>
-      <w xml:id="a52.w.8">
+      <w xml:id="a52.w.7">
         <t>а</t>
+        <lemma class="а"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
+      </w>
+      <w xml:id="a52.w.8">
+        <t>еще</t>
+        <lemma class="еще"/>
+        <pos head="ADV" class="ADV=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a52.w.9">
-        <t>еще</t>
+        <t>покажи</t>
+        <lemma class="показывать"/>
+        <pos head="V" class="V=ед,пов,2-л,сов" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,пов,2-л,сов" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a52.w.10">
-        <t>покажи</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a52.w.11">
-        <t>&lt;$$REP&gt;</t>
+        <t>$$</t>
       </w>
       <w xml:id="a52.w.12">
+        <t>REP&gt;</t>
+      </w>
+      <w xml:id="a52.w.13">
         <t>.</t>
       </w>
     </utt>
@@ -1499,10 +1846,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a19.w.2">
-        <t>Эй</t>
-      </w>
-      <w xml:id="a19.w.3">
-        <t>.</t>
+        <t>Эй.</t>
       </w>
     </utt>
     <utt begintime="00:02:45.140" endtime="00:02:45.900" speaker="Ребенок" xml:id="a20">
@@ -1510,10 +1854,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a20.w.2">
-        <t>Эй</t>
-      </w>
-      <w xml:id="a20.w.3">
-        <t>.</t>
+        <t>Эй.</t>
       </w>
     </utt>
     <utt begintime="00:02:45.273" endtime="00:02:49.163" speaker="Мама" xml:id="a53">
@@ -1522,6 +1863,10 @@
       </w>
       <w xml:id="a53.w.2">
         <t>А</t>
+        <lemma class="а"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a53.w.3">
         <t>{inaudible}</t>
@@ -1531,33 +1876,58 @@
       </w>
       <w xml:id="a53.w.5">
         <t>здесь</t>
+        <lemma class="здесь"/>
+        <pos head="ADVPRO" class="ADVPRO=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a53.w.6">
-        <t>&lt;$$FS&gt;</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a53.w.7">
-        <t>здесь</t>
+        <t>$$</t>
       </w>
       <w xml:id="a53.w.8">
-        <t>покажи</t>
+        <t>FS&gt;</t>
       </w>
       <w xml:id="a53.w.9">
-        <t>&lt;$FS&gt;</t>
+        <t>здесь</t>
+        <lemma class="здесь"/>
+        <pos head="ADVPRO" class="ADVPRO=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a53.w.10">
-        <t>б-</t>
+        <t>покажи</t>
+        <lemma class="показывать"/>
+        <pos head="V" class="V=ед,пов,2-л,сов" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,пов,2-л,сов" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a53.w.11">
-        <t>&lt;$$FS&gt;</t>
+        <t>&lt;$FS&gt;</t>
       </w>
       <w xml:id="a53.w.12">
-        <t>букву</t>
+        <t>б-</t>
       </w>
       <w xml:id="a53.w.13">
-        <t>Б</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a53.w.14">
-        <t>.</t>
+        <t>$$</t>
+      </w>
+      <w xml:id="a53.w.15">
+        <t>FS&gt;</t>
+      </w>
+      <w xml:id="a53.w.16">
+        <t>букву</t>
+        <lemma class="буква"/>
+        <pos head="S" class="S,жен,неод=вин,ед" set="https://url/to/set_of_pos_mystem">
+          <feat class="жен,неод=вин,ед" subset="all"/>
+        </pos>
+      </w>
+      <w xml:id="a53.w.17">
+        <t>Б.</t>
       </w>
     </utt>
     <utt begintime="00:02:50.580" endtime="00:02:51.701" speaker="Мама" xml:id="a54">
@@ -1565,12 +1935,9 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a54.w.2">
-        <t>Покажи</t>
+        <t>Покажи.</t>
       </w>
       <w xml:id="a54.w.3">
-        <t>.</t>
-      </w>
-      <w xml:id="a54.w.4">
         <t>{SN}</t>
       </w>
     </utt>
@@ -1582,10 +1949,7 @@
         <t>{inaudible}</t>
       </w>
       <w xml:id="a21.w.3">
-        <t>эта</t>
-      </w>
-      <w xml:id="a21.w.4">
-        <t>?</t>
+        <t>эта?</t>
       </w>
     </utt>
     <utt begintime="00:02:51.701" endtime="00:02:53.240" speaker="Мама" xml:id="a169">
@@ -1594,36 +1958,56 @@
       </w>
       <w xml:id="a169.w.2">
         <t>Это</t>
+        <lemma class="это"/>
+        <pos head="SPRO" class="SPRO,ед,сред,неод=(вин|им)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,сред,неод=(вин|им)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a169.w.3">
-        <t>белка</t>
+        <t>белка,</t>
       </w>
       <w xml:id="a169.w.4">
-        <t>,</t>
+        <t>а</t>
+        <lemma class="а"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a169.w.5">
-        <t>а</t>
+        <t>где</t>
+        <lemma class="где"/>
+        <pos head="ADVPRO" class="ADVPRO=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a169.w.6">
-        <t>где</t>
+        <t>буква</t>
+        <lemma class="буква"/>
+        <pos head="S" class="S,жен,неод=им,ед" set="https://url/to/set_of_pos_mystem">
+          <feat class="жен,неод=им,ед" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a169.w.7">
-        <t>буква</t>
-      </w>
-      <w xml:id="a169.w.8">
         <t>&lt;$PR</t>
       </w>
+      <w xml:id="a169.w.8">
+        <t>б&gt;</t>
+      </w>
       <w xml:id="a169.w.9">
-        <t>б</t>
+        <t>Б</t>
+        <lemma class="б"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a169.w.10">
-        <t>&gt;</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a169.w.11">
-        <t>Б</t>
+        <t>$$</t>
       </w>
       <w xml:id="a169.w.12">
-        <t>&lt;$$PR&gt;</t>
+        <t>PR&gt;</t>
       </w>
       <w xml:id="a169.w.13">
         <t>?</t>
@@ -1634,10 +2018,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a22.w.2">
-        <t>Эй</t>
-      </w>
-      <w xml:id="a22.w.3">
-        <t>.</t>
+        <t>Эй.</t>
       </w>
     </utt>
     <utt begintime="00:02:54.360" endtime="00:02:59.480" speaker="Мама" xml:id="a55">
@@ -1646,38 +2027,30 @@
       </w>
       <w xml:id="a55.w.2">
         <t>Покажи</t>
+        <lemma class="показывать"/>
+        <pos head="V" class="V=ед,пов,2-л,сов" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,пов,2-л,сов" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a55.w.3">
-        <t>&lt;$REP</t>
+        <t>&lt;$REP-C&gt;</t>
       </w>
       <w xml:id="a55.w.4">
-        <t>-</t>
-      </w>
-      <w xml:id="a55.w.5">
-        <t>C&gt;</t>
-      </w>
-      <w xml:id="a55.w.6">
         <t>-покажи-покажи</t>
       </w>
+      <w xml:id="a55.w.5">
+        <t>&lt;</t>
+      </w>
+      <w xml:id="a55.w.6">
+        <t>$$</t>
+      </w>
       <w xml:id="a55.w.7">
-        <t>&lt;$$REP</t>
+        <t>REP-C&gt;,</t>
       </w>
       <w xml:id="a55.w.8">
-        <t>-</t>
+        <t>вот.</t>
       </w>
       <w xml:id="a55.w.9">
-        <t>C&gt;</t>
-      </w>
-      <w xml:id="a55.w.10">
-        <t>,</t>
-      </w>
-      <w xml:id="a55.w.11">
-        <t>вот</t>
-      </w>
-      <w xml:id="a55.w.12">
-        <t>.</t>
-      </w>
-      <w xml:id="a55.w.13">
         <t>{SN}</t>
       </w>
     </utt>
@@ -1686,10 +2059,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a23.w.2">
-        <t>Это</t>
-      </w>
-      <w xml:id="a23.w.3">
-        <t>?</t>
+        <t>Это?</t>
       </w>
     </utt>
     <utt begintime="00:03:01.420" endtime="00:03:02.320" speaker="Мама" xml:id="a56">
@@ -1697,10 +2067,7 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a56.w.2">
-        <t>Да</t>
-      </w>
-      <w xml:id="a56.w.3">
-        <t>.</t>
+        <t>Да.</t>
       </w>
     </utt>
     <utt begintime="00:03:01.806" endtime="00:03:06.696" speaker="Папа" xml:id="a81">
@@ -1708,10 +2075,7 @@
         <t>ПАПА:</t>
       </w>
       <w xml:id="a81.w.2">
-        <t>{NS}</t>
-      </w>
-      <w xml:id="a81.w.3">
-        <t>.</t>
+        <t>{NS}.</t>
       </w>
     </utt>
     <utt begintime="00:03:02.420" endtime="00:03:03.170" speaker="Ребенок" xml:id="a24">
@@ -1719,10 +2083,7 @@
         <t>РЕБЕНОК:</t>
       </w>
       <w xml:id="a24.w.2">
-        <t>Это</t>
-      </w>
-      <w xml:id="a24.w.3">
-        <t>?</t>
+        <t>Это?</t>
       </w>
     </utt>
     <utt begintime="00:03:03.198" endtime="00:03:04.480" speaker="Мама" xml:id="a57">
@@ -1730,19 +2091,17 @@
         <t>МАМА:</t>
       </w>
       <w xml:id="a57.w.2">
-        <t>Ага</t>
+        <t>Ага,</t>
       </w>
       <w xml:id="a57.w.3">
-        <t>,</t>
+        <t>это</t>
+        <lemma class="это"/>
+        <pos head="SPRO" class="SPRO,ед,сред,неод=(вин|им)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,сред,неод=(вин|им)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a57.w.4">
-        <t>это</t>
-      </w>
-      <w xml:id="a57.w.5">
-        <t>баран</t>
-      </w>
-      <w xml:id="a57.w.6">
-        <t>.</t>
+        <t>баран.</t>
       </w>
     </utt>
     <utt begintime="00:03:04.790" endtime="00:03:06.774" speaker="Ребенок" xml:id="a25">
@@ -1751,17 +2110,31 @@
       </w>
       <w xml:id="a25.w.2">
         <t>Это</t>
+        <lemma class="это"/>
+        <pos head="SPRO" class="SPRO,ед,сред,неод=(вин|им)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,сред,неод=(вин|им)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a25.w.3">
         <t>&lt;$REP&gt;</t>
       </w>
       <w xml:id="a25.w.4">
         <t>это</t>
+        <lemma class="это"/>
+        <pos head="SPRO" class="SPRO,ед,сред,неод=(вин|им)" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,сред,неод=(вин|им)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a25.w.5">
-        <t>&lt;$$REP&gt;</t>
+        <t>&lt;</t>
       </w>
       <w xml:id="a25.w.6">
+        <t>$$</t>
+      </w>
+      <w xml:id="a25.w.7">
+        <t>REP&gt;</t>
+      </w>
+      <w xml:id="a25.w.8">
         <t>.</t>
       </w>
     </utt>
