@@ -42,8 +42,9 @@ def millisec2foliatime(ms): # type(ms) == int
 #re_token_ru = re.compile(r'[а-яА-Я+-]+')
 #re_punctuation = re.compile(r'([.,!?])')
 # how about quotation mark? (e.g. ""пошой""-то)
-re_token_ru = re.compile(r'[а-яА-Я+-–]+|[.,!?]')
 #re_token_ru = re.compile(r'[а-яА-Я+-]+')
+#re_token_ru = re.compile(r'[а-яА-Я+-–]+|[.,!?]')
+re_token_ru = re.compile(r'[а-яА-Я–+-]+|[.,!?]')
 def get_tokens_ru(t): # t: ELAN transcript text of a segment
     """ -> Cyrillic tokens and punctuation marks """
     return re_token_ru.finditer(t)
@@ -63,6 +64,7 @@ def get_tokens(t):
         tokens.extend(temp)
     return tokens
 
+# https://codegolf.stackexchange.com/questions/127677/print-the-russian-cyrillic-alphabet
 #letters_russian = set('АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя')
 letters_russian = set('абвгдеёжзийклмнопрстуфхцчшщъыьэюя')
 def is_token_mystem(token): # type(token): str
@@ -167,6 +169,6 @@ def convert(f_i, f_o=None):
     doc_o.save(''.join([f_i, '.folia.xml']))
 
 if __name__ == "__main__":
-    f = 'data/B_2014_10_24_1'
-    #f = 'data/B_2014_11_03_2'
+    #f = 'data/B_2014_10_24_1'
+    f = 'data/B_2014_11_03_2'
     convert(f)
