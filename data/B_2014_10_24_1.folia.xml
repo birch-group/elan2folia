@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="B_2014_10_24_1" version="1.5.1" generator="pynlpl.formats.folia-v1.5.1.88">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" generator="pynlpl.formats.folia-v1.5.1.88" xml:id="B_2014_10_24_1" version="1.5.1">
   <metadata type="native">
     <annotations>
       <lemma-annotation annotator="Mystem" set="https://url/to/set_of_lemmas_mystem"/>
@@ -32,6 +32,10 @@
       </w>
       <w xml:id="a26.w.5">
         <t>бэ-бэ-бэ</t>
+        <lemma class="бэ"/>
+        <pos head="S" class="S,сред,неод=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" set="https://url/to/set_of_pos_mystem">
+          <feat class="сред,неод=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a26.w.6">
         <t>""</t>
@@ -46,6 +50,10 @@
       </w>
       <w xml:id="a1.w.2">
         <t>Бе-бе-бе</t>
+        <lemma class="бе"/>
+        <pos head="INTJ" class="INTJ=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a1.w.3">
         <t>.</t>
@@ -161,6 +169,10 @@
       </w>
       <w xml:id="a2.w.3">
         <t>бе-бе-бе-бе-бе-бе</t>
+        <lemma class="бе"/>
+        <pos head="INTJ" class="INTJ=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a2.w.4">
         <t>.</t>
@@ -210,9 +222,17 @@
       </w>
       <w xml:id="a3.w.3">
         <t>Бэ-бэ-бэ-бэ</t>
+        <lemma class="бэ"/>
+        <pos head="S" class="S,сред,неод=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" set="https://url/to/set_of_pos_mystem">
+          <feat class="сред,неод=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a3.w.4">
         <t>бэ-бэ-бэ-бэ-бэ-бэ</t>
+        <lemma class="бэ"/>
+        <pos head="S" class="S,сред,неод=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" set="https://url/to/set_of_pos_mystem">
+          <feat class="сред,неод=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a3.w.5">
         <t>.</t>
@@ -247,36 +267,43 @@
         <t>Зд-</t>
       </w>
       <w xml:id="a60.w.5">
-        <t>+Здоровый</t>
+        <t>+</t>
       </w>
       <w xml:id="a60.w.6">
-        <t>&lt;$$FS&gt;</t>
-      </w>
-      <w xml:id="a60.w.7">
-        <t>&lt;$$UNCLEAR&gt;</t>
-      </w>
-      <w xml:id="a60.w.8">
         <t>Здоровый</t>
         <lemma class="здоровый"/>
         <pos head="A" class="A=(вин,ед,полн,муж,неод|им,ед,полн,муж)" set="https://url/to/set_of_pos_mystem">
           <feat class="(вин,ед,полн,муж,неод|им,ед,полн,муж)" subset="all"/>
         </pos>
       </w>
+      <w xml:id="a60.w.7">
+        <t>&lt;$$FS&gt;</t>
+      </w>
+      <w xml:id="a60.w.8">
+        <t>&lt;$$UNCLEAR&gt;</t>
+      </w>
       <w xml:id="a60.w.9">
+        <t>Здоровый</t>
+        <lemma class="здоровый"/>
+        <pos head="A" class="A=(вин,ед,полн,муж,неод|им,ед,полн,муж)" set="https://url/to/set_of_pos_mystem">
+          <feat class="(вин,ед,полн,муж,неод|им,ед,полн,муж)" subset="all"/>
+        </pos>
+      </w>
+      <w xml:id="a60.w.10">
         <t>кусок</t>
         <lemma class="кусок"/>
         <pos head="S" class="S,муж,неод=(вин,ед|им,ед)" set="https://url/to/set_of_pos_mystem">
           <feat class="муж,неод=(вин,ед|им,ед)" subset="all"/>
         </pos>
       </w>
-      <w xml:id="a60.w.10">
+      <w xml:id="a60.w.11">
         <t>пластика</t>
         <lemma class="пластика"/>
         <pos head="S" class="S,жен,неод=им,ед" set="https://url/to/set_of_pos_mystem">
           <feat class="жен,неод=им,ед" subset="all"/>
         </pos>
       </w>
-      <w xml:id="a60.w.11">
+      <w xml:id="a60.w.12">
         <t>.</t>
       </w>
     </utt>
@@ -315,9 +342,17 @@
       </w>
       <w xml:id="a4.w.3">
         <t>бе-бе-бе-бе</t>
+        <lemma class="бе"/>
+        <pos head="INTJ" class="INTJ=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a4.w.4">
         <t>бе-бе</t>
+        <lemma class="бе"/>
+        <pos head="INTJ" class="INTJ=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a4.w.5">
         <t>.</t>
@@ -716,6 +751,10 @@
       </w>
       <w xml:id="a62.w.2">
         <t>Откуда-то</t>
+        <lemma class="откуда-то"/>
+        <pos head="ADVPRO" class="ADVPRO=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.3">
         <t>из</t>
@@ -760,6 +799,10 @@
       </w>
       <w xml:id="a62.w.10">
         <t>какой-то</t>
+        <lemma class="какой-то"/>
+        <pos head="APRO" class="APRO=(вин,ед,муж,од|пр,ед,жен|дат,ед,жен|род,ед,жен|твор,ед,жен|вин,ед,муж,неод|им,ед,муж)" set="https://url/to/set_of_pos_mystem">
+          <feat class="(вин,ед,муж,од|пр,ед,жен|дат,ед,жен|род,ед,жен|твор,ед,жен|вин,ед,муж,неод|им,ед,муж)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.11">
         <t>ээ</t>
@@ -783,6 +826,10 @@
       </w>
       <w xml:id="a62.w.15">
         <t>кто-то</t>
+        <lemma class="кто-то"/>
+        <pos head="SPRO" class="SPRO,ед,муж,од=им" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,муж,од=им" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a62.w.16">
         <t>жаловался</t>
@@ -915,6 +962,10 @@
       </w>
       <w xml:id="a35.w.3">
         <t>У-у</t>
+        <lemma class="у"/>
+        <pos head="PR" class="PR=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a35.w.4">
         <t>|</t>
@@ -1101,6 +1152,10 @@
       </w>
       <w xml:id="a7.w.2">
         <t>Б-Б-Б-Б</t>
+        <lemma class="б"/>
+        <pos head="PART" class="PART=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a7.w.3">
         <t>.</t>
@@ -1590,6 +1645,10 @@
       </w>
       <w xml:id="a8.w.2">
         <t>Бе-бе-бе</t>
+        <lemma class="бе"/>
+        <pos head="INTJ" class="INTJ=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a8.w.3">
         <t>.</t>
@@ -1601,9 +1660,17 @@
       </w>
       <w xml:id="a9.w.2">
         <t>Бе-бе-бе</t>
+        <lemma class="бе"/>
+        <pos head="INTJ" class="INTJ=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a9.w.3">
         <t>бе-бе-бе</t>
+        <lemma class="бе"/>
+        <pos head="INTJ" class="INTJ=" set="https://url/to/set_of_pos_mystem">
+          <feat class="" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a9.w.4">
         <t>.</t>
@@ -1640,6 +1707,10 @@
       </w>
       <w xml:id="a10.w.2">
         <t>Бэ-бэ-бэ</t>
+        <lemma class="бэ"/>
+        <pos head="S" class="S,сред,неод=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" set="https://url/to/set_of_pos_mystem">
+          <feat class="сред,неод=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a10.w.3">
         <t>.</t>
@@ -1672,6 +1743,10 @@
       </w>
       <w xml:id="a11.w.2">
         <t>Бэ-бэ-бэ</t>
+        <lemma class="бэ"/>
+        <pos head="S" class="S,сред,неод=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" set="https://url/to/set_of_pos_mystem">
+          <feat class="сред,неод=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a11.w.3">
         <t>.</t>
@@ -1759,6 +1834,10 @@
       </w>
       <w xml:id="a13.w.2">
         <t>Бэ-бэ-бэ</t>
+        <lemma class="бэ"/>
+        <pos head="S" class="S,сред,неод=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" set="https://url/to/set_of_pos_mystem">
+          <feat class="сред,неод=(пр,мн|пр,ед|вин,мн|вин,ед|дат,мн|дат,ед|род,мн|род,ед|твор,мн|твор,ед|им,мн|им,ед)" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a13.w.3">
         <t>.</t>
@@ -2424,6 +2503,10 @@
       </w>
       <w xml:id="a55.w.6">
         <t>-покажи-покажи</t>
+        <lemma class="показывать"/>
+        <pos head="V" class="V=ед,пов,2-л,сов" set="https://url/to/set_of_pos_mystem">
+          <feat class="ед,пов,2-л,сов" subset="all"/>
+        </pos>
       </w>
       <w xml:id="a55.w.7">
         <t>&lt;$$REP</t>

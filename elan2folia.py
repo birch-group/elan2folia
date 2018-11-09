@@ -21,7 +21,7 @@ from pynlpl.formats import folia
 import re
 from operator import itemgetter
 from pymystem3 import Mystem
-# exclude {'text':'\n'} from mystem's result list
+# exclude non-word tokens (e.g.{'text':' '} or {'text':'\n'}) from mystem's result list
 m = Mystem(entire_input=False)
 
 # Helper function
@@ -44,7 +44,8 @@ def millisec2foliatime(ms): # type(ms) == int
 # how about quotation mark? (e.g. ""пошой""-то)
 #re_token_ru = re.compile(r'[а-яА-Я+-]+')
 #re_token_ru = re.compile(r'[а-яА-Я+-–]+|[.,!?]')
-re_token_ru = re.compile(r'[а-яА-Я–+-]+|[.,!?]')
+#re_token_ru = re.compile(r'[а-яА-Я–+-]+|[.,!?]')
+re_token_ru = re.compile(r'[а-яА-Я-]+|[.,!?+]')
 def get_tokens_ru(t): # t: ELAN transcript text of a segment
     """ -> Cyrillic tokens and punctuation marks """
     return re_token_ru.finditer(t)
@@ -66,9 +67,11 @@ def get_tokens(t):
 
 # https://codegolf.stackexchange.com/questions/127677/print-the-russian-cyrillic-alphabet
 #letters_russian = set('АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя')
-letters_russian = set('абвгдеёжзийклмнопрстуфхцчшщъыьэюя')
+letters_russian = set('абвгдеёжзийклмнопрстуфхцчшщъыьэюя-')
 def is_token_mystem(token): # type(token): str
     """ consider those tokens consisting of only Cyrillic letters """
+    if token.endswith('-'):
+        return False   
     return all(l in letters_russian for l in token.lower())
 
 sep_mystem = re.compile(r'[,=|]')
@@ -142,7 +145,10 @@ def convert(f_i, f_o=None):
         # https://docs.python.org/3/library/string.html#formatspec
         #utterance.append(folia.Word,'{:10}:'.format(aa[1]))
         utterance.append(folia.Word,'{}:'.format(aa[1].upper()))
-        for w in get_tokens(aa[4]):
+        # replace (long) '–' with (short) '-' in utterance text
+        utterance_text = aa[4].replace('–','-')
+        # for w in get_tokens(aa[4]):
+        for w in get_tokens(utterance_text):
             # handle visibility of tokens in the form of tags
             if len(w)>1 and w[0]=='<' and w[1]!='$':
                 #print(w)
@@ -154,21 +160,21 @@ def convert(f_i, f_o=None):
                     # mystem's lexeme -> lemma annotation (???)
                     if 'lex' in analysis_mystem[0]:
                         token.append(folia.LemmaAnnotation,
-                                     cls=analysis_mystem[0]['lex'],
-                                     set=SET_LEMMA_MYSTEM)
+                                    cls=analysis_mystem[0]['lex'],
+                                    set=SET_LEMMA_MYSTEM)
                     if 'gr' in analysis_mystem[0]:
                         pos_plus = analysis_mystem[0]['gr'].strip()
                         pos,features = analyze_mystem_gr(pos_plus)
                         an_pos = token.append(folia.PosAnnotation,
-                                              head=pos,
-                                              cls=pos_plus,
-                                              set=SET_POS_MYSTEM)
+                                            head=pos,
+                                            cls=pos_plus,
+                                            set=SET_POS_MYSTEM)
                         # https://pynlpl.readthedocs.io/en/latest/folia.html#features
-                        an_pos.append(folia.Feature,subset='all',cls=features)                    
+                        an_pos.append(folia.Feature,subset='all',cls=features)
 
     doc_o.save(''.join([f_i, '.folia.xml']))
 
 if __name__ == "__main__":
-    #f = 'data/B_2014_10_24_1'
-    f = 'data/B_2014_11_03_2'
+    f = 'data/B_2014_10_24_1'
+    #f = 'data/B_2014_11_03_2'
     convert(f)
