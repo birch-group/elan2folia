@@ -1,5 +1,5 @@
-<!--https://github.com/proycon/folia/blob/master/setdefinitions/naf_pos.foliaset.xml-->
 <?xml version="1.0" encoding="UTF-8"?>
+<!--https://github.com/proycon/folia/blob/master/setdefinitions/naf_pos.foliaset.xml-->
 <set xml:id="birch_pos" type="closed" xmlns="http://ilk.uvt.nl/folia">
     <!-- https://docs.google.com/document/d/1pLZdm3x-9Ob_Lo6WHPNVvHoOvUGuqqG8NdPi5ESqWfk/edit# -->
     <class xml:id="A" label="прилагательное" />
