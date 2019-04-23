@@ -21,8 +21,8 @@
     <!--https://folia.readthedocs.io/en/latest/set_definitions.html#subsets-->
     <subset xml:id="all" type="open">
     </subset>
-    <!--subset xml:id="N_animacy" type="closed">
+    <subset xml:id="N_animacy" type="closed">
       <class xml:id="anim" label="anim (од)" />
       <class xml:id="inan" label="inan (неод)" />
-  </subset-->
+  </subset>
 </set> 
