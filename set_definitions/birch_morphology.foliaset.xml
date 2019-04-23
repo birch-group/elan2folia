@@ -19,10 +19,37 @@
     <class xml:id="Q" label="Q (квантор)" />
     <class xml:id="NW" label="NW (nonce word)" />
     <!--https://folia.readthedocs.io/en/latest/set_definitions.html#subsets-->
-    <subset xml:id="all" type="open">
-    </subset>
+    <!--subset xml:id="all" type="open">
+    </subset-->
     <subset xml:id="N_animacy" type="closed">
       <class xml:id="anim" label="anim (од)" />
       <class xml:id="inan" label="inan (неод)" />
-  </subset>
+    </subset>
+    <subset xml:id="N_countability" type="closed">
+      <class xml:id="count" label="count (исч)" />
+      <class xml:id="mass" label="mass (неисч)" />
+    </subset>
+    <subset xml:id="N_case" type="closed">
+      <class xml:id="nd" label="nd (неиз)" />
+      <class xml:id="nom" label="nom (им)" />
+      <class xml:id="gen" label="gen (род)" />
+      <class xml:id="gen2" label="gen2 (род2)" />
+      <class xml:id="dat" label="dat (дат)" />
+      <class xml:id="acc" label="acc (вин)" />
+      <class xml:id="acc2" label="acc2 (вин)" />
+      <class xml:id="ins" label="ins (твор)" />
+      <class xml:id="abl" label="abl (пр)" />
+      <class xml:id="loc" label="loc (местн)" />
+      <class xml:id="voc" label="voc (зват)" />
+    </subset>
+    <subset xml:id="N_gender" type="closed">
+      <class xml:id="m" label="m (муж)" />
+      <class xml:id="f" label="f (жен)" />
+      <class xml:id="mf" label="mf (мж)" />
+      <class xml:id="n" label="n (сред)" />
+    </subset>
+    <subset xml:id="N_number" type="closed">
+      <class xml:id="sg" label="sg (ед)" />
+      <class xml:id="pl" label="pl (мн)" />
+    </subset>
 </set> 
