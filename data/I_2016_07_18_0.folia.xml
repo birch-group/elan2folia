@@ -4,7 +4,8 @@
     <annotations>
       <!--text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/-->
       <lemma-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_lemma.foliaset.xml"/>
-      <pos-annotation set="https://url/to/set_of_pos_mystem" annotator="Mystem" annotatortype="auto"/>
+      <!--pos-annotation set="https://url/to/set_of_pos_mystem" annotator="Mystem" annotatortype="auto"/-->
+      <pos-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_morphology_mystem_01.foliaset.xml" annotator="Mystem" annotatortype="auto"/>
       <!--pos-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_tagging.foliaset.xml"/-->
       <pos-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_morphology_01.foliaset.xml"/>
     </annotations>
