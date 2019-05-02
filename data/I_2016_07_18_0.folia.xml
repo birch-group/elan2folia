@@ -6,7 +6,7 @@
       <lemma-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_lemma.foliaset.xml"/>
       <pos-annotation set="https://url/to/set_of_pos_mystem" annotator="Mystem" annotatortype="auto"/>
       <!--pos-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_tagging.foliaset.xml"/-->
-      <pos-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_morphology.foliaset.xml"/>
+      <pos-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_morphology_01.foliaset.xml"/>
     </annotations>
   </metadata>
   <speech xml:id="I_2016_07_18_0.speech.1">
