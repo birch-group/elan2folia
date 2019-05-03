@@ -59,16 +59,8 @@ def create_conversation(aas): #aas: iterable of alinable annotation info
     # https://stackoverflow.com/questions/4233476/sort-a-list-by-multiple-attributes
     return sorted(aas,key=itemgetter(2,3))
 
-# SET_LEMMA_MYSTEM = "https://url/to/set_of_lemmas_mystem"
 SET_LEMMA = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_lemma.foliaset.xml"
-SET_POS_MYSTEM = "https://url/to/set_of_pos_mystem"   # parts of speech
-# SET_POS_MYSTEM = "https://brandeis.box.com/s/2vqrogwxq0legt139ofzm2msqd0ybd5i"
-# SET_POS = "https://url/to/set_of_pos"   # parts of speech
-# SET_POS = "https://brandeis.box.com/s/2vqrogwxq0legt139ofzm2msqd0ybd5i"
-# SET_POS = "https://github.com/birch-group/elan2folia/blob/master/set_definitions/birch_pos.foliaset.xml"
-# SET_POS = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos.foliaset.xml"
-# SET_POS = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_morphology.foliaset.xml"
-SET_POS = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_tagging.foliaset.xml"
+SET_POS = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos.foliaset.xml"
 # SET_SU = "https://url/to/set_of_su"     # syntactic units
 
 def convert(f_i, f_o=None):
@@ -81,18 +73,15 @@ def convert(f_i, f_o=None):
     if not f_o:
         f_o = f_i
     
-    # https://pynlpl.readthedocs.io/en/latest/folia.html#editing-folia
-    # https://pynlpl.readthedocs.io/en/latest/folia.html#adding-structure
-    # https://pynlpl.readthedocs.io/en/latest/folia.html#structure-annotation-types
+    # https://foliapy.readthedocs.io/en/latest/folia.html#editing-folia
+    # https://foliapy.readthedocs.io/en/latest/folia.html#adding-structure
+    # https://foliapy.readthedocs.io/en/latest/folia.html#structure-annotation-types
     print(os.path.basename(f_o))
     doc_o = folia.Document(id=os.path.basename(f_o))
     # https://github.com/proycon/folia/blob/master/foliatools/conllu2folia.py
-    # doc_o.declare(folia.LemmaAnnotation, set=SET_LEMMA_MYSTEM , annotator="Mystem")
+    # future: https://foliapy.readthedocs.io/en/latest/folia.html#provenance-information 
     doc_o.declare(folia.LemmaAnnotation, set=SET_LEMMA)
-    doc_o.declare(folia.PosAnnotation, set=SET_POS_MYSTEM , annotator="Mystem")
-    # doc_o.declare(folia.PosAnnotation, set=SET_POS, annotator="BiRCh group")
-    # future: https://foliapy.readthedocs.io/en/latest/folia.html#provenance-information    
-    doc_o.declare(folia.PosAnnotation, set=SET_POS)
+    doc_o.declare(folia.PosAnnotation, set=SET_POS)    
     # doc_o.declare(folia.SyntacticUnit, set=SET_SU, annotator="BiRCh group")
     speech = doc_o.append(folia.Speech)
     for aa in create_conversation(get_aas(doc_i)):
@@ -101,7 +90,6 @@ def convert(f_i, f_o=None):
                                   begintime=aa[2],endtime=aa[3])
         
         # https://docs.python.org/3/library/string.html#formatspec
-        #utterance.append(folia.Word,'{:10}:'.format(aa[1]))
         utterance.append(folia.Word,'{}:'.format(aa[1].upper()))
         # aa[4]: utterance text
         tokens = get_tokens(aa[4])
@@ -119,22 +107,16 @@ def convert(f_i, f_o=None):
                              annotator='Mystem+'
                             )
             if pos:                
-                # an_pos = token.append(folia.PosAnnotation,
-                #                       head=pos,
-                #                       cls=pos_plus,
-                #                       set=SET_POS_MYSTEM)
                 an_pos = token.append(folia.PosAnnotation,
                                       cls=pos,
-                                    #   set=SET_POS,
-                                      set=SET_POS_MYSTEM,
-                                    #   annotator='Mystem+'
+                                      set=SET_POS,
+                                      annotator='Mystem+'
                                      )
             if features:                                          
-                # https://pynlpl.readthedocs.io/en/latest/folia.html#features
-                an_pos.append(folia.Feature,
-                              subset='all',
-                              cls=features, 
-                            #   annotator='Mystem+'
+                # https://foliapy.readthedocs.io/en/latest/folia.html#features
+                an_pos.append(folia.Description,
+                              value = ' '.join(['Mystem+ features:',features]),
+                              annotator='Mystem+'
                              )
 
     doc_o.save(''.join([f_i, '.folia.xml']))

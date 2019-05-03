@@ -63,14 +63,16 @@ def get_token_offsets(t): # t: ELAN transcript text of a segment
 # r'^...$' + re.match = r'...' + re.fullmatch
 # re_split = re.compile(r'^[а-яА-Я]+-(то|нибудь|либо)|кое-[а-яА-Я]+$')
 re_split_1 = re.compile(r'([а-яА-Я]+)-(то|нибудь|либо)')
-re_split_2 = re.compile(r'(кое)-([а-яА-Я]+)')
+re_split_2 = re.compile(r'([Кк]ое)-([а-яА-Я]+)')
+# https://en.wiktionary.org/wiki/%D0%BD%D0%B8%D0%BA%D1%82%D0%BE
+re_split_3 = re.compile(r'([Нн]и)(где|куда|когда|как|сколько|откуда|кто|кого|кому|кем|что|чего|чему|чем|какой|какое|какая|какие|какого|каких|какому|каким|какую|какою|какими|каком|чей|чье|чья|чьи|чьего|чьей|чьих|чьему|чьим|чью|чьею|чьими|чьем)')
 def split_word(token):
     """
     '...-то'     -> '...@' & '-то'
     '...-нибудь' -> '...@' & '-нибудь'
     '...-либо'   -> '...@' & '-либо'
     'кое-...'    -> 'кое-@' & '@...'
-    #'ни...'     -> 'ни@' & '@...'
+    'ни...'     -> 'ни@' & '@...'
     """
     # match object
     mo = re_split_1.fullmatch(token)
@@ -80,6 +82,10 @@ def split_word(token):
         mo = re_split_2.fullmatch(token)
         if mo:
             return [''.join([mo.group(1), '-@']), ''.join(['@', mo.group(2)])]
+        else:
+            mo = re_split_3.fullmatch(token)
+            if mo:
+                return [''.join([mo.group(1), '@']), ''.join(['@', mo.group(2)])]
     return [token]
 
 
@@ -94,7 +100,9 @@ def get_tokens(t):
     offsets = get_token_offsets(t)
     for i in range(len(offsets)-1):
         temp = t[offsets[i]:offsets[i+1]].strip().split()
-        if len(temp)==1: #
+        # word splitting 
+        # (future consideration: more sophisticated handling of letter case)        
+        if len(temp)==1:
             temp = split_word(temp[0])
         tokens.extend(temp)
     # handle XML-based visibility of tokens in the form of tags

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<set xml:id="tokens">
-    <class xml:id="normal"/>
-    <class xml:id="empty"/>
-</set>

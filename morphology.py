@@ -71,9 +71,14 @@ def analyze_morphology(t): # t: contextualized token (str) (see demo())
         # handle upper/lower cases
         t_bare = t_bare.lower()
 
-        if t_bare.startswith('@-') or t_bare.endswith('-@'):
+        # '@-|то|нибудь|либо' or 'кое-@' 
+        if t_bare.startswith('@-') or t_bare.endswith('-@') or t_bare=='ни@':
             lemma = t_bare.replace('@','').replace('-','')
             pos = 'PART'
+        # >>> m.analyze('что@ @-нибудь')
+        # [{'analysis': [{'lex': 'что', 'wt': 0.6885325909000001, 'gr': 'CONJ='}], 'text': 'что'}, {'analysis': [{'lex': 'нибудь', 'wt': 1, 'gr': 'ADVPRO='}], 'text': 'нибудь'}]
+        # >>> m.analyze('что-нибудь')
+        # [{'analysis': [{'lex': 'что-нибудь', 'wt': 1, 'gr': 'SPRO,ед,сред,неод=(вин|им)'}], 'text': 'что-нибудь'}]
         elif '@' in t_bare and t_bare[0]!='@':
             lemma = t_bare[:-1]
             try:
@@ -85,7 +90,7 @@ def analyze_morphology(t): # t: contextualized token (str) (see demo())
         else:
             analysis_mystem = m.analyze(t)[0]['analysis']
             if analysis_mystem:
-                # mystem's lexeme -> lemma annotation (???)
+                # mystem's lexeme -> lemma annotation
                 if 'lex' in analysis_mystem[0]:
                     lemma = analysis_mystem[0]['lex']
                 if 'gr' in analysis_mystem[0]:
@@ -93,7 +98,7 @@ def analyze_morphology(t): # t: contextualized token (str) (see demo())
                     pos,features = analyze_mystem_gr(pos_plus)
             # add diminutive feature 
             if t_bare[:2] in dod and t_bare in dod[t_bare[:2]]:
-                features = ','.join([features,'дим'])
+                features = ','.join([features,'ул'])
     return (lemma, pos, features)    
 
 # contextualize: # e.g.: 'в' as 'PR' vs 'S,сокр'
@@ -112,7 +117,3 @@ def demo(utt): # utt: utterance string
             t = ' '.join([t, tokens[i+1]])
         print(t)
         print(analyze_morphology(t))
-
-
-
-
