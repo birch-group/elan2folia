@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--https://github.com/proycon/folia/blob/master/setdefinitions/naf_pos.foliaset.xml-->
+<set xml:id="birch_pos" type="closed" xmlns="http://ilk.uvt.nl/folia">
+    <!-- https://docs.google.com/document/d/1pLZdm3x-9Ob_Lo6WHPNVvHoOvUGuqqG8NdPi5ESqWfk/edit# -->
+    <class xml:id="A" label="A (прилагательное)">
+      <subset xml:id="A_падеж" type="closed">
+        <class xml:id="nom" label="им" />
+        <class xml:id="gen" label="род" />
+        <class xml:id="dat" label="дат" />
+        <class xml:id="acc" label="вин" />
+        <class xml:id="acc2" label="вин2" />
+        <class xml:id="ins" label="твор" />
+        <class xml:id="abl" label="пр" />
+      </subset>    
+      <subset xml:id="A_число" type="closed">
+        <class xml:id="sg" label="ед" />
+        <class xml:id="pl" label="мн" />
+      </subset>
+      <subset xml:id="A_форма" type="closed">
+        <class xml:id="brev" label="кр" />
+        <class xml:id="plen" label="полн" />
+        <class xml:id="poss" label="притяж" />
+      </subset>
+      <subset xml:id="A_род" type="closed">
+        <class xml:id="m" label="муж" />
+        <class xml:id="f" label="жен" />
+        <class xml:id="n" label="сред" />
+      </subset>
+      <subset xml:id="A_степень-сравнения" type="closed">
+        <class xml:id="supr" label="прев" />
+        <class xml:id="comp" label="срав" />
+      </subset>
+      <subset xml:id="A_у-л" type="closed">
+        <class xml:id="dim" label="ул" />
+      </subset>
+    </class>
+    <class xml:id="ADV" label="ADV (наречие)" />
+    <class xml:id="ADVPRO" label="ADVPRO (местоименное наречие)" />
+    <class xml:id="ANUM" label="ANUM (числительное-прилагательное)" />
+    <class xml:id="APRO" label="APRO (местоимение-прилагательное)" />
+    <class xml:id="COM" label="COM (часть композита - сложного слова)" />
+    <class xml:id="CONJ" label="CONJ (союз)" />
+    <class xml:id="INTJ" label="INTJ (междометие)" />
+    <class xml:id="NUM" label="NUM (числительное)">
+      <subset xml:id="NUM_падеж" type="closed">
+        <class xml:id="nom" label="им" />
+        <class xml:id="gen" label="род" />
+        <class xml:id="dat" label="дат" />
+        <class xml:id="acc" label="вин" />
+        <class xml:id="ins" label="твор" />
+        <class xml:id="abl" label="пр" />
+      </subset>
+      <subset xml:id="NUM_род" type="closed">
+        <class xml:id="mn" label="мс" />
+        <class xml:id="f" label="жен" />
+      </subset>
+    </class>
+    <class xml:id="PART" label="PART (частица)" />
+    <class xml:id="PR" label="PR (предлог)" />
+    <class xml:id="N" label="N (существительное)">
+      <subset xml:id="N_род" type="closed">
+        <class xml:id="m" label="муж" />
+        <class xml:id="f" label="жен" />
+        <class xml:id="mf" label="мж" />
+        <class xml:id="n" label="сред" />
+      </subset>
+      <subset xml:id="N_одушевленность" type="closed">
+        <class xml:id="anim" label="од" />
+        <class xml:id="inan" label="неод" />
+      </subset>
+      <!--subset xml:id="N_исчисляемость" type="closed">
+        <class xml:id="count" label="count (исч)" />
+        <class xml:id="mass" label="mass (неисч)" />
+      </subset-->
+      <subset xml:id="N_падеж" type="closed">
+        <class xml:id="nd" label="неиз" />
+        <class xml:id="nom" label="им" />
+        <class xml:id="gen" label="род" />
+        <class xml:id="gen2" label="род2" />
+        <class xml:id="dat" label="дат" />
+        <class xml:id="acc" label="вин" />
+        <class xml:id="acc2" label="вин2" />
+        <class xml:id="ins" label="твор" />
+        <class xml:id="abl" label="пр" />
+        <class xml:id="loc" label="местн" />
+        <class xml:id="voc" label="зват" />
+      </subset>
+      <subset xml:id="N_число" type="closed">
+        <class xml:id="sg" label="ед" />
+        <class xml:id="pl" label="мн" />
+      </subset>
+      <subset xml:id="N_у-л" type="closed">
+        <class xml:id="dim" label="ул" />
+      </subset>
+    </class>
+    <class xml:id="NPRO" label="NPRO (местоимение-существительное)" />
+    <class xml:id="V" label="V (глагол)">
+      <subset xml:id="V_вид" type="closed">
+        <class xml:id="ipf" label="несов" />
+        <class xml:id="pf" label="сов" />
+      </subset>    
+      <subset xml:id="V_переходность" type="closed">
+        <class xml:id="tran" label="пе" />
+        <class xml:id="intr" label="нп" />
+      </subset>   
+      <subset xml:id="V_время" type="closed">
+        <class xml:id="praes" label="наст" />
+        <class xml:id="inpraes" label="непрош" />
+        <class xml:id="praet" label="прош" />
+      </subset>
+      <subset xml:id="V_число" type="closed">
+        <class xml:id="sg" label="ед" />
+        <class xml:id="pl" label="мн" />
+      </subset>
+      <subset xml:id="V_form" type="closed">
+        <class xml:id="ger" label="деепр" />
+        <class xml:id="inf" label="инф" />
+        <class xml:id="partcp" label="прич" />
+        <class xml:id="indic" label="изъяв" />
+        <class xml:id="imper" label="пов" />
+      </subset>
+      <subset xml:id="V_лицо" type="closed">
+        <class xml:id="1p" label="1-л" />
+        <class xml:id="2p" label="2-л" />
+        <class xml:id="3p" label="3-л" />
+      </subset>
+      <subset xml:id="V_род" type="closed">
+        <class xml:id="m" label="муж" />
+        <class xml:id="f" label="жен" />
+        <class xml:id="n" label="сред" />
+      </subset>
+      <subset xml:id="V_залог" type="closed">
+        <class xml:id="act" label="действ" />
+        <class xml:id="pass" label="страд" />
+      </subset>
+    </class>
+    <class xml:id="Q" label="Q (квантор)" />
+    <class xml:id="NW" label="NW (nonce word)" />
+    <!--https://folia.readthedocs.io/en/latest/set_definitions.html#subsets-->
+    <!--subset xml:id="all" type="open">
+    </subset-->    
+</set> 
