@@ -135,4 +135,9 @@
       <class xml:id="act" label="действ" />
       <class xml:id="pass" label="страд" />
     </subset>
+    <subset xml:id="NPRO_лицо" type="closed">
+      <class xml:id="1p" label="1-л" />
+      <class xml:id="2p" label="2-л" />
+      <class xml:id="3p" label="3-л" />
+    </subset>
 </set> 
