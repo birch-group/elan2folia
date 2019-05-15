@@ -94,7 +94,10 @@
     <subset xml:id="степень-сравнения_A" type="closed">
       <class xml:id="supr" label="прев" />
       <class xml:id="comp" label="срав" />
-    </subset>    
+    </subset>
+    <subset xml:id="степень-сравнения_ADV" type="closed">
+      <class xml:id="comp" label="срав" />
+    </subset>     
     <subset xml:id="form_V" type="closed">
       <class xml:id="ger" label="деепр" />
       <class xml:id="inf" label="инф" />
