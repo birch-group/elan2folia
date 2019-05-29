@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="I_2016_07_18_0" version="2.0.2" generator="foliapy-v2.0.7">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="I_2016_07_18_0_constrain" version="2.0.2" generator="foliapy-v2.0.7">
   <metadata type="native">
     <annotations>
       <token-annotation/>
       <hiddentoken-annotation/>
       <lemma-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_lemma.foliaset.xml"/>
-      <pos-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos_01_1.foliaset.xml"/>
+      <pos-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos_02_2.foliaset.xml"/>
     </annotations>
   </metadata>
-  <speech xml:id="I_2016_07_18_0.speech.1">
+  <speech xml:id="I_2016_07_18_0_constrain.speech.1">
     <utt xml:id="a1" speaker="Мама" begintime="00:00:03.560" endtime="00:00:04.711">
       <w xml:id="a1.w.1">
         <t>МАМА:</t>
