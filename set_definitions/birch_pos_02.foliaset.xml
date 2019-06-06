@@ -122,4 +122,15 @@
       <class xml:id="tran" label="пе" />
       <class xml:id="intr" label="нп" />
     </subset>
+    <subset xml:id="прочие" type="closed">
+      <class xml:id="parenth" label="вводн" />
+      <class xml:id="geo" label="гео" />
+      <class xml:id="persn" label="имя" />
+      <class xml:id="obsc" label="обсц" />
+      <class xml:id="patrn" label="отч" />
+      <class xml:id="praed" label="прдк" />
+      <class xml:id="abbr" label="сокр" />
+      <class xml:id="famn" label="фам" />
+      <class xml:id="col" label="разг" />
+    </subset>
 </set> 
