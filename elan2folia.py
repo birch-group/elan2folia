@@ -60,7 +60,7 @@ def create_conversation(aas): #aas: iterable of alinable annotation info
     return sorted(aas,key=itemgetter(2,3))
 
 SET_LEMMA = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_lemma.foliaset.xml"
-SET_POS = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos.foliaset.xml"
+SET_POS = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos_03.foliaset.xml"
 # SET_SU = "https://url/to/set_of_su"     # syntactic units
 
 def convert(f_i, f_o=None):
@@ -113,8 +113,12 @@ def convert(f_i, f_o=None):
                                       annotator='Mystem+'
                                      )
             if features:                                          
-                # https://foliapy.readthedocs.io/en/latest/folia.html#features
+                # https://foliapy.readthedocs.io/en/latest/folia.html#features                
                 an_pos.append(folia.Description,
+                              value = re.sub(r'=', r',', features),
+                              annotator='Mystem+'
+                             )
+                an_pos.append(folia.Comment,
                               value = ' '.join(['Mystem+ features:',features]),
                               annotator='Mystem+'
                              )
