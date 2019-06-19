@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="I_2016_07_18_0" version="2.0.2" generator="foliapy-v2.0.7">
+<FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="I_2016_07_18_0" version="2.1.0" generator="foliapy-v2.1.4">
   <metadata type="native">
     <annotations>
-      <token-annotation/>
-      <hiddentoken-annotation/>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
       <lemma-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_lemma.foliaset.xml"/>
-      <pos-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos_01_1.foliaset.xml"/>
+      <pos-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos_03.foliaset.xml"/>
+      <description-annotation/>
+      <comment-annotation/>
     </annotations>
   </metadata>
   <speech xml:id="I_2016_07_18_0.speech.1">
@@ -33,28 +34,32 @@
         <t>мы</t>
         <lemma class="мы" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн,1-л=им</desc>
+          <desc annotator="Mystem+">мн,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a2.w.4">
         <t>какой</t>
         <lemma class="какой" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (пр,ед,жен|дат,ед,жен|род,ед,жен|твор,ед,жен|вин,ед,муж,неод|им,ед,муж)</desc>
+          <desc annotator="Mystem+">(пр,ед,жен|дат,ед,жен|род,ед,жен|твор,ед,жен|вин,ед,муж,неод|им,ед,муж)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (пр,ед,жен|дат,ед,жен|род,ед,жен|твор,ед,жен|вин,ед,муж,неод|им,ед,муж)</comment>
         </pos>
       </w>
       <w xml:id="a2.w.5">
         <t>самолет</t>
         <lemma class="самолет" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a2.w.6">
         <t>собираем</t>
         <lemma class="собирать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (непрош,мн,изъяв,1-л,несов,пе|непрош,ед,прич,кр,муж,несов,страд,пе)</desc>
+          <desc annotator="Mystem+">(непрош,мн,изъяв,1-л,несов,пе|непрош,ед,прич,кр,муж,несов,страд,пе)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (непрош,мн,изъяв,1-л,несов,пе|непрош,ед,прич,кр,муж,несов,страд,пе)</comment>
         </pos>
       </w>
       <w xml:id="a2.w.7">
@@ -72,7 +77,8 @@
         <t>Видишь</t>
         <lemma class="видеть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a137.w.4">
@@ -96,7 +102,8 @@
         <t>смотри</t>
         <lemma class="смотреть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=ед,пов,2-л</desc>
+          <desc annotator="Mystem+">несов,пе,ед,пов,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=ед,пов,2-л</comment>
         </pos>
       </w>
       <w xml:id="a137.w.10">
@@ -114,7 +121,8 @@
         <t>Видишь</t>
         <lemma class="видеть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a138.w.4">
@@ -132,7 +140,8 @@
         <t>нарисовано</t>
         <lemma class="нарисовать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=прош,ед,прич,кр,сред,страд</desc>
+          <desc annotator="Mystem+">сов,пе,прош,ед,прич,кр,сред,страд</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=прош,ед,прич,кр,сред,страд</comment>
         </pos>
       </w>
       <w xml:id="a138.w.8">
@@ -144,7 +153,8 @@
         <t>инструкции</t>
         <lemma class="инструкция" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,неод=(пр,ед|вин,мн|дат,ед|род,ед|им,мн)</desc>
+          <desc annotator="Mystem+">жен,неод,(пр,ед|вин,мн|дат,ед|род,ед|им,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,неод=(пр,ед|вин,мн|дат,ед|род,ед|им,мн)</comment>
         </pos>
       </w>
       <w xml:id="a138.w.10">
@@ -159,7 +169,8 @@
         <t>Смотри</t>
         <lemma class="смотреть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=ед,пов,2-л</desc>
+          <desc annotator="Mystem+">несов,пе,ед,пов,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=ед,пов,2-л</comment>
         </pos>
       </w>
       <w xml:id="a139.w.3">
@@ -176,7 +187,8 @@
         <t>инструкции</t>
         <lemma class="инструкция" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,неод=(пр,ед|вин,мн|дат,ед|род,ед|им,мн)</desc>
+          <desc annotator="Mystem+">жен,неод,(пр,ед|вин,мн|дат,ед|род,ед|им,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,неод=(пр,ед|вин,мн|дат,ед|род,ед|им,мн)</comment>
         </pos>
       </w>
       <w xml:id="a139.w.6">
@@ -186,7 +198,8 @@
         <t>набросок</t>
         <lemma class="набросок" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a139.w.8">
@@ -196,7 +209,8 @@
         <t>нарисована</t>
         <lemma class="нарисовать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=прош,ед,прич,кр,жен,страд</desc>
+          <desc annotator="Mystem+">сов,пе,прош,ед,прич,кр,жен,страд</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=прош,ед,прич,кр,жен,страд</comment>
         </pos>
       </w>
       <w xml:id="a139.w.10">
@@ -211,7 +225,8 @@
         <t>картинка</t>
         <lemma class="картинка" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,неод=им,ед</desc>
+          <desc annotator="Mystem+">жен,неод,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,неод=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a139.w.13">
@@ -226,7 +241,8 @@
         <t>Амм</t>
         <lemma class="амма" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,жен,од=(вин,мн|род,мн)</desc>
+          <desc annotator="Mystem+">имя,жен,од,(вин,мн|род,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,жен,од=(вин,мн|род,мн)</comment>
         </pos>
       </w>
       <w xml:id="a140.w.3">
@@ -258,7 +274,8 @@
         <t>самолет</t>
         <lemma class="самолет" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a140.w.9">
@@ -270,7 +287,8 @@
         <t>винтом</t>
         <lemma class="винт" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=твор,ед</desc>
+          <desc annotator="Mystem+">муж,неод,твор,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=твор,ед</comment>
         </pos>
       </w>
       <w xml:id="a140.w.11">
@@ -295,14 +313,16 @@
         <t>он</t>
         <lemma class="он" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,муж=им</desc>
+          <desc annotator="Mystem+">ед,3-л,муж,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,муж=им</comment>
         </pos>
       </w>
       <w xml:id="a3.w.5">
         <t>называется</t>
         <lemma class="называться" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,нп=непрош,ед,изъяв,3-л</desc>
+          <desc annotator="Mystem+">несов,нп,непрош,ед,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,нп=непрош,ед,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a3.w.6">
@@ -322,14 +342,16 @@
         <t>называется</t>
         <lemma class="называться" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,нп=непрош,ед,изъяв,3-л</desc>
+          <desc annotator="Mystem+">несов,нп,непрош,ед,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,нп=непрош,ед,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a4.w.4">
         <t>самолет</t>
         <lemma class="самолет" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a4.w.5">
@@ -341,7 +363,8 @@
         <t>винтом</t>
         <lemma class="винт" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=твор,ед</desc>
+          <desc annotator="Mystem+">муж,неод,твор,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=твор,ед</comment>
         </pos>
       </w>
       <w xml:id="a4.w.7">
@@ -395,14 +418,16 @@
         <t>Амм</t>
         <lemma class="амма" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,жен,од=(вин,мн|род,мн)</desc>
+          <desc annotator="Mystem+">имя,жен,од,(вин,мн|род,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,жен,од=(вин,мн|род,мн)</comment>
         </pos>
       </w>
       <w xml:id="a143.w.3">
         <t>название</t>
         <lemma class="название" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сред,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">сред,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: сред,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a143.w.4">
@@ -417,7 +442,8 @@
         <t>винтовой</t>
         <lemma class="винтовой" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</desc>
+          <desc annotator="Mystem+">(вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</comment>
         </pos>
       </w>
       <w xml:id="a143.w.7">
@@ -432,14 +458,16 @@
         <t>Винтовой</t>
         <lemma class="винтовой" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</desc>
+          <desc annotator="Mystem+">(вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</comment>
         </pos>
       </w>
       <w xml:id="a6.w.3">
         <t>самолет</t>
         <lemma class="самолет" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a6.w.4">
@@ -480,14 +508,16 @@
         <t>Простой</t>
         <lemma class="простой" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</desc>
+          <desc annotator="Mystem+">(вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</comment>
         </pos>
       </w>
       <w xml:id="a145.w.3">
         <t>винтовой</t>
         <lemma class="винтовой" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</desc>
+          <desc annotator="Mystem+">(вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</comment>
         </pos>
       </w>
       <w xml:id="a145.w.4">
@@ -502,7 +532,8 @@
         <t>Беня</t>
         <lemma class="беня" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</desc>
+          <desc annotator="Mystem+">имя,муж,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a8.w.3">
@@ -525,7 +556,8 @@
         <t>Слезь</t>
         <lemma class="слезать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=ед,пов,2-л,сов</desc>
+          <desc annotator="Mystem+">нп,ед,пов,2-л,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=ед,пов,2-л,сов</comment>
         </pos>
       </w>
       <w xml:id="a9.w.3">
@@ -540,7 +572,8 @@
         <t>Что</t>
         <lemma class="что" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</desc>
+          <desc annotator="Mystem+">ед,сред,неод,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a146.w.3">
@@ -560,7 +593,8 @@
         <t>Беня</t>
         <lemma class="беня" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</desc>
+          <desc annotator="Mystem+">имя,муж,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a10.w.4">
@@ -570,7 +604,8 @@
         <t>видишь</t>
         <lemma class="видеть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a10.w.6">
@@ -585,14 +620,16 @@
         <t>Она</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=им</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=им</comment>
         </pos>
       </w>
       <w xml:id="a11.w.3">
         <t>думает</t>
         <lemma class="думать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,нп=непрош,ед,изъяв,3-л</desc>
+          <desc annotator="Mystem+">несов,нп,непрош,ед,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,нп=непрош,ед,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a11.w.4">
@@ -607,7 +644,8 @@
         <t>мы</t>
         <lemma class="мы" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн,1-л=им</desc>
+          <desc annotator="Mystem+">мн,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a11.w.7">
@@ -619,7 +657,8 @@
         <t>что@</t>
         <lemma class="что" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</desc>
+          <desc annotator="Mystem+">ед,сред,неод,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a11.w.9">
@@ -631,7 +670,8 @@
         <t>едим</t>
         <lemma class="есть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,1-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,мн,изъяв,1-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,1-л</comment>
         </pos>
       </w>
       <w xml:id="a11.w.11">
@@ -657,7 +697,8 @@
         <t>Ей</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=(дат|твор)</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,(дат|твор)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=(дат|твор)</comment>
         </pos>
       </w>
       <w xml:id="a12.w.3">
@@ -674,14 +715,16 @@
         <t>мы</t>
         <lemma class="мы" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн,1-л=им</desc>
+          <desc annotator="Mystem+">мн,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a12.w.6">
         <t>делаем</t>
         <lemma class="делать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=(непрош,мн,изъяв,1-л|непрош,ед,прич,кр,муж,страд)</desc>
+          <desc annotator="Mystem+">несов,пе,(непрош,мн,изъяв,1-л|непрош,ед,прич,кр,муж,страд)</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=(непрош,мн,изъяв,1-л|непрош,ед,прич,кр,муж,страд)</comment>
         </pos>
       </w>
       <w xml:id="a12.w.7">
@@ -696,7 +739,8 @@
         <t>Беня</t>
         <lemma class="беня" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</desc>
+          <desc annotator="Mystem+">имя,муж,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a148.w.3">
@@ -706,7 +750,8 @@
         <t>мы</t>
         <lemma class="мы" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн,1-л=им</desc>
+          <desc annotator="Mystem+">мн,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a148.w.5">
@@ -718,7 +763,8 @@
         <t>едим</t>
         <lemma class="есть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,1-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,мн,изъяв,1-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,1-л</comment>
         </pos>
       </w>
       <w xml:id="a148.w.7">
@@ -733,7 +779,8 @@
         <t>Беня</t>
         <lemma class="беня" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</desc>
+          <desc annotator="Mystem+">имя,муж,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a13.w.3">
@@ -743,21 +790,24 @@
         <t>мы</t>
         <lemma class="мы" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн,1-л=им</desc>
+          <desc annotator="Mystem+">мн,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a13.w.5">
         <t>собираем</t>
         <lemma class="собирать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (непрош,мн,изъяв,1-л,несов,пе|непрош,ед,прич,кр,муж,несов,страд,пе)</desc>
+          <desc annotator="Mystem+">(непрош,мн,изъяв,1-л,несов,пе|непрош,ед,прич,кр,муж,несов,страд,пе)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (непрош,мн,изъяв,1-л,несов,пе|непрош,ед,прич,кр,муж,несов,страд,пе)</comment>
         </pos>
       </w>
       <w xml:id="a13.w.6">
         <t>Лего</t>
         <lemma class="лего" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=неиз</desc>
+          <desc annotator="Mystem+">муж,неод,неиз</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=неиз</comment>
         </pos>
       </w>
       <w xml:id="a13.w.7">
@@ -788,7 +838,8 @@
         <t>она</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=им</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=им</comment>
         </pos>
       </w>
       <w xml:id="a149.w.7">
@@ -854,14 +905,16 @@
         <t>ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a15.w.5">
         <t>ей</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=(дат|твор)</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,(дат|твор)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=(дат|твор)</comment>
         </pos>
       </w>
       <w xml:id="a15.w.6">
@@ -878,7 +931,8 @@
         <t>сказал</t>
         <lemma class="сказать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=прош,ед,изъяв,муж</desc>
+          <desc annotator="Mystem+">сов,пе,прош,ед,изъяв,муж</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=прош,ед,изъяв,муж</comment>
         </pos>
       </w>
       <w xml:id="a15.w.9">
@@ -908,14 +962,16 @@
         <t>она</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=им</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=им</comment>
         </pos>
       </w>
       <w xml:id="a151.w.6">
         <t>прыгнула</t>
         <lemma class="прыгнуть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,нп=прош,ед,изъяв,жен</desc>
+          <desc annotator="Mystem+">сов,нп,прош,ед,изъяв,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,нп=прош,ед,изъяв,жен</comment>
         </pos>
       </w>
       <w xml:id="a151.w.7">
@@ -938,7 +994,8 @@
         <t>я</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=им</desc>
+          <desc annotator="Mystem+">ед,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a152.w.5">
@@ -953,14 +1010,16 @@
         <t>мне</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,1-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a152.w.8">
         <t>нужно</t>
         <lemma class="нужно" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: прдк=</desc>
+          <desc annotator="Mystem+">прдк,</desc>
+          <comment annotator="Mystem+">Mystem+ features: прдк=</comment>
         </pos>
       </w>
       <w xml:id="a152.w.9">
@@ -988,7 +1047,8 @@
         <t>ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a16.w.5">
@@ -1000,14 +1060,16 @@
         <t>Беней</t>
         <lemma class="беня" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,муж,од=твор,ед</desc>
+          <desc annotator="Mystem+">имя,муж,од,твор,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,муж,од=твор,ед</comment>
         </pos>
       </w>
       <w xml:id="a16.w.7">
         <t>говоришь</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a16.w.8">
@@ -1134,7 +1196,8 @@
         <t>ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a17.w.5">
@@ -1146,14 +1209,16 @@
         <t>сказал</t>
         <lemma class="сказать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=прош,ед,изъяв,муж</desc>
+          <desc annotator="Mystem+">сов,пе,прош,ед,изъяв,муж</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=прош,ед,изъяв,муж</comment>
         </pos>
       </w>
       <w xml:id="a17.w.7">
         <t>ей</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=(дат|твор)</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,(дат|твор)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=(дат|твор)</comment>
         </pos>
       </w>
       <w xml:id="a17.w.8">
@@ -1168,7 +1233,8 @@
         <t>Беня</t>
         <lemma class="беня" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</desc>
+          <desc annotator="Mystem+">имя,муж,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a17.w.11">
@@ -1183,7 +1249,8 @@
         <t>надо</t>
         <lemma class="надо" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: прдк=</desc>
+          <desc annotator="Mystem+">прдк,</desc>
+          <comment annotator="Mystem+">Mystem+ features: прдк=</comment>
         </pos>
       </w>
       <w xml:id="a17.w.14">
@@ -1207,7 +1274,8 @@
         <t>Бенька</t>
         <lemma class="бенька" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</desc>
+          <desc annotator="Mystem+">имя,муж,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a154.w.5">
@@ -1228,7 +1296,8 @@
         <t>Бенька</t>
         <lemma class="бенька" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</desc>
+          <desc annotator="Mystem+">имя,муж,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a154.w.10">
@@ -1243,7 +1312,8 @@
         <t>надо</t>
         <lemma class="надо" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: прдк=</desc>
+          <desc annotator="Mystem+">прдк,</desc>
+          <comment annotator="Mystem+">Mystem+ features: прдк=</comment>
         </pos>
       </w>
       <w xml:id="a154.w.13">
@@ -1281,14 +1351,16 @@
         <t>ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a18.w.8">
         <t>сказал</t>
         <lemma class="сказать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=прош,ед,изъяв,муж</desc>
+          <desc annotator="Mystem+">сов,пе,прош,ед,изъяв,муж</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=прош,ед,изъяв,муж</comment>
         </pos>
       </w>
       <w xml:id="a18.w.9">
@@ -1321,7 +1393,8 @@
         <t>я</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=им</desc>
+          <desc annotator="Mystem+">ед,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a155.w.5">
@@ -1333,7 +1406,8 @@
         <t>думаю</t>
         <lemma class="думать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,нп=непрош,ед,изъяв,1-л</desc>
+          <desc annotator="Mystem+">несов,нп,непрош,ед,изъяв,1-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,нп=непрош,ед,изъяв,1-л</comment>
         </pos>
       </w>
       <w xml:id="a155.w.7">
@@ -1361,21 +1435,24 @@
         <t>все</t>
         <lemma class="все" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн=(вин|им)</desc>
+          <desc annotator="Mystem+">мн,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a19.w.5">
         <t>ей</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=(дат|твор)</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,(дат|твор)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=(дат|твор)</comment>
         </pos>
       </w>
       <w xml:id="a19.w.6">
         <t>говорят</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,3-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,мн,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a19.w.7">
@@ -1418,21 +1495,24 @@
         <t>ей</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=(дат|твор)</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,(дат|твор)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=(дат|твор)</comment>
         </pos>
       </w>
       <w xml:id="a20.w.5">
         <t>все</t>
         <lemma class="все" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн=(вин|им)</desc>
+          <desc annotator="Mystem+">мн,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a20.w.6">
         <t>говорят</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,3-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,мн,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a20.w.7">
@@ -1450,7 +1530,8 @@
         <t>знаешь</t>
         <lemma class="знать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a20.w.11">
@@ -1489,7 +1570,8 @@
         <t>это</t>
         <lemma class="это" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</desc>
+          <desc annotator="Mystem+">ед,сред,неод,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a21.w.5">
@@ -1506,14 +1588,16 @@
         <t>наша</t>
         <lemma class="наш" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: им,ед,жен</desc>
+          <desc annotator="Mystem+">им,ед,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: им,ед,жен</comment>
         </pos>
       </w>
       <w xml:id="a21.w.8">
         <t>собака</t>
         <lemma class="собака" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,од=им,ед</desc>
+          <desc annotator="Mystem+">жен,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a21.w.9">
@@ -1528,21 +1612,24 @@
         <t>Это</t>
         <lemma class="это" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</desc>
+          <desc annotator="Mystem+">ед,сред,неод,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a22.w.3">
         <t>Олина</t>
         <lemma class="олина" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: фам,жен,од=им,ед</desc>
+          <desc annotator="Mystem+">фам,жен,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: фам,жен,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a22.w.4">
         <t>собака</t>
         <lemma class="собака" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,од=им,ед</desc>
+          <desc annotator="Mystem+">жен,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a22.w.5">
@@ -1562,7 +1649,8 @@
         <t>Оля</t>
         <lemma class="оля" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,жен,од=им,ед</desc>
+          <desc annotator="Mystem+">имя,жен,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,жен,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a23.w.4">
@@ -1574,14 +1662,16 @@
         <t>ней</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=(пр|дат|род|твор)</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,(пр|дат|род|твор)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=(пр|дат|род|твор)</comment>
         </pos>
       </w>
       <w xml:id="a23.w.6">
         <t>говорит</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,3-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,ед,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a23.w.7">
@@ -1624,14 +1714,16 @@
         <t>автоматом</t>
         <lemma class="автомат" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=твор,ед</desc>
+          <desc annotator="Mystem+">муж,неод,твор,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=твор,ед</comment>
         </pos>
       </w>
       <w xml:id="a25.w.4">
         <t>все</t>
         <lemma class="все" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн=(вин|им)</desc>
+          <desc annotator="Mystem+">мн,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a25.w.5">
@@ -1643,7 +1735,8 @@
         <t>ней</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=(пр|дат|род|твор)</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,(пр|дат|род|твор)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=(пр|дат|род|твор)</comment>
         </pos>
       </w>
       <w xml:id="a25.w.7">
@@ -1655,7 +1748,8 @@
         <t>говорят</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,3-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,мн,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a25.w.9">
@@ -1675,7 +1769,8 @@
         <t>все</t>
         <lemma class="все" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн=(вин|им)</desc>
+          <desc annotator="Mystem+">мн,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a158.w.4">
@@ -1687,7 +1782,8 @@
         <t>ней</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=(пр|дат|род|твор)</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,(пр|дат|род|твор)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=(пр|дат|род|твор)</comment>
         </pos>
       </w>
       <w xml:id="a158.w.6">
@@ -1722,7 +1818,8 @@
         <t>Сережа</t>
         <lemma class="сережа" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</desc>
+          <desc annotator="Mystem+">имя,муж,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a26.w.6">
@@ -1734,7 +1831,8 @@
         <t>Игорем</t>
         <lemma class="игорь" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,муж,од=твор,ед</desc>
+          <desc annotator="Mystem+">имя,муж,од,твор,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,муж,од=твор,ед</comment>
         </pos>
       </w>
       <w xml:id="a26.w.8">
@@ -1749,7 +1847,8 @@
         <t>говорят</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,3-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,мн,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a26.w.11">
@@ -1780,7 +1879,8 @@
         <t>говорят</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,3-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,мн,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a26.w.18">
@@ -1802,7 +1902,8 @@
         <t>ней</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=(пр|дат|род|твор)</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,(пр|дат|род|твор)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=(пр|дат|род|твор)</comment>
         </pos>
       </w>
       <w xml:id="a26.w.22">
@@ -1822,14 +1923,16 @@
         <t>она</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=им</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=им</comment>
         </pos>
       </w>
       <w xml:id="a27.w.4">
         <t>привыкла</t>
         <lemma class="привыкать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=прош,ед,изъяв,жен,сов</desc>
+          <desc annotator="Mystem+">нп,прош,ед,изъяв,жен,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=прош,ед,изъяв,жен,сов</comment>
         </pos>
       </w>
       <w xml:id="a27.w.5">
@@ -1844,7 +1947,8 @@
         <t>жить</t>
         <lemma class="жить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,нп=инф</desc>
+          <desc annotator="Mystem+">несов,нп,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,нп=инф</comment>
         </pos>
       </w>
       <w xml:id="a27.w.8">
@@ -1856,7 +1960,8 @@
         <t>семье</t>
         <lemma class="семья" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,неод=(пр,ед|дат,ед)</desc>
+          <desc annotator="Mystem+">жен,неод,(пр,ед|дат,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,неод=(пр,ед|дат,ед)</comment>
         </pos>
       </w>
       <w xml:id="a27.w.10">
@@ -1868,7 +1973,8 @@
         <t>говорят</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,3-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,мн,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a27.w.12">
@@ -1898,7 +2004,8 @@
         <t>ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a28.w.5">
@@ -1910,7 +2017,8 @@
         <t>автомате</t>
         <lemma class="автомат" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=пр,ед</desc>
+          <desc annotator="Mystem+">муж,неод,пр,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=пр,ед</comment>
         </pos>
       </w>
       <w xml:id="a28.w.7">
@@ -1922,7 +2030,8 @@
         <t>ней</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=(пр|дат|род|твор)</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,(пр|дат|род|твор)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=(пр|дат|род|твор)</comment>
         </pos>
       </w>
       <w xml:id="a28.w.9">
@@ -1944,7 +2053,8 @@
         <t>мы</t>
         <lemma class="мы" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн,1-л=им</desc>
+          <desc annotator="Mystem+">мн,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a28.w.13">
@@ -1956,7 +2066,8 @@
         <t>ней</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=(пр|дат|род|твор)</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,(пр|дат|род|твор)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=(пр|дат|род|твор)</comment>
         </pos>
       </w>
       <w xml:id="a28.w.15">
@@ -1968,7 +2079,8 @@
         <t>говорим</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=(непрош,мн,изъяв,1-л|непрош,ед,прич,кр,муж,страд)</desc>
+          <desc annotator="Mystem+">несов,пе,(непрош,мн,изъяв,1-л|непрош,ед,прич,кр,муж,страд)</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=(непрош,мн,изъяв,1-л|непрош,ед,прич,кр,муж,страд)</comment>
         </pos>
       </w>
       <w xml:id="a28.w.17">
@@ -1993,21 +2105,24 @@
         <t>садик</t>
         <lemma class="садик" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед),ул</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед),ул</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед),ул</comment>
         </pos>
       </w>
       <w xml:id="a30.w.5">
         <t>ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a30.w.6">
         <t>пойдешь</t>
         <lemma class="пойти" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,нп=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">сов,нп,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,нп=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a30.w.7">
@@ -2022,28 +2137,32 @@
         <t>каком</t>
         <lemma class="какой" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (пр,ед,муж|пр,ед,сред)</desc>
+          <desc annotator="Mystem+">(пр,ед,муж|пр,ед,сред)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (пр,ед,муж|пр,ед,сред)</comment>
         </pos>
       </w>
       <w xml:id="a30.w.10">
         <t>языке</t>
         <lemma class="язык" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=пр,ед</desc>
+          <desc annotator="Mystem+">муж,неод,пр,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=пр,ед</comment>
         </pos>
       </w>
       <w xml:id="a30.w.11">
         <t>будешь</t>
         <lemma class="быть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">нп,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a30.w.12">
         <t>говорить</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=инф</desc>
+          <desc annotator="Mystem+">несов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a30.w.13">
@@ -2063,7 +2182,8 @@
         <t>своем</t>
         <lemma class="свой" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (пр,ед,муж|пр,ед,сред)</desc>
+          <desc annotator="Mystem+">(пр,ед,муж|пр,ед,сред)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (пр,ед,муж|пр,ед,сред)</comment>
         </pos>
       </w>
       <w xml:id="a159.w.4">
@@ -2086,7 +2206,8 @@
         <t>конечно</t>
         <lemma class="конечно" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: вводн=</desc>
+          <desc annotator="Mystem+">вводн,</desc>
+          <comment annotator="Mystem+">Mystem+ features: вводн=</comment>
         </pos>
       </w>
       <w xml:id="a160.w.5">
@@ -2149,21 +2270,24 @@
         <t>воспитательница</t>
         <lemma class="воспитательница" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,од=им,ед</desc>
+          <desc annotator="Mystem+">жен,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a32.w.4">
         <t>Лена</t>
         <lemma class="лена" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,жен,од=им,ед</desc>
+          <desc annotator="Mystem+">имя,жен,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,жен,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a32.w.5">
         <t>Галкина</t>
         <lemma class="галкин" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: фам,муж,од=(вин,ед|род,ед)</desc>
+          <desc annotator="Mystem+">фам,муж,од,(вин,ед|род,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: фам,муж,од=(вин,ед|род,ед)</comment>
         </pos>
       </w>
       <w xml:id="a32.w.6">
@@ -2175,28 +2299,32 @@
         <t>каком</t>
         <lemma class="какой" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (пр,ед,муж|пр,ед,сред)</desc>
+          <desc annotator="Mystem+">(пр,ед,муж|пр,ед,сред)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (пр,ед,муж|пр,ед,сред)</comment>
         </pos>
       </w>
       <w xml:id="a32.w.8">
         <t>языке</t>
         <lemma class="язык" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=пр,ед</desc>
+          <desc annotator="Mystem+">муж,неод,пр,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=пр,ед</comment>
         </pos>
       </w>
       <w xml:id="a32.w.9">
         <t>будет</t>
         <lemma class="быть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л</desc>
+          <desc annotator="Mystem+">нп,непрош,ед,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a32.w.10">
         <t>говорить</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=инф</desc>
+          <desc annotator="Mystem+">несов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a32.w.11">
@@ -2221,7 +2349,8 @@
         <t>знаю</t>
         <lemma class="знать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,1-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,ед,изъяв,1-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,1-л</comment>
         </pos>
       </w>
       <w xml:id="a162.w.5">
@@ -2249,7 +2378,8 @@
         <t>Она</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=им</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=им</comment>
         </pos>
       </w>
       <w xml:id="a34.w.3">
@@ -2266,7 +2396,8 @@
         <t>говорит</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,3-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,ед,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a34.w.6">
@@ -2281,7 +2412,8 @@
         <t>Она</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=им</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=им</comment>
         </pos>
       </w>
       <w xml:id="a35.w.3">
@@ -2293,14 +2425,16 @@
         <t>тобой</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=твор</desc>
+          <desc annotator="Mystem+">ед,2-л,твор</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=твор</comment>
         </pos>
       </w>
       <w xml:id="a35.w.5">
         <t>будет</t>
         <lemma class="быть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л</desc>
+          <desc annotator="Mystem+">нп,непрош,ед,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a35.w.6">
@@ -2312,7 +2446,8 @@
         <t>говорить</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=инф</desc>
+          <desc annotator="Mystem+">несов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a35.w.8">
@@ -2322,7 +2457,8 @@
         <t>сынок</t>
         <lemma class="сынок" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,од=им,ед,ул</desc>
+          <desc annotator="Mystem+">муж,од,им,ед,ул</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,од=им,ед,ул</comment>
         </pos>
       </w>
       <w xml:id="a35.w.10">
@@ -2342,14 +2478,16 @@
         <t>я</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=им</desc>
+          <desc annotator="Mystem+">ед,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a163.w.4">
         <t>буду</t>
         <lemma class="быть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,1-л</desc>
+          <desc annotator="Mystem+">нп,непрош,ед,изъяв,1-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,1-л</comment>
         </pos>
       </w>
       <w xml:id="a163.w.5">
@@ -2369,14 +2507,16 @@
         <t>Ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a36.w.3">
         <t>будешь</t>
         <lemma class="быть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">нп,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a36.w.4">
@@ -2437,21 +2577,24 @@
         <t>вы</t>
         <lemma class="вы" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн,2-л=им</desc>
+          <desc annotator="Mystem+">мн,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a38.w.5">
         <t>будете</t>
         <lemma class="быть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=непрош,мн,изъяв,2-л</desc>
+          <desc annotator="Mystem+">нп,непрош,мн,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=непрош,мн,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a38.w.6">
         <t>говорить</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=инф</desc>
+          <desc annotator="Mystem+">несов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a38.w.7">
@@ -2466,14 +2609,16 @@
         <t>она</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=им</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=им</comment>
         </pos>
       </w>
       <w xml:id="a38.w.10">
         <t>будет</t>
         <lemma class="быть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л</desc>
+          <desc annotator="Mystem+">нп,непрош,ед,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a38.w.11">
@@ -2493,7 +2638,8 @@
         <t>ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a38.w.15">
@@ -2513,7 +2659,8 @@
         <t>Мм</t>
         <lemma class="мм" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=неиз</desc>
+          <desc annotator="Mystem+">муж,неод,неиз</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=неиз</comment>
         </pos>
       </w>
       <w xml:id="a165.w.3">
@@ -2528,7 +2675,8 @@
         <t>Я</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=им</desc>
+          <desc annotator="Mystem+">ед,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a166.w.3">
@@ -2545,7 +2693,8 @@
         <t>ней</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=(пр|дат|род|твор)</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,(пр|дат|род|твор)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=(пр|дат|род|твор)</comment>
         </pos>
       </w>
       <w xml:id="a166.w.6">
@@ -2565,14 +2714,16 @@
         <t>другими</t>
         <lemma class="другой" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: твор,мн</desc>
+          <desc annotator="Mystem+">твор,мн</desc>
+          <comment annotator="Mystem+">Mystem+ features: твор,мн</comment>
         </pos>
       </w>
       <w xml:id="a166.w.10">
         <t>детьми</t>
         <lemma class="ребенок" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,од=твор,мн</desc>
+          <desc annotator="Mystem+">муж,од,твор,мн</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,од=твор,мн</comment>
         </pos>
       </w>
       <w xml:id="a166.w.11">
@@ -2584,7 +2735,8 @@
         <t>которые</t>
         <lemma class="который" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (им,мн|вин,мн,неод)</desc>
+          <desc annotator="Mystem+">(им,мн|вин,мн,неод)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (им,мн|вин,мн,неод)</comment>
         </pos>
       </w>
       <w xml:id="a166.w.13">
@@ -2594,7 +2746,8 @@
         <t>понимают</t>
         <lemma class="понимать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: непрош,мн,изъяв,3-л,несов,пе</desc>
+          <desc annotator="Mystem+">непрош,мн,изъяв,3-л,несов,пе</desc>
+          <comment annotator="Mystem+">Mystem+ features: непрош,мн,изъяв,3-л,несов,пе</comment>
         </pos>
       </w>
       <w xml:id="a166.w.15">
@@ -2604,7 +2757,8 @@
         <t>понимаешь</t>
         <lemma class="понимать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: непрош,ед,изъяв,2-л,несов,пе</desc>
+          <desc annotator="Mystem+">непрош,ед,изъяв,2-л,несов,пе</desc>
+          <comment annotator="Mystem+">Mystem+ features: непрош,ед,изъяв,2-л,несов,пе</comment>
         </pos>
       </w>
       <w xml:id="a166.w.17">
@@ -2625,14 +2779,16 @@
         <t>Я</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=им</desc>
+          <desc annotator="Mystem+">ед,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a39.w.3">
         <t>понимаю</t>
         <lemma class="понимать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: непрош,ед,изъяв,1-л,несов,пе</desc>
+          <desc annotator="Mystem+">непрош,ед,изъяв,1-л,несов,пе</desc>
+          <comment annotator="Mystem+">Mystem+ features: непрош,ед,изъяв,1-л,несов,пе</comment>
         </pos>
       </w>
       <w xml:id="a39.w.4">
@@ -2647,28 +2803,32 @@
         <t>Ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a40.w.3">
         <t>мне</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,1-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a40.w.4">
         <t>щас</t>
         <lemma class="щас" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: разг=</desc>
+          <desc annotator="Mystem+">разг,</desc>
+          <comment annotator="Mystem+">Mystem+ features: разг=</comment>
         </pos>
       </w>
       <w xml:id="a40.w.5">
         <t>объяснил</t>
         <lemma class="объяснять" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: пе=прош,ед,изъяв,муж,сов</desc>
+          <desc annotator="Mystem+">пе,прош,ед,изъяв,муж,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: пе=прош,ед,изъяв,муж,сов</comment>
         </pos>
       </w>
       <w xml:id="a40.w.6">
@@ -2683,21 +2843,24 @@
         <t>Я</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=им</desc>
+          <desc annotator="Mystem+">ед,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a41.w.3">
         <t>все</t>
         <lemma class="все" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн=(вин|им)</desc>
+          <desc annotator="Mystem+">мн,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a41.w.4">
         <t>поняла</t>
         <lemma class="понимать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: прош,ед,изъяв,жен,сов</desc>
+          <desc annotator="Mystem+">прош,ед,изъяв,жен,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: прош,ед,изъяв,жен,сов</comment>
         </pos>
       </w>
       <w xml:id="a41.w.5">
@@ -2722,7 +2885,8 @@
         <t>ней</t>
         <lemma class="она" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,жен=(пр|дат|род|твор)</desc>
+          <desc annotator="Mystem+">ед,3-л,жен,(пр|дат|род|твор)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,жен=(пр|дат|род|твор)</comment>
         </pos>
       </w>
       <w xml:id="a167.w.5">
@@ -2734,14 +2898,16 @@
         <t>буду</t>
         <lemma class="быть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,1-л</desc>
+          <desc annotator="Mystem+">нп,непрош,ед,изъяв,1-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,1-л</comment>
         </pos>
       </w>
       <w xml:id="a167.w.7">
         <t>говорить</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=инф</desc>
+          <desc annotator="Mystem+">несов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a167.w.8">
@@ -2808,7 +2974,8 @@
         <t>Понимаешь</t>
         <lemma class="понимать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: непрош,ед,изъяв,2-л,несов,пе</desc>
+          <desc annotator="Mystem+">непрош,ед,изъяв,2-л,несов,пе</desc>
+          <comment annotator="Mystem+">Mystem+ features: непрош,ед,изъяв,2-л,несов,пе</comment>
         </pos>
       </w>
       <w xml:id="a169.w.3">
@@ -2828,14 +2995,16 @@
         <t>ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a44.w.4">
         <t>говоришь</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a44.w.5">
@@ -2855,7 +3024,8 @@
         <t>Игореш</t>
         <lemma class="игореш" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: разг,муж,од=им,ед</desc>
+          <desc annotator="Mystem+">разг,муж,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: разг,муж,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a45.w.3">
@@ -2925,21 +3095,24 @@
         <t>ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a47.w.5">
         <t>можешь</t>
         <lemma class="мочь" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,нп=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">несов,нп,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,нп=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a47.w.6">
         <t>сказать</t>
         <lemma class="сказать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=инф</desc>
+          <desc annotator="Mystem+">сов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a47.w.7">
@@ -3039,21 +3212,24 @@
         <t>Ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a50.w.4">
         <t>Бене</t>
         <lemma class="беня" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,муж,од=(пр,ед|дат,ед)</desc>
+          <desc annotator="Mystem+">имя,муж,од,(пр,ед|дат,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,муж,од=(пр,ед|дат,ед)</comment>
         </pos>
       </w>
       <w xml:id="a50.w.5">
         <t>говоришь</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a50.w.6">
@@ -3091,14 +3267,16 @@
         <t>будет</t>
         <lemma class="быть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л</desc>
+          <desc annotator="Mystem+">нп,непрош,ед,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a175.w.8">
         <t>Бени</t>
         <lemma class="беня" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,муж,од=(род,ед|им,мн)</desc>
+          <desc annotator="Mystem+">имя,муж,од,(род,ед|им,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,муж,од=(род,ед|им,мн)</comment>
         </pos>
       </w>
       <w xml:id="a175.w.9">
@@ -3108,7 +3286,8 @@
         <t>я</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=им</desc>
+          <desc annotator="Mystem+">ед,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a175.w.11">
@@ -3120,14 +3299,16 @@
         <t>буду</t>
         <lemma class="быть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,1-л</desc>
+          <desc annotator="Mystem+">нп,непрош,ед,изъяв,1-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,1-л</comment>
         </pos>
       </w>
       <w xml:id="a175.w.13">
         <t>говорить</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=инф</desc>
+          <desc annotator="Mystem+">несов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a175.w.14">
@@ -3151,7 +3332,8 @@
         <t>Что</t>
         <lemma class="что" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</desc>
+          <desc annotator="Mystem+">ед,сред,неод,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a51.w.3">
@@ -3176,14 +3358,16 @@
         <t>будет</t>
         <lemma class="быть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л</desc>
+          <desc annotator="Mystem+">нп,непрош,ед,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a176.w.5">
         <t>Бени</t>
         <lemma class="беня" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,муж,од=(род,ед|им,мн)</desc>
+          <desc annotator="Mystem+">имя,муж,од,(род,ед|им,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,муж,од=(род,ед|им,мн)</comment>
         </pos>
       </w>
       <w xml:id="a176.w.6">
@@ -3195,14 +3379,16 @@
         <t>детском</t>
         <lemma class="детский" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (пр,ед,полн,муж|пр,ед,полн,сред)</desc>
+          <desc annotator="Mystem+">(пр,ед,полн,муж|пр,ед,полн,сред)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (пр,ед,полн,муж|пр,ед,полн,сред)</comment>
         </pos>
       </w>
       <w xml:id="a176.w.8">
         <t>саду</t>
         <lemma class="сад" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(дат,ед|местн,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(дат,ед|местн,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(дат,ед|местн,ед)</comment>
         </pos>
       </w>
       <w xml:id="a176.w.9">
@@ -3212,7 +3398,8 @@
         <t>я</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=им</desc>
+          <desc annotator="Mystem+">ед,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a176.w.11">
@@ -3224,14 +3411,16 @@
         <t>буду</t>
         <lemma class="быть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,1-л</desc>
+          <desc annotator="Mystem+">нп,непрош,ед,изъяв,1-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,1-л</comment>
         </pos>
       </w>
       <w xml:id="a176.w.13">
         <t>говорить</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=инф</desc>
+          <desc annotator="Mystem+">несов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a176.w.14">
@@ -3261,7 +3450,8 @@
         <t>понятно</t>
         <lemma class="понятно" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: вводн</desc>
+          <desc annotator="Mystem+">вводн</desc>
+          <comment annotator="Mystem+">Mystem+ features: вводн</comment>
         </pos>
       </w>
       <w xml:id="a52.w.5">
@@ -3302,7 +3492,8 @@
         <t>знаешь</t>
         <lemma class="знать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a53.w.6">
@@ -3327,7 +3518,8 @@
         <t>@чего</t>
         <lemma class="что" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,сред,неод=род</desc>
+          <desc annotator="Mystem+">ед,сред,неод,род</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,сред,неод=род</comment>
         </pos>
       </w>
       <w xml:id="a178.w.5">
@@ -3352,7 +3544,8 @@
         <t>@чего</t>
         <lemma class="что" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,сред,неод=род</desc>
+          <desc annotator="Mystem+">ед,сред,неод,род</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,сред,неод=род</comment>
         </pos>
       </w>
       <w xml:id="a54.w.5">
@@ -3364,7 +3557,8 @@
         <t>знаешь</t>
         <lemma class="знать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a54.w.7">
@@ -3389,7 +3583,8 @@
         <t>сказать</t>
         <lemma class="сказать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=инф</desc>
+          <desc annotator="Mystem+">сов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a55.w.5">
@@ -3399,21 +3594,24 @@
         <t>что</t>
         <lemma class="что" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</desc>
+          <desc annotator="Mystem+">ед,сред,неод,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a55.w.7">
         <t>тебе</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,2-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a55.w.8">
         <t>нужно</t>
         <lemma class="нужно" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: прдк=</desc>
+          <desc annotator="Mystem+">прдк,</desc>
+          <comment annotator="Mystem+">Mystem+ features: прдк=</comment>
         </pos>
       </w>
       <w xml:id="a55.w.9">
@@ -3425,7 +3623,8 @@
         <t>туалет</t>
         <lemma class="туалет" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a55.w.11">
@@ -3469,7 +3668,8 @@
         <t>Молодец</t>
         <lemma class="молодец" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,од=им,ед</desc>
+          <desc annotator="Mystem+">муж,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a56.w.3">
@@ -3494,7 +3694,8 @@
         <t>сказать</t>
         <lemma class="сказать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=инф</desc>
+          <desc annotator="Mystem+">сов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a57.w.5">
@@ -3504,21 +3705,24 @@
         <t>я</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=им</desc>
+          <desc annotator="Mystem+">ед,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a57.w.7">
         <t>тебя</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=(вин|род)</desc>
+          <desc annotator="Mystem+">ед,2-л,(вин|род)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=(вин|род)</comment>
         </pos>
       </w>
       <w xml:id="a57.w.8">
         <t>вижу</t>
         <lemma class="видеть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,1-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,ед,изъяв,1-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,1-л</comment>
         </pos>
       </w>
       <w xml:id="a57.w.9">
@@ -3556,28 +3760,32 @@
         <t>это</t>
         <lemma class="это" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</desc>
+          <desc annotator="Mystem+">ед,сред,неод,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a58.w.5">
         <t>мне</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,1-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a58.w.6">
         <t>надо</t>
         <lemma class="надо" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: прдк=</desc>
+          <desc annotator="Mystem+">прдк,</desc>
+          <comment annotator="Mystem+">Mystem+ features: прдк=</comment>
         </pos>
       </w>
       <w xml:id="a58.w.7">
         <t>что@</t>
         <lemma class="что" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</desc>
+          <desc annotator="Mystem+">ед,сред,неод,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a58.w.8">
@@ -3610,14 +3818,16 @@
         <t>нужно</t>
         <lemma class="нужно" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: прдк=</desc>
+          <desc annotator="Mystem+">прдк,</desc>
+          <comment annotator="Mystem+">Mystem+ features: прдк=</comment>
         </pos>
       </w>
       <w xml:id="a59.w.4">
         <t>сказать</t>
         <lemma class="сказать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=инф</desc>
+          <desc annotator="Mystem+">сов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a59.w.5">
@@ -3682,7 +3892,8 @@
         <t>сказать</t>
         <lemma class="сказать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=инф</desc>
+          <desc annotator="Mystem+">сов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a61.w.4">
@@ -3692,7 +3903,8 @@
         <t>привет</t>
         <lemma class="привет" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a61.w.6">
@@ -3702,7 +3914,8 @@
         <t>ребята</t>
         <lemma class="ребята" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн,од=им</desc>
+          <desc annotator="Mystem+">мн,од,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн,од=им</comment>
         </pos>
       </w>
       <w xml:id="a61.w.8">
@@ -3720,28 +3933,32 @@
         <t>Тебе</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,2-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a62.w.3">
         <t>соседи</t>
         <lemma class="сосед" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,од=им,мн</desc>
+          <desc annotator="Mystem+">муж,од,им,мн</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,од=им,мн</comment>
         </pos>
       </w>
       <w xml:id="a62.w.4">
         <t>наши</t>
         <lemma class="наш" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (им,мн|вин,мн,неод)</desc>
+          <desc annotator="Mystem+">(им,мн|вин,мн,неод)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (им,мн|вин,мн,неод)</comment>
         </pos>
       </w>
       <w xml:id="a62.w.5">
         <t>говорили</t>
         <lemma class="говорить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=прош,мн,изъяв</desc>
+          <desc annotator="Mystem+">несов,пе,прош,мн,изъяв</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=прош,мн,изъяв</comment>
         </pos>
       </w>
       <w xml:id="a62.w.6">
@@ -3766,14 +3983,16 @@
         <t>этом</t>
         <lemma class="этот" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (пр,ед,муж|пр,ед,сред)</desc>
+          <desc annotator="Mystem+">(пр,ед,муж|пр,ед,сред)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (пр,ед,муж|пр,ед,сред)</comment>
         </pos>
       </w>
       <w xml:id="a63.w.4">
         <t>доме</t>
         <lemma class="дом" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=пр,ед</desc>
+          <desc annotator="Mystem+">муж,неод,пр,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=пр,ед</comment>
         </pos>
       </w>
       <w xml:id="a63.w.5">
@@ -3788,7 +4007,8 @@
         <t>Помнишь</t>
         <lemma class="помнить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a64.w.3">
@@ -3849,28 +4069,32 @@
         <t>Тебе</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,2-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a66.w.3">
         <t>нужна</t>
         <lemma class="нужный" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,кр,жен</desc>
+          <desc annotator="Mystem+">ед,кр,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,кр,жен</comment>
         </pos>
       </w>
       <w xml:id="a66.w.4">
         <t>помощь</t>
         <lemma class="помощь" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">жен,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a66.w.5">
         <t>моя</t>
         <lemma class="мой" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: им,ед,жен</desc>
+          <desc annotator="Mystem+">им,ед,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: им,ед,жен</comment>
         </pos>
       </w>
       <w xml:id="a66.w.6">
@@ -3920,7 +4144,8 @@
         <t>незачем</t>
         <lemma class="незачем" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: прдк=</desc>
+          <desc annotator="Mystem+">прдк,</desc>
+          <comment annotator="Mystem+">Mystem+ features: прдк=</comment>
         </pos>
       </w>
       <w xml:id="a186.w.7">
@@ -3930,7 +4155,8 @@
         <t>незачем</t>
         <lemma class="незачем" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: прдк=</desc>
+          <desc annotator="Mystem+">прдк,</desc>
+          <comment annotator="Mystem+">Mystem+ features: прдк=</comment>
         </pos>
       </w>
       <w xml:id="a186.w.9">
@@ -3945,7 +4171,8 @@
         <t>Незачем</t>
         <lemma class="незачем" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: прдк=</desc>
+          <desc annotator="Mystem+">прдк,</desc>
+          <comment annotator="Mystem+">Mystem+ features: прдк=</comment>
         </pos>
       </w>
       <w xml:id="a67.w.3">
@@ -3970,14 +4197,16 @@
         <t>нужна</t>
         <lemma class="нужный" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,кр,жен</desc>
+          <desc annotator="Mystem+">ед,кр,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,кр,жен</comment>
         </pos>
       </w>
       <w xml:id="a187.w.5">
         <t>будет</t>
         <lemma class="быть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л</desc>
+          <desc annotator="Mystem+">нп,непрош,ед,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a187.w.6">
@@ -3992,21 +4221,24 @@
         <t>я</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=им</desc>
+          <desc annotator="Mystem+">ед,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a187.w.9">
         <t>тебе</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,2-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a187.w.10">
         <t>скажу</t>
         <lemma class="сказать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=непрош,ед,изъяв,1-л</desc>
+          <desc annotator="Mystem+">сов,пе,непрош,ед,изъяв,1-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=непрош,ед,изъяв,1-л</comment>
         </pos>
       </w>
       <w xml:id="a187.w.11">
@@ -4024,14 +4256,16 @@
         <t>Скажешь</t>
         <lemma class="сказать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">сов,пе,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a68.w.3">
         <t>мне</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,1-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a68.w.4">
@@ -4059,7 +4293,8 @@
         <t>Спасибо</t>
         <lemma class="спасибо" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сред,неод=неиз</desc>
+          <desc annotator="Mystem+">сред,неод,неиз</desc>
+          <comment annotator="Mystem+">Mystem+ features: сред,неод=неиз</comment>
         </pos>
       </w>
       <w xml:id="a69.w.3">
@@ -4074,21 +4309,24 @@
         <t>Мне</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,1-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a189.w.3">
         <t>хочется</t>
         <lemma class="хотеться" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,нп=непрош,изъяв</desc>
+          <desc annotator="Mystem+">несов,нп,непрош,изъяв</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,нп=непрош,изъяв</comment>
         </pos>
       </w>
       <w xml:id="a189.w.4">
         <t>пить</t>
         <lemma class="пить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=инф</desc>
+          <desc annotator="Mystem+">несов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a189.w.5">
@@ -4103,7 +4341,8 @@
         <t>Пить</t>
         <lemma class="пить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=инф</desc>
+          <desc annotator="Mystem+">несов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a70.w.3">
@@ -4118,21 +4357,24 @@
         <t>Тебе</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,2-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a71.w.3">
         <t>дать</t>
         <lemma class="давать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: пе=инф,сов</desc>
+          <desc annotator="Mystem+">пе,инф,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: пе=инф,сов</comment>
         </pos>
       </w>
       <w xml:id="a71.w.4">
         <t>попить</t>
         <lemma class="попить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=инф</desc>
+          <desc annotator="Mystem+">сов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a71.w.5">
@@ -4160,14 +4402,16 @@
         <t>Щас</t>
         <lemma class="щас" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: разг=</desc>
+          <desc annotator="Mystem+">разг,</desc>
+          <comment annotator="Mystem+">Mystem+ features: разг=</comment>
         </pos>
       </w>
       <w xml:id="a72.w.3">
         <t>налью</t>
         <lemma class="наливать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: пе=непрош,ед,изъяв,1-л,сов</desc>
+          <desc annotator="Mystem+">пе,непрош,ед,изъяв,1-л,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: пе=непрош,ед,изъяв,1-л,сов</comment>
         </pos>
       </w>
       <w xml:id="a72.w.4">
@@ -4203,7 +4447,8 @@
         <t>дорогой</t>
         <lemma class="дорогой" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</desc>
+          <desc annotator="Mystem+">(вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</comment>
         </pos>
       </w>
       <w xml:id="a73.w.5">
@@ -4228,14 +4473,16 @@
         <t>хотел</t>
         <lemma class="хотеть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=прош,ед,изъяв,муж</desc>
+          <desc annotator="Mystem+">несов,пе,прош,ед,изъяв,муж</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=прош,ед,изъяв,муж</comment>
         </pos>
       </w>
       <w xml:id="a75.w.5">
         <t>пить</t>
         <lemma class="пить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=инф</desc>
+          <desc annotator="Mystem+">несов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a75.w.6">
@@ -4250,14 +4497,16 @@
         <t>Все</t>
         <lemma class="все" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн=(вин|им)</desc>
+          <desc annotator="Mystem+">мн,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a76.w.3">
         <t>выпил</t>
         <lemma class="выпивать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: пе=прош,ед,изъяв,муж,сов</desc>
+          <desc annotator="Mystem+">пе,прош,ед,изъяв,муж,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: пе=прош,ед,изъяв,муж,сов</comment>
         </pos>
       </w>
       <w xml:id="a76.w.4">
@@ -4272,7 +4521,8 @@
         <t>Смотри</t>
         <lemma class="смотреть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=ед,пов,2-л</desc>
+          <desc annotator="Mystem+">несов,пе,ед,пов,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=ед,пов,2-л</comment>
         </pos>
       </w>
       <w xml:id="a192.w.3">
@@ -4287,7 +4537,8 @@
         <t>Осталось</t>
         <lemma class="оставаться" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=прош,ед,изъяв,сред,сов</desc>
+          <desc annotator="Mystem+">нп,прош,ед,изъяв,сред,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=прош,ед,изъяв,сред,сов</comment>
         </pos>
       </w>
       <w xml:id="a193.w.3">
@@ -4307,28 +4558,32 @@
         <t>какой</t>
         <lemma class="какой" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (пр,ед,жен|дат,ед,жен|род,ед,жен|твор,ед,жен|вин,ед,муж,неод|им,ед,муж)</desc>
+          <desc annotator="Mystem+">(пр,ед,жен|дат,ед,жен|род,ед,жен|твор,ед,жен|вин,ед,муж,неод|им,ед,муж)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (пр,ед,жен|дат,ед,жен|род,ед,жен|твор,ед,жен|вин,ед,муж,неод|им,ед,муж)</comment>
         </pos>
       </w>
       <w xml:id="a77.w.4">
         <t>сильный</t>
         <lemma class="сильный" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж)</desc>
+          <desc annotator="Mystem+">(вин,ед,полн,муж,неод|им,ед,полн,муж)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж)</comment>
         </pos>
       </w>
       <w xml:id="a77.w.5">
         <t>дождь</t>
         <lemma class="дождь" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a77.w.6">
         <t>пошел</t>
         <lemma class="пойти" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,нп=прош,ед,изъяв,муж</desc>
+          <desc annotator="Mystem+">сов,нп,прош,ед,изъяв,муж</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,нп=прош,ед,изъяв,муж</comment>
         </pos>
       </w>
       <w xml:id="a77.w.7">
@@ -4341,7 +4596,8 @@
         <t>смотри</t>
         <lemma class="смотреть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=ед,пов,2-л</desc>
+          <desc annotator="Mystem+">несов,пе,ед,пов,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=ед,пов,2-л</comment>
         </pos>
       </w>
       <w xml:id="a77.w.10">
@@ -4387,7 +4643,8 @@
         <t>ливень</t>
         <lemma class="ливень" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a78.w.4">
@@ -4402,7 +4659,8 @@
         <t>Что</t>
         <lemma class="что" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</desc>
+          <desc annotator="Mystem+">ед,сред,неод,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a195.w.3">
@@ -4422,7 +4680,8 @@
         <t>ливень</t>
         <lemma class="ливень" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a79.w.4">
@@ -4450,28 +4709,32 @@
         <t>Придется</t>
         <lemma class="приходиться" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л,сов</desc>
+          <desc annotator="Mystem+">нп,непрош,ед,изъяв,3-л,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л,сов</comment>
         </pos>
       </w>
       <w xml:id="a197.w.3">
         <t>весь</t>
         <lemma class="весь" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (вин,ед,муж,неод|им,ед,муж)</desc>
+          <desc annotator="Mystem+">(вин,ед,муж,неод|им,ед,муж)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (вин,ед,муж,неод|им,ед,муж)</comment>
         </pos>
       </w>
       <w xml:id="a197.w.4">
         <t>день</t>
         <lemma class="день" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a197.w.5">
         <t>сидеть</t>
         <lemma class="сидеть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,нп=инф</desc>
+          <desc annotator="Mystem+">несов,нп,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,нп=инф</comment>
         </pos>
       </w>
       <w xml:id="a197.w.6">
@@ -4509,7 +4772,8 @@
         <t>вы</t>
         <lemma class="вы" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн,2-л=им</desc>
+          <desc annotator="Mystem+">мн,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a81.w.4">
@@ -4521,7 +4785,8 @@
         <t>гуляли</t>
         <lemma class="гулять" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,нп=прош,мн,изъяв</desc>
+          <desc annotator="Mystem+">несов,нп,прош,мн,изъяв</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,нп=прош,мн,изъяв</comment>
         </pos>
       </w>
       <w xml:id="a81.w.6">
@@ -4601,21 +4866,24 @@
         <t>Тебе</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,2-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a83.w.3">
         <t>принести</t>
         <lemma class="приносить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: инф,сов</desc>
+          <desc annotator="Mystem+">инф,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: инф,сов</comment>
         </pos>
       </w>
       <w xml:id="a83.w.4">
         <t>горошка</t>
         <lemma class="горошек" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=род,ед</desc>
+          <desc annotator="Mystem+">муж,неод,род,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=род,ед</comment>
         </pos>
       </w>
       <w xml:id="a83.w.5">
@@ -4630,7 +4898,8 @@
         <t>Мм</t>
         <lemma class="мм" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=неиз</desc>
+          <desc annotator="Mystem+">муж,неод,неиз</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=неиз</comment>
         </pos>
       </w>
       <w xml:id="a200.w.3">
@@ -4661,21 +4930,24 @@
         <t>Собирай</t>
         <lemma class="собирать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,пов,2-л,несов,пе</desc>
+          <desc annotator="Mystem+">ед,пов,2-л,несов,пе</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,пов,2-л,несов,пе</comment>
         </pos>
       </w>
       <w xml:id="a84.w.3">
         <t>щас</t>
         <lemma class="щас" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: разг=</desc>
+          <desc annotator="Mystem+">разг,</desc>
+          <comment annotator="Mystem+">Mystem+ features: разг=</comment>
         </pos>
       </w>
       <w xml:id="a84.w.4">
         <t>принесу</t>
         <lemma class="приносить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: непрош,ед,изъяв,1-л,сов</desc>
+          <desc annotator="Mystem+">непрош,ед,изъяв,1-л,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: непрош,ед,изъяв,1-л,сов</comment>
         </pos>
       </w>
       <w xml:id="a84.w.5">
@@ -4765,7 +5037,8 @@
         <t>А</t>
         <lemma class="а" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сокр=неиз</desc>
+          <desc annotator="Mystem+">сокр,неиз</desc>
+          <comment annotator="Mystem+">Mystem+ features: сокр=неиз</comment>
         </pos>
       </w>
       <w xml:id="a85.w.4">
@@ -4783,7 +5056,8 @@
         <t>вы</t>
         <lemma class="вы" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн,2-л=им</desc>
+          <desc annotator="Mystem+">мн,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a85.w.8">
@@ -4795,14 +5069,16 @@
         <t>Лерой</t>
         <lemma class="лерой" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</desc>
+          <desc annotator="Mystem+">имя,муж,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: имя,муж,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a85.w.10">
         <t>гуляли</t>
         <lemma class="гулять" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,нп=прош,мн,изъяв</desc>
+          <desc annotator="Mystem+">несов,нп,прош,мн,изъяв</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,нп=прош,мн,изъяв</comment>
         </pos>
       </w>
       <w xml:id="a85.w.11">
@@ -4886,7 +5162,8 @@
         <t>Все</t>
         <lemma class="все" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн=(вин|им)</desc>
+          <desc annotator="Mystem+">мн,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a86.w.3">
@@ -4919,7 +5196,8 @@
         <t>Мм</t>
         <lemma class="мм" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=неиз</desc>
+          <desc annotator="Mystem+">муж,неод,неиз</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=неиз</comment>
         </pos>
       </w>
       <w xml:id="a88.w.3">
@@ -4973,21 +5251,24 @@
         <t>наш</t>
         <lemma class="наш" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (вин,ед,муж,неод|им,ед,муж)</desc>
+          <desc annotator="Mystem+">(вин,ед,муж,неод|им,ед,муж)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (вин,ед,муж,неод|им,ед,муж)</comment>
         </pos>
       </w>
       <w xml:id="a90.w.6">
         <t>самолет</t>
         <lemma class="самолет" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a90.w.7">
         <t>полетит</t>
         <lemma class="полететь" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,нп=непрош,ед,изъяв,3-л</desc>
+          <desc annotator="Mystem+">сов,нп,непрош,ед,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,нп=непрош,ед,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a90.w.8">
@@ -5002,14 +5283,16 @@
         <t>Винтовой</t>
         <lemma class="винтовой" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</desc>
+          <desc annotator="Mystem+">(вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж|пр,ед,полн,жен|дат,ед,полн,жен|род,ед,полн,жен|твор,ед,полн,жен)</comment>
         </pos>
       </w>
       <w xml:id="a91.w.3">
         <t>самолет</t>
         <lemma class="самолет" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a91.w.4">
@@ -5024,14 +5307,16 @@
         <t>он</t>
         <lemma class="он" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,муж=им</desc>
+          <desc annotator="Mystem+">ед,3-л,муж,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,муж=им</comment>
         </pos>
       </w>
       <w xml:id="a91.w.7">
         <t>полетит</t>
         <lemma class="полететь" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,нп=непрош,ед,изъяв,3-л</desc>
+          <desc annotator="Mystem+">сов,нп,непрош,ед,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,нп=непрош,ед,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a91.w.8">
@@ -5051,7 +5336,8 @@
         <t>Азию</t>
         <lemma class="азия" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: гео,жен,неод=вин,ед</desc>
+          <desc annotator="Mystem+">гео,жен,неод,вин,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: гео,жен,неод=вин,ед</comment>
         </pos>
       </w>
       <w xml:id="a208.w.4">
@@ -5071,7 +5357,8 @@
         <t>Азию</t>
         <lemma class="азия" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: гео,жен,неод=вин,ед</desc>
+          <desc annotator="Mystem+">гео,жен,неод,вин,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: гео,жен,неод=вин,ед</comment>
         </pos>
       </w>
       <w xml:id="a92.w.4">
@@ -5099,7 +5386,8 @@
         <t>Мм</t>
         <lemma class="мм" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=неиз</desc>
+          <desc annotator="Mystem+">муж,неод,неиз</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=неиз</comment>
         </pos>
       </w>
       <w xml:id="a93.w.3">
@@ -5124,7 +5412,8 @@
         <t>он</t>
         <lemma class="он" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,муж=им</desc>
+          <desc annotator="Mystem+">ед,3-л,муж,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,муж=им</comment>
         </pos>
       </w>
       <w xml:id="a94.w.5">
@@ -5136,14 +5425,16 @@
         <t>будет</t>
         <lemma class="быть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л</desc>
+          <desc annotator="Mystem+">нп,непрош,ед,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a94.w.7">
         <t>делать</t>
         <lemma class="делать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=инф</desc>
+          <desc annotator="Mystem+">несов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a94.w.8">
@@ -5155,7 +5446,8 @@
         <t>Азии</t>
         <lemma class="азия" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: гео,жен,неод=(пр,ед|вин,мн|дат,ед|род,ед|им,мн)</desc>
+          <desc annotator="Mystem+">гео,жен,неод,(пр,ед|вин,мн|дат,ед|род,ед|им,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: гео,жен,неод=(пр,ед|вин,мн|дат,ед|род,ед|им,мн)</comment>
         </pos>
       </w>
       <w xml:id="a94.w.10">
@@ -5170,14 +5462,16 @@
         <t>Он</t>
         <lemma class="он" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,муж=им</desc>
+          <desc annotator="Mystem+">ед,3-л,муж,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,муж=им</comment>
         </pos>
       </w>
       <w xml:id="a210.w.3">
         <t>полетит</t>
         <lemma class="полететь" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,нп=непрош,ед,изъяв,3-л</desc>
+          <desc annotator="Mystem+">сов,нп,непрош,ед,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,нп=непрош,ед,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a210.w.4">
@@ -5187,7 +5481,8 @@
         <t>ам</t>
         <lemma class="ама" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,од=(вин,мн|род,мн)</desc>
+          <desc annotator="Mystem+">жен,од,(вин,мн|род,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,од=(вин,мн|род,мн)</comment>
         </pos>
       </w>
       <w xml:id="a210.w.6">
@@ -5202,7 +5497,8 @@
         <t>Азии</t>
         <lemma class="азия" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: гео,жен,неод=(пр,ед|вин,мн|дат,ед|род,ед|им,мн)</desc>
+          <desc annotator="Mystem+">гео,жен,неод,(пр,ед|вин,мн|дат,ед|род,ед|им,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: гео,жен,неод=(пр,ед|вин,мн|дат,ед|род,ед|им,мн)</comment>
         </pos>
       </w>
       <w xml:id="a210.w.9">
@@ -5214,7 +5510,8 @@
         <t>Америку</t>
         <lemma class="америка" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: гео,жен,неод=вин,ед</desc>
+          <desc annotator="Mystem+">гео,жен,неод,вин,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: гео,жен,неод=вин,ед</comment>
         </pos>
       </w>
       <w xml:id="a210.w.11">
@@ -5234,7 +5531,8 @@
         <t>Америку</t>
         <lemma class="америка" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: гео,жен,неод=вин,ед</desc>
+          <desc annotator="Mystem+">гео,жен,неод,вин,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: гео,жен,неод=вин,ед</comment>
         </pos>
       </w>
       <w xml:id="a95.w.4">
@@ -5272,7 +5570,8 @@
         <t>Азию</t>
         <lemma class="азия" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: гео,жен,неод=вин,ед</desc>
+          <desc annotator="Mystem+">гео,жен,неод,вин,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: гео,жен,неод=вин,ед</comment>
         </pos>
       </w>
       <w xml:id="a96.w.5">
@@ -5292,7 +5591,8 @@
         <t>Америку</t>
         <lemma class="америка" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: гео,жен,неод=вин,ед</desc>
+          <desc annotator="Mystem+">гео,жен,неод,вин,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: гео,жен,неод=вин,ед</comment>
         </pos>
       </w>
       <w xml:id="a96.w.9">
@@ -5312,14 +5612,16 @@
         <t>Америки</t>
         <lemma class="америка" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: гео,жен,неод=(вин,мн|род,ед|им,мн)</desc>
+          <desc annotator="Mystem+">гео,жен,неод,(вин,мн|род,ед|им,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: гео,жен,неод=(вин,мн|род,ед|им,мн)</comment>
         </pos>
       </w>
       <w xml:id="a213.w.4">
         <t>ам</t>
         <lemma class="ама" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,од=(вин,мн|род,мн)</desc>
+          <desc annotator="Mystem+">жен,од,(вин,мн|род,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,од=(вин,мн|род,мн)</comment>
         </pos>
       </w>
       <w xml:id="a213.w.5">
@@ -5331,7 +5633,8 @@
         <t>Европу</t>
         <lemma class="европа" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: гео,жен,неод=вин,ед</desc>
+          <desc annotator="Mystem+">гео,жен,неод,вин,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: гео,жен,неод=вин,ед</comment>
         </pos>
       </w>
       <w xml:id="a213.w.7">
@@ -5351,7 +5654,8 @@
         <t>Европу</t>
         <lemma class="европа" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: гео,жен,неод=вин,ед</desc>
+          <desc annotator="Mystem+">гео,жен,неод,вин,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: гео,жен,неод=вин,ед</comment>
         </pos>
       </w>
       <w xml:id="a97.w.4">
@@ -5394,7 +5698,8 @@
         <t>Европы</t>
         <lemma class="европа" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: гео,жен,неод=(вин,мн|род,ед|им,мн)</desc>
+          <desc annotator="Mystem+">гео,жен,неод,(вин,мн|род,ед|им,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: гео,жен,неод=(вин,мн|род,ед|им,мн)</comment>
         </pos>
       </w>
       <w xml:id="a98.w.5">
@@ -5424,7 +5729,8 @@
         <t>Европы</t>
         <lemma class="европа" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: гео,жен,неод=(вин,мн|род,ед|им,мн)</desc>
+          <desc annotator="Mystem+">гео,жен,неод,(вин,мн|род,ед|им,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: гео,жен,неод=(вин,мн|род,ед|им,мн)</comment>
         </pos>
       </w>
       <w xml:id="a215.w.5">
@@ -5434,7 +5740,8 @@
         <t>в</t>
         <lemma class="в" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сокр=неиз</desc>
+          <desc annotator="Mystem+">сокр,неиз</desc>
+          <comment annotator="Mystem+">Mystem+ features: сокр=неиз</comment>
         </pos>
       </w>
       <w xml:id="a215.w.7">
@@ -5447,7 +5754,8 @@
         <t>Бостон</t>
         <lemma class="бостон" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a215.w.10">
@@ -5462,7 +5770,8 @@
         <t>Бостон</t>
         <lemma class="бостон" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a215.w.13">
@@ -5482,7 +5791,8 @@
         <t>Бостон</t>
         <lemma class="бостон" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a99.w.4">
@@ -5494,7 +5804,8 @@
         <t>Европы</t>
         <lemma class="европа" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: гео,жен,неод=(вин,мн|род,ед|им,мн)</desc>
+          <desc annotator="Mystem+">гео,жен,неод,(вин,мн|род,ед|им,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: гео,жен,неод=(вин,мн|род,ед|им,мн)</comment>
         </pos>
       </w>
       <w xml:id="a99.w.6">
@@ -5522,28 +5833,32 @@
         <t>Бостон</t>
         <lemma class="бостон" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a101.w.3">
         <t>наша</t>
         <lemma class="наш" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: им,ед,жен</desc>
+          <desc annotator="Mystem+">им,ед,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: им,ед,жен</comment>
         </pos>
       </w>
       <w xml:id="a101.w.4">
         <t>конечная</t>
         <lemma class="конечный" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: им,ед,полн,жен</desc>
+          <desc annotator="Mystem+">им,ед,полн,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: им,ед,полн,жен</comment>
         </pos>
       </w>
       <w xml:id="a101.w.5">
         <t>точка</t>
         <lemma class="точка" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,неод=им,ед</desc>
+          <desc annotator="Mystem+">жен,неод,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,неод=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a101.w.6">
@@ -5581,7 +5896,8 @@
         <t>он</t>
         <lemma class="он" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,3-л,муж=им</desc>
+          <desc annotator="Mystem+">ед,3-л,муж,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,3-л,муж=им</comment>
         </pos>
       </w>
       <w xml:id="a102.w.5">
@@ -5593,14 +5909,16 @@
         <t>Бостон</t>
         <lemma class="бостон" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a102.w.7">
         <t>полетит</t>
         <lemma class="полететь" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,нп=непрош,ед,изъяв,3-л</desc>
+          <desc annotator="Mystem+">сов,нп,непрош,ед,изъяв,3-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,нп=непрош,ед,изъяв,3-л</comment>
         </pos>
       </w>
       <w xml:id="a102.w.8">
@@ -5625,14 +5943,16 @@
         <t>Петербург</t>
         <lemma class="петербург" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: гео,муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">гео,муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: гео,муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a103.w.5">
         <t>мы</t>
         <lemma class="мы" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн,1-л=им</desc>
+          <desc annotator="Mystem+">мн,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a103.w.6">
@@ -5644,7 +5964,8 @@
         <t>полетим</t>
         <lemma class="полететь" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,нп=(непрош,мн,изъяв,1-л|мн,пов,1-л)</desc>
+          <desc annotator="Mystem+">сов,нп,(непрош,мн,изъяв,1-л|мн,пов,1-л)</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,нп=(непрош,мн,изъяв,1-л|мн,пов,1-л)</comment>
         </pos>
       </w>
       <w xml:id="a103.w.8">
@@ -5662,7 +5983,8 @@
         <t>бабушкам</t>
         <lemma class="бабушка" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,од=дат,мн</desc>
+          <desc annotator="Mystem+">жен,од,дат,мн</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,од=дат,мн</comment>
         </pos>
       </w>
       <w xml:id="a103.w.12">
@@ -5680,7 +6002,8 @@
         <t>Видимо</t>
         <lemma class="видимо" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: вводн=</desc>
+          <desc annotator="Mystem+">вводн,</desc>
+          <comment annotator="Mystem+">Mystem+ features: вводн=</comment>
         </pos>
       </w>
       <w xml:id="a105.w.3">
@@ -5737,7 +6060,8 @@
         <t>Жуешь</t>
         <lemma class="жевать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a108.w.3">
@@ -5752,7 +6076,8 @@
         <t>Спасибо</t>
         <lemma class="спасибо" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сред,неод=неиз</desc>
+          <desc annotator="Mystem+">сред,неод,неиз</desc>
+          <comment annotator="Mystem+">Mystem+ features: сред,неод=неиз</comment>
         </pos>
       </w>
       <w xml:id="a109.w.3">
@@ -5777,7 +6102,8 @@
         <t>что</t>
         <lemma class="что" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</desc>
+          <desc annotator="Mystem+">ед,сред,неод,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a218.w.5">
@@ -5805,7 +6131,8 @@
         <t>что</t>
         <lemma class="что" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</desc>
+          <desc annotator="Mystem+">ед,сред,неод,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a110.w.6">
@@ -5826,21 +6153,24 @@
         <t>Ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a111.w.3">
         <t>меня</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=(вин|род)</desc>
+          <desc annotator="Mystem+">ед,1-л,(вин|род)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=(вин|род)</comment>
         </pos>
       </w>
       <w xml:id="a111.w.4">
         <t>угощаешь</t>
         <lemma class="угощать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: непрош,ед,изъяв,2-л,несов,пе</desc>
+          <desc annotator="Mystem+">непрош,ед,изъяв,2-л,несов,пе</desc>
+          <comment annotator="Mystem+">Mystem+ features: непрош,ед,изъяв,2-л,несов,пе</comment>
         </pos>
       </w>
       <w xml:id="a111.w.5">
@@ -5868,28 +6198,32 @@
         <t>Ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a112.w.3">
         <t>мой</t>
         <lemma class="мой" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (вин,ед,муж,неод|им,ед,муж)</desc>
+          <desc annotator="Mystem+">(вин,ед,муж,неод|им,ед,муж)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (вин,ед,муж,неод|им,ед,муж)</comment>
         </pos>
       </w>
       <w xml:id="a112.w.4">
         <t>добрый</t>
         <lemma class="добрый" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж)</desc>
+          <desc annotator="Mystem+">(вин,ед,полн,муж,неод|им,ед,полн,муж)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж)</comment>
         </pos>
       </w>
       <w xml:id="a112.w.5">
         <t>мальчик</t>
         <lemma class="мальчик" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,од=им,ед</desc>
+          <desc annotator="Mystem+">муж,од,им,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,од=им,ед</comment>
         </pos>
       </w>
       <w xml:id="a112.w.6">
@@ -5904,7 +6238,8 @@
         <t>Спасибо</t>
         <lemma class="спасибо" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сред,неод=неиз</desc>
+          <desc annotator="Mystem+">сред,неод,неиз</desc>
+          <comment annotator="Mystem+">Mystem+ features: сред,неод=неиз</comment>
         </pos>
       </w>
       <w xml:id="a113.w.3">
@@ -5919,7 +6254,8 @@
         <t>Спасибо</t>
         <lemma class="спасибо" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сред,неод=неиз</desc>
+          <desc annotator="Mystem+">сред,неод,неиз</desc>
+          <comment annotator="Mystem+">Mystem+ features: сред,неод=неиз</comment>
         </pos>
       </w>
       <w xml:id="a114.w.3">
@@ -5929,14 +6265,16 @@
         <t>мой</t>
         <lemma class="мой" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (вин,ед,муж,неод|им,ед,муж)</desc>
+          <desc annotator="Mystem+">(вин,ед,муж,неод|им,ед,муж)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (вин,ед,муж,неод|им,ед,муж)</comment>
         </pos>
       </w>
       <w xml:id="a114.w.5">
         <t>хороший</t>
         <lemma class="хороший" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж)</desc>
+          <desc annotator="Mystem+">(вин,ед,полн,муж,неод|им,ед,полн,муж)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (вин,ед,полн,муж,неод|им,ед,полн,муж)</comment>
         </pos>
       </w>
       <w xml:id="a114.w.6">
@@ -5962,35 +6300,40 @@
         <t>Давай</t>
         <lemma class="давать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: пе=ед,пов,2-л,несов</desc>
+          <desc annotator="Mystem+">пе,ед,пов,2-л,несов</desc>
+          <comment annotator="Mystem+">Mystem+ features: пе=ед,пов,2-л,несов</comment>
         </pos>
       </w>
       <w xml:id="a115.w.3">
         <t>дальше</t>
         <lemma class="далеко" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: срав</desc>
+          <desc annotator="Mystem+">срав</desc>
+          <comment annotator="Mystem+">Mystem+ features: срав</comment>
         </pos>
       </w>
       <w xml:id="a115.w.4">
         <t>собирать</t>
         <lemma class="собирать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: инф,несов,пе</desc>
+          <desc annotator="Mystem+">инф,несов,пе</desc>
+          <comment annotator="Mystem+">Mystem+ features: инф,несов,пе</comment>
         </pos>
       </w>
       <w xml:id="a115.w.5">
         <t>наш</t>
         <lemma class="наш" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (вин,ед,муж,неод|им,ед,муж)</desc>
+          <desc annotator="Mystem+">(вин,ед,муж,неод|им,ед,муж)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (вин,ед,муж,неод|им,ед,муж)</comment>
         </pos>
       </w>
       <w xml:id="a115.w.6">
         <t>самолет</t>
         <lemma class="самолет" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a115.w.7">
@@ -6005,7 +6348,8 @@
         <t>Давай</t>
         <lemma class="давать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: пе=ед,пов,2-л,несов</desc>
+          <desc annotator="Mystem+">пе,ед,пов,2-л,несов</desc>
+          <comment annotator="Mystem+">Mystem+ features: пе=ед,пов,2-л,несов</comment>
         </pos>
       </w>
       <w xml:id="a221.w.3">
@@ -6020,7 +6364,8 @@
         <t>Перелистываем</t>
         <lemma class="перелистывать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: пе=(непрош,мн,изъяв,1-л,несов|непрош,ед,прич,кр,муж,несов,страд)</desc>
+          <desc annotator="Mystem+">пе,(непрош,мн,изъяв,1-л,несов|непрош,ед,прич,кр,муж,несов,страд)</desc>
+          <comment annotator="Mystem+">Mystem+ features: пе=(непрош,мн,изъяв,1-л,несов|непрош,ед,прич,кр,муж,несов,страд)</comment>
         </pos>
       </w>
       <w xml:id="a222.w.3">
@@ -6035,7 +6380,8 @@
         <t>Перелистываем</t>
         <lemma class="перелистывать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: пе=(непрош,мн,изъяв,1-л,несов|непрош,ед,прич,кр,муж,несов,страд)</desc>
+          <desc annotator="Mystem+">пе,(непрош,мн,изъяв,1-л,несов|непрош,ед,прич,кр,муж,несов,страд)</desc>
+          <comment annotator="Mystem+">Mystem+ features: пе=(непрош,мн,изъяв,1-л,несов|непрош,ед,прич,кр,муж,несов,страд)</comment>
         </pos>
       </w>
       <w xml:id="a223.w.3">
@@ -6063,7 +6409,8 @@
         <t>Снимаешь</t>
         <lemma class="снимать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: пе=непрош,ед,изъяв,2-л,несов</desc>
+          <desc annotator="Mystem+">пе,непрош,ед,изъяв,2-л,несов</desc>
+          <comment annotator="Mystem+">Mystem+ features: пе=непрош,ед,изъяв,2-л,несов</comment>
         </pos>
       </w>
       <w xml:id="a225.w.3">
@@ -6078,7 +6425,8 @@
         <t>Берем</t>
         <lemma class="брать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,1-л</desc>
+          <desc annotator="Mystem+">несов,пе,непрош,мн,изъяв,1-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,пе=непрош,мн,изъяв,1-л</comment>
         </pos>
       </w>
       <w xml:id="a226.w.3">
@@ -6090,14 +6438,16 @@
         <t>такую</t>
         <lemma class="такой" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: вин,ед,жен</desc>
+          <desc annotator="Mystem+">вин,ед,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: вин,ед,жен</comment>
         </pos>
       </w>
       <w xml:id="a226.w.5">
         <t>черную</t>
         <lemma class="черный" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: вин,ед,полн,жен</desc>
+          <desc annotator="Mystem+">вин,ед,полн,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: вин,ед,полн,жен</comment>
         </pos>
       </w>
       <w xml:id="a226.w.6">
@@ -6112,7 +6462,8 @@
         <t>Мам</t>
         <lemma class="мама" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,од=(вин,мн|род,мн|зват,ед)</desc>
+          <desc annotator="Mystem+">жен,од,(вин,мн|род,мн|зват,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,од=(вин,мн|род,мн|зват,ед)</comment>
         </pos>
       </w>
       <w xml:id="a227.w.3">
@@ -6122,14 +6473,16 @@
         <t>ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a227.w.5">
         <t>можешь</t>
         <lemma class="мочь" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: несов,нп=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">несов,нп,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: несов,нп=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a227.w.6">
@@ -6155,14 +6508,16 @@
         <t>такую</t>
         <lemma class="такой" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: вин,ед,жен</desc>
+          <desc annotator="Mystem+">вин,ед,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: вин,ед,жен</comment>
         </pos>
       </w>
       <w xml:id="a227.w.12">
         <t>вставить</t>
         <lemma class="вставлять" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: пе=инф,сов</desc>
+          <desc annotator="Mystem+">пе,инф,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: пе=инф,сов</comment>
         </pos>
       </w>
       <w xml:id="a227.w.13">
@@ -6174,14 +6529,16 @@
         <t>две</t>
         <lemma class="два" annotator="Mystem+"/>
         <pos class="NUM" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (им,жен|вин,жен,неод)</desc>
+          <desc annotator="Mystem+">(им,жен|вин,жен,неод)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (им,жен|вин,жен,неод)</comment>
         </pos>
       </w>
       <w xml:id="a227.w.15">
         <t>таких</t>
         <lemma class="такой" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (пр,мн|род,мн|вин,мн,од)</desc>
+          <desc annotator="Mystem+">(пр,мн|род,мн|вин,мн,од)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (пр,мн|род,мн|вин,мн,од)</comment>
         </pos>
       </w>
       <w xml:id="a227.w.16">
@@ -6201,7 +6558,8 @@
         <t>я</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=им</desc>
+          <desc annotator="Mystem+">ед,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a229.w.4">
@@ -6213,14 +6571,16 @@
         <t>эту</t>
         <lemma class="этот" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: вин,ед,жен</desc>
+          <desc annotator="Mystem+">вин,ед,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: вин,ед,жен</comment>
         </pos>
       </w>
       <w xml:id="a229.w.6">
         <t>вставлю</t>
         <lemma class="вставлять" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: пе=непрош,ед,изъяв,1-л,сов</desc>
+          <desc annotator="Mystem+">пе,непрош,ед,изъяв,1-л,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: пе=непрош,ед,изъяв,1-л,сов</comment>
         </pos>
       </w>
       <w xml:id="a229.w.7">
@@ -6235,7 +6595,8 @@
         <t>Ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a116.w.3">
@@ -6247,21 +6608,24 @@
         <t>раз</t>
         <lemma class="раз" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|род,мн|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|род,мн|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|род,мн|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a116.w.5">
         <t>покажи</t>
         <lemma class="показывать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,пов,2-л,сов</desc>
+          <desc annotator="Mystem+">ед,пов,2-л,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,пов,2-л,сов</comment>
         </pos>
       </w>
       <w xml:id="a116.w.6">
         <t>мне</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,1-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a116.w.7">
@@ -6271,14 +6635,16 @@
         <t>расскажи</t>
         <lemma class="рассказывать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,пов,2-л,сов</desc>
+          <desc annotator="Mystem+">ед,пов,2-л,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,пов,2-л,сов</comment>
         </pos>
       </w>
       <w xml:id="a116.w.9">
         <t>мне</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,1-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a116.w.10">
@@ -6293,21 +6659,24 @@
         <t>мне</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,1-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a116.w.13">
         <t>нужно</t>
         <lemma class="нужно" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: прдк=</desc>
+          <desc annotator="Mystem+">прдк,</desc>
+          <comment annotator="Mystem+">Mystem+ features: прдк=</comment>
         </pos>
       </w>
       <w xml:id="a116.w.14">
         <t>сделать</t>
         <lemma class="сделать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=инф</desc>
+          <desc annotator="Mystem+">сов,пе,инф</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=инф</comment>
         </pos>
       </w>
       <w xml:id="a116.w.15">
@@ -6322,7 +6691,8 @@
         <t>Такую</t>
         <lemma class="такой" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: вин,ед,жен</desc>
+          <desc annotator="Mystem+">вин,ед,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: вин,ед,жен</comment>
         </pos>
       </w>
       <w xml:id="a230.w.3">
@@ -6342,7 +6712,8 @@
         <t>такую</t>
         <lemma class="такой" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: вин,ед,жен</desc>
+          <desc annotator="Mystem+">вин,ед,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: вин,ед,жен</comment>
         </pos>
       </w>
       <w xml:id="a231.w.4">
@@ -6386,7 +6757,8 @@
         <t>такую</t>
         <lemma class="такой" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: вин,ед,жен</desc>
+          <desc annotator="Mystem+">вин,ед,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: вин,ед,жен</comment>
         </pos>
       </w>
       <w xml:id="a232.w.10">
@@ -6396,7 +6768,8 @@
         <t>хорошо</t>
         <lemma class="хорошо" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: вводн</desc>
+          <desc annotator="Mystem+">вводн</desc>
+          <comment annotator="Mystem+">Mystem+ features: вводн</comment>
         </pos>
       </w>
       <w xml:id="a232.w.12">
@@ -6411,7 +6784,8 @@
         <t>Подожди</t>
         <lemma class="подождать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=ед,пов,2-л</desc>
+          <desc annotator="Mystem+">сов,пе,ед,пов,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=ед,пов,2-л</comment>
         </pos>
       </w>
       <w xml:id="a117.w.3">
@@ -6436,14 +6810,16 @@
         <t>три</t>
         <lemma class="три" annotator="Mystem+"/>
         <pos class="NUM" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (им|вин,неод)</desc>
+          <desc annotator="Mystem+">(им|вин,неод)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (им|вин,неод)</comment>
         </pos>
       </w>
       <w xml:id="a117.w.8">
         <t>дырочки</t>
         <lemma class="дырочка" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,неод=(вин,мн|род,ед|им,мн)</desc>
+          <desc annotator="Mystem+">жен,неод,(вин,мн|род,ед|им,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,неод=(вин,мн|род,ед|им,мн)</comment>
         </pos>
       </w>
     </utt>
@@ -6460,21 +6836,24 @@
         <t>ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a237.w.4">
         <t>мне</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,1-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a237.w.5">
         <t>дал</t>
         <lemma class="давать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: пе=прош,ед,изъяв,муж,сов</desc>
+          <desc annotator="Mystem+">пе,прош,ед,изъяв,муж,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: пе=прош,ед,изъяв,муж,сов</comment>
         </pos>
       </w>
       <w xml:id="a237.w.6">
@@ -6486,14 +6865,16 @@
         <t>пять</t>
         <lemma class="пять" annotator="Mystem+"/>
         <pos class="NUM" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (вин|им)</desc>
+          <desc annotator="Mystem+">(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a237.w.8">
         <t>дырочек</t>
         <lemma class="дырочка" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,неод=род,мн</desc>
+          <desc annotator="Mystem+">жен,неод,род,мн</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,неод=род,мн</comment>
         </pos>
       </w>
       <w xml:id="a237.w.9">
@@ -6508,7 +6889,8 @@
         <t>Это</t>
         <lemma class="это" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</desc>
+          <desc annotator="Mystem+">ед,сред,неод,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,сред,неод=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a118.w.3">
@@ -6520,7 +6902,8 @@
         <t>та</t>
         <lemma class="тот" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: им,ед,жен</desc>
+          <desc annotator="Mystem+">им,ед,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: им,ед,жен</comment>
         </pos>
       </w>
       <w xml:id="a118.w.5">
@@ -6535,14 +6918,16 @@
         <t>Мне</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,1-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a119.w.3">
         <t>нужно</t>
         <lemma class="нужно" annotator="Mystem+"/>
         <pos class="ADV" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: прдк=</desc>
+          <desc annotator="Mystem+">прдк,</desc>
+          <comment annotator="Mystem+">Mystem+ features: прдк=</comment>
         </pos>
       </w>
       <w xml:id="a119.w.4">
@@ -6554,14 +6939,16 @@
         <t>три</t>
         <lemma class="три" annotator="Mystem+"/>
         <pos class="NUM" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (им|вин,неод)</desc>
+          <desc annotator="Mystem+">(им|вин,неод)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (им|вин,неод)</comment>
         </pos>
       </w>
       <w xml:id="a119.w.6">
         <t>дырочки</t>
         <lemma class="дырочка" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,неод=(вин,мн|род,ед|им,мн)</desc>
+          <desc annotator="Mystem+">жен,неод,(вин,мн|род,ед|им,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,неод=(вин,мн|род,ед|им,мн)</comment>
         </pos>
       </w>
       <w xml:id="a119.w.7">
@@ -6581,14 +6968,16 @@
         <t>нарисовано</t>
         <lemma class="нарисовать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=прош,ед,прич,кр,сред,страд</desc>
+          <desc annotator="Mystem+">сов,пе,прош,ед,прич,кр,сред,страд</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=прош,ед,прич,кр,сред,страд</comment>
         </pos>
       </w>
       <w xml:id="a120.w.4">
         <t>три</t>
         <lemma class="три" annotator="Mystem+"/>
         <pos class="NUM" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (им|вин,неод)</desc>
+          <desc annotator="Mystem+">(им|вин,неод)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (им|вин,неод)</comment>
         </pos>
       </w>
       <w xml:id="a120.w.5">
@@ -6622,7 +7011,8 @@
         <t>Пять</t>
         <lemma class="пять" annotator="Mystem+"/>
         <pos class="NUM" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (вин|им)</desc>
+          <desc annotator="Mystem+">(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a122.w.3">
@@ -6637,7 +7027,8 @@
         <t>Все</t>
         <lemma class="все" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн=(вин|им)</desc>
+          <desc annotator="Mystem+">мн,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a123.w.3">
@@ -6657,7 +7048,8 @@
         <t>Я</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=им</desc>
+          <desc annotator="Mystem+">ед,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a124.w.3">
@@ -6678,7 +7070,8 @@
         <t>посмотрела</t>
         <lemma class="посмотреть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=прош,ед,изъяв,жен</desc>
+          <desc annotator="Mystem+">сов,пе,прош,ед,изъяв,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=прош,ед,изъяв,жен</comment>
         </pos>
       </w>
       <w xml:id="a124.w.8">
@@ -6706,14 +7099,16 @@
         <t>Черную</t>
         <lemma class="черный" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: вин,ед,полн,жен</desc>
+          <desc annotator="Mystem+">вин,ед,полн,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: вин,ед,полн,жен</comment>
         </pos>
       </w>
       <w xml:id="a126.w.3">
         <t>вставляем</t>
         <lemma class="вставлять" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: пе=(непрош,мн,изъяв,1-л,несов|непрош,ед,прич,кр,муж,несов,страд)</desc>
+          <desc annotator="Mystem+">пе,(непрош,мн,изъяв,1-л,несов|непрош,ед,прич,кр,муж,несов,страд)</desc>
+          <comment annotator="Mystem+">Mystem+ features: пе=(непрош,мн,изъяв,1-л,несов|непрош,ед,прич,кр,муж,несов,страд)</comment>
         </pos>
       </w>
       <w xml:id="a126.w.4">
@@ -6749,7 +7144,8 @@
         <t>серая</t>
         <lemma class="серый" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: им,ед,полн,жен</desc>
+          <desc annotator="Mystem+">им,ед,полн,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: им,ед,полн,жен</comment>
         </pos>
       </w>
       <w xml:id="a127.w.4">
@@ -6769,35 +7165,40 @@
         <t>Помоги</t>
         <lemma class="помогать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=ед,пов,2-л,сов</desc>
+          <desc annotator="Mystem+">нп,ед,пов,2-л,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=ед,пов,2-л,сов</comment>
         </pos>
       </w>
       <w xml:id="a128.w.3">
         <t>мне</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,1-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a128.w.4">
         <t>найти</t>
         <lemma class="находить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: инф,сов,пе</desc>
+          <desc annotator="Mystem+">инф,сов,пе</desc>
+          <comment annotator="Mystem+">Mystem+ features: инф,сов,пе</comment>
         </pos>
       </w>
       <w xml:id="a128.w.5">
         <t>серую</t>
         <lemma class="серый" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: вин,ед,полн,жен</desc>
+          <desc annotator="Mystem+">вин,ед,полн,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: вин,ед,полн,жен</comment>
         </pos>
       </w>
       <w xml:id="a128.w.6">
         <t>деталь</t>
         <lemma class="деталь" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">жен,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a128.w.7">
@@ -6820,14 +7221,16 @@
         <t>какой</t>
         <lemma class="какой" annotator="Mystem+"/>
         <pos class="APRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (пр,ед,жен|дат,ед,жен|род,ед,жен|твор,ед,жен|вин,ед,муж,неод|им,ед,муж)</desc>
+          <desc annotator="Mystem+">(пр,ед,жен|дат,ед,жен|род,ед,жен|твор,ед,жен|вин,ед,муж,неод|им,ед,муж)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (пр,ед,жен|дат,ед,жен|род,ед,жен|твор,ед,жен|вин,ед,муж,неод|им,ед,муж)</comment>
         </pos>
       </w>
       <w xml:id="a129.w.5">
         <t>ливень</t>
         <lemma class="ливень" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</desc>
+          <desc annotator="Mystem+">муж,неод,(вин,ед|им,ед)</desc>
+          <comment annotator="Mystem+">Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
         </pos>
       </w>
       <w xml:id="a129.w.6">
@@ -6847,14 +7250,16 @@
         <t>@чего</t>
         <lemma class="что" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,сред,неод=род</desc>
+          <desc annotator="Mystem+">ед,сред,неод,род</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,сред,неод=род</comment>
         </pos>
       </w>
       <w xml:id="a130.w.4">
         <t>себе</t>
         <lemma class="себя" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: (пр|дат)</desc>
+          <desc annotator="Mystem+">(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: (пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a130.w.5">
@@ -6869,7 +7274,8 @@
         <t>Мы</t>
         <lemma class="мы" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн,1-л=им</desc>
+          <desc annotator="Mystem+">мн,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a131.w.3">
@@ -6881,14 +7287,16 @@
         <t>все</t>
         <lemma class="все" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн=(вин|им)</desc>
+          <desc annotator="Mystem+">мн,(вин|им)</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн=(вин|им)</comment>
         </pos>
       </w>
       <w xml:id="a131.w.5">
         <t>убрали</t>
         <lemma class="убирать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: прош,мн,изъяв,сов</desc>
+          <desc annotator="Mystem+">прош,мн,изъяв,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: прош,мн,изъяв,сов</comment>
         </pos>
       </w>
       <w xml:id="a131.w.6">
@@ -6900,7 +7308,8 @@
         <t>крыльца</t>
         <lemma class="крыльцо" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сред,неод=(вин,мн|род,ед|им,мн)</desc>
+          <desc annotator="Mystem+">сред,неод,(вин,мн|род,ед|им,мн)</desc>
+          <comment annotator="Mystem+">Mystem+ features: сред,неод=(вин,мн|род,ед|им,мн)</comment>
         </pos>
       </w>
       <w xml:id="a131.w.8">
@@ -6935,7 +7344,8 @@
         <t>нас</t>
         <lemma class="мы" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: мн,1-л=(пр|вин|род)</desc>
+          <desc annotator="Mystem+">мн,1-л,(пр|вин|род)</desc>
+          <comment annotator="Mystem+">Mystem+ features: мн,1-л=(пр|вин|род)</comment>
         </pos>
       </w>
       <w xml:id="a132.w.7">
@@ -6947,7 +7357,8 @@
         <t>намокнет</t>
         <lemma class="намокать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л,сов</desc>
+          <desc annotator="Mystem+">нп,непрош,ед,изъяв,3-л,сов</desc>
+          <comment annotator="Mystem+">Mystem+ features: нп=непрош,ед,изъяв,3-л,сов</comment>
         </pos>
       </w>
       <w xml:id="a132.w.9">
@@ -6973,14 +7384,16 @@
         <t>Я</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=им</desc>
+          <desc annotator="Mystem+">ед,1-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=им</comment>
         </pos>
       </w>
       <w xml:id="a133.w.3">
         <t>посмотрю</t>
         <lemma class="посмотреть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=непрош,ед,изъяв,1-л</desc>
+          <desc annotator="Mystem+">сов,пе,непрош,ед,изъяв,1-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=непрош,ед,изъяв,1-л</comment>
         </pos>
       </w>
       <w xml:id="a133.w.4">
@@ -6995,35 +7408,40 @@
         <t>Ты</t>
         <lemma class="ты" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,2-л=им</desc>
+          <desc annotator="Mystem+">ед,2-л,им</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,2-л=им</comment>
         </pos>
       </w>
       <w xml:id="a136.w.3">
         <t>найди</t>
         <lemma class="находить" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,пов,2-л,сов,пе</desc>
+          <desc annotator="Mystem+">ед,пов,2-л,сов,пе</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,пов,2-л,сов,пе</comment>
         </pos>
       </w>
       <w xml:id="a136.w.4">
         <t>мне</t>
         <lemma class="я" annotator="Mystem+"/>
         <pos class="NPRO" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</desc>
+          <desc annotator="Mystem+">ед,1-л,(пр|дат)</desc>
+          <comment annotator="Mystem+">Mystem+ features: ед,1-л=(пр|дат)</comment>
         </pos>
       </w>
       <w xml:id="a136.w.5">
         <t>серую</t>
         <lemma class="серый" annotator="Mystem+"/>
         <pos class="A" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: вин,ед,полн,жен</desc>
+          <desc annotator="Mystem+">вин,ед,полн,жен</desc>
+          <comment annotator="Mystem+">Mystem+ features: вин,ед,полн,жен</comment>
         </pos>
       </w>
       <w xml:id="a136.w.6">
         <t>палочку</t>
         <lemma class="палочка" annotator="Mystem+"/>
         <pos class="N" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: жен,неод=вин,ед</desc>
+          <desc annotator="Mystem+">жен,неод,вин,ед</desc>
+          <comment annotator="Mystem+">Mystem+ features: жен,неод=вин,ед</comment>
         </pos>
       </w>
       <w xml:id="a136.w.7">
@@ -7059,7 +7477,8 @@
         <t>посмотрю</t>
         <lemma class="посмотреть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=непрош,ед,изъяв,1-л</desc>
+          <desc annotator="Mystem+">сов,пе,непрош,ед,изъяв,1-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=непрош,ед,изъяв,1-л</comment>
         </pos>
       </w>
       <w xml:id="a235.w.7">
@@ -7082,7 +7501,8 @@
         <t>посмотришь</t>
         <lemma class="посмотреть" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: сов,пе=непрош,ед,изъяв,2-л</desc>
+          <desc annotator="Mystem+">сов,пе,непрош,ед,изъяв,2-л</desc>
+          <comment annotator="Mystem+">Mystem+ features: сов,пе=непрош,ед,изъяв,2-л</comment>
         </pos>
       </w>
       <w xml:id="a134.w.4">
@@ -7102,7 +7522,8 @@
         <t>давай</t>
         <lemma class="давать" annotator="Mystem+"/>
         <pos class="V" annotator="Mystem+">
-          <desc annotator="Mystem+">Mystem+ features: пе=ед,пов,2-л,несов</desc>
+          <desc annotator="Mystem+">пе,ед,пов,2-л,несов</desc>
+          <comment annotator="Mystem+">Mystem+ features: пе=ед,пов,2-л,несов</comment>
         </pos>
       </w>
       <w xml:id="a135.w.4">
