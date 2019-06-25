@@ -165,8 +165,16 @@
     </subset>
     <subset xml:id="неизменяемость_N" type="closed">
       <class xml:id="nd" label="неиз" />
-      <constrain id="c.AN" />
+      <constrain id="N" />
     </subset>
+    <subset xml:id="дискурсивное_ADV_ADVPRO" type="closed">
+      <class xml:id="discr" label="дискр" />
+      <constrain id="c.ADVADVPRO" />
+    </subset>
+    <constraint xml:id="c.ADVADVPRO" type="any">
+      <constrain id="ADV" />
+      <constrain id="ADVPRO" />
+    </constraint>    
     <subset xml:id="прочие" type="closed">
       <class xml:id="parenth" label="вводн" />
       <class xml:id="geo" label="гео" />
