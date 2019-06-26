@@ -30,22 +30,22 @@
       <class xml:id="1p" label="1-л" />
       <class xml:id="2p" label="2-л" />
       <class xml:id="3p" label="3-л" />
-      <constrain id="c.NPROV" />
+      <!--constrain id="c.NPROV" /-->
     </subset>
-    <constraint xml:id="c.NPROV" type="any">
+    <!--constraint xml:id="c.NPROV" type="any">
       <constrain id="NPRO" />
       <constrain id="V" />
-    </constraint>
+    </constraint-->
     <subset xml:id="одушевленность_A_N_NUM" type="closed">
       <class xml:id="anim" label="од" />
       <class xml:id="inan" label="неод" />
-      <constrain id="c.ANNUM" />
+      <!--constrain id="c.ANNUM" /-->
     </subset>
-    <constraint xml:id="c.ANNUM" type="any">
+    <!--constraint xml:id="c.ANNUM" type="any">
       <constrain id="A" />
       <constrain id="N" />
       <constrain id="NUM" />
-    </constraint>
+    </constraint-->
     <subset xml:id="падеж_A" type="closed">
       <class xml:id="nom" label="им" />
       <class xml:id="gen" label="род" />
@@ -54,7 +54,7 @@
       <class xml:id="acc2" label="вин2" />
       <class xml:id="ins" label="твор" />
       <class xml:id="abl" label="пр" />
-      <constrain id="A" />
+      <!--constrain id="A" /-->
     </subset>
     <subset xml:id="падеж_N" type="closed">
       <!--class xml:id="nd" label="неиз" /-->
@@ -68,7 +68,7 @@
       <class xml:id="abl" label="пр" />
       <class xml:id="loc" label="местн" />
       <class xml:id="voc" label="зват" />
-      <constrain id="N" />
+      <!--constrain id="N" /-->
     </subset>
     <subset xml:id="падеж_NUM" type="closed">
       <class xml:id="nom" label="им" />
@@ -77,62 +77,62 @@
       <class xml:id="acc" label="вин" />
       <class xml:id="ins" label="твор" />
       <class xml:id="abl" label="пр" />
-      <constrain id="NUM" />
+      <!--constrain id="NUM" /-->
     </subset>
     <subset xml:id="род_A_V" type="closed">
       <class xml:id="m" label="муж" />
       <class xml:id="f" label="жен" />
       <class xml:id="n" label="сред" />
-      <constrain id="c.AV" />
+      <!--constrain id="c.AV" /-->
     </subset>
-    <constraint xml:id="c.AV" type="any">
+    <!--constraint xml:id="c.AV" type="any">
       <constrain id="A" />
       <constrain id="V" />
-    </constraint>
+    </constraint-->
     <subset xml:id="род_N" type="closed">
       <class xml:id="m" label="муж" />
       <class xml:id="f" label="жен" />
       <class xml:id="mf" label="мж" />
       <class xml:id="n" label="сред" />
-      <constrain id="N" />
+      <!--constrain id="N" /-->
     </subset>
     <subset xml:id="род_NUM" type="closed">
       <class xml:id="mn" label="мс" />
       <class xml:id="f" label="жен" />
-      <constrain id="NUM" />
+      <!--constrain id="NUM" /-->
     </subset>
     <subset xml:id="у-л_A_N" type="closed">
       <class xml:id="dim" label="ул" />
-      <constrain id="c.AN" />
+      <!--constrain id="c.AN" /-->
     </subset>
-    <constraint xml:id="c.AN" type="any">
+    <!--constraint xml:id="c.AN" type="any">
       <constrain id="A" />
       <constrain id="N" />
-    </constraint>
+    </constraint-->
     <subset xml:id="число_A_N_V" type="closed">
       <class xml:id="sg" label="ед" />
       <class xml:id="pl" label="мн" />
-      <constrain id="c.ANV" />
+      <!--constrain id="c.ANV" /-->
     </subset>
-    <constraint xml:id="c.ANV" type="any">
+    <!--constraint xml:id="c.ANV" type="any">
       <constrain id="A" />
       <constrain id="N" />
       <constrain id="V" />
-    </constraint>
+    </constraint-->
     <subset xml:id="форма_A" type="closed">
       <class xml:id="brev" label="кр" />
       <class xml:id="plen" label="полн" />
       <class xml:id="poss" label="притяж" />
-      <constrain id="A" />
+      <!--constrain id="A" /-->
     </subset>
     <subset xml:id="степень-сравнения_A" type="closed">
       <class xml:id="supr" label="прев" />
       <class xml:id="comp" label="срав" />
-      <constrain id="A" />
+      <!--constrain id="A" /-->
     </subset>
     <subset xml:id="степень-сравнения_ADV" type="closed">
       <class xml:id="comp" label="срав" />
-      <constrain id="ADV" />
+      <!--constrain id="ADV" /-->
     </subset>     
     <subset xml:id="form_V" type="closed">
       <class xml:id="ger" label="деепр" />
@@ -140,41 +140,41 @@
       <class xml:id="partcp" label="прич" />
       <class xml:id="indic" label="изъяв" />
       <class xml:id="imper" label="пов" />
-      <constrain id="V" />
+      <!--constrain id="V" /-->
     </subset>
     <subset xml:id="вид_V" type="closed">
       <class xml:id="ipf" label="несов" />
       <class xml:id="pf" label="сов" />
-      <constrain id="V" />
+      <!--constrain id="V" /-->
     </subset>   
     <subset xml:id="время_V" type="closed">
       <class xml:id="praes" label="наст" />
       <class xml:id="inpraes" label="непрош" />
       <class xml:id="praet" label="прош" />
-      <constrain id="V" />
+      <!--constrain id="V" /-->
     </subset>
     <subset xml:id="залог_V" type="closed">
       <class xml:id="act" label="действ" />
       <class xml:id="pass" label="страд" />
-      <constrain id="V" />
+      <!--constrain id="V" /-->
     </subset>    
     <subset xml:id="переходность_V" type="closed">
       <class xml:id="tran" label="пе" />
       <class xml:id="intr" label="нп" />
-      <constrain id="V" />
+      <!--constrain id="V" /-->
     </subset>
     <subset xml:id="неизменяемость_N" type="closed">
       <class xml:id="nd" label="неиз" />
-      <constrain id="N" />
+      <!--constrain id="N" /-->
     </subset>
     <subset xml:id="дискурсивное_ADV_ADVPRO" type="closed">
       <class xml:id="discr" label="дискр" />
-      <constrain id="c.ADVADVPRO" />
+      <!--constrain id="c.ADVADVPRO" /-->
     </subset>
-    <constraint xml:id="c.ADVADVPRO" type="any">
+    <!--constraint xml:id="c.ADVADVPRO" type="any">
       <constrain id="ADV" />
       <constrain id="ADVPRO" />
-    </constraint>    
+    </constraint-->
     <subset xml:id="прочие" type="closed">
       <class xml:id="parenth" label="вводн" />
       <class xml:id="geo" label="гео" />
@@ -187,4 +187,4 @@
       <class xml:id="col" label="разг" />
       <class xml:id="sneg" label="отрп" />
     </subset>
-</set> 
+</set>
