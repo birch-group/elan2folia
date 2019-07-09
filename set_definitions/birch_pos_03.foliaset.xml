@@ -174,7 +174,12 @@
     <constraint xml:id="c.ADVADVPRO" type="any">
       <constrain id="ADV" />
       <constrain id="ADVPRO" />
-    </constraint>    
+    </constraint>
+    <subset xml:id="значение_CONJ" type="closed">
+      <class xml:id="coord" label="соч" />
+      <class xml:id="subrd" label="подч" />
+      <constrain id="CONJ" />
+    </subset>    
     <subset xml:id="прочие" type="closed">
       <class xml:id="parenth" label="вводн" />
       <class xml:id="geo" label="гео" />
