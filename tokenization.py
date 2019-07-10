@@ -60,13 +60,15 @@ def get_token_offsets(t): # t: ELAN transcript text of a segment
                       union(set(w.end() for w in get_tokens_for_sure(t))).\
                       union({0,len(t)}))
 
+# https://birch.flowlu.com/_module/knowledgebase/view/article/279--word-splitting
 # r'^...$' + re.match = r'...' + re.fullmatch
 # re_split = re.compile(r'^[а-яА-Я]+-(то|нибудь|либо)|кое-[а-яА-Я]+$')
 re_split_1 = re.compile(r'([а-яА-Я]+)-(то|нибудь|либо)')
-re_split_2 = re.compile(r'([Кк]ое)-([а-яА-Я]+)')
+# 'кой-': разговорный вариант
+re_split_2 = re.compile(r'([Кк]о[ей])-([а-яА-Я]+)')
 # https://en.wiktionary.org/wiki/%D0%BD%D0%B8%D0%BA%D1%82%D0%BE
 re_split_3 = re.compile(r'([Нн]и)(где|куда|когда|как|сколько|откуда|кто|кого|кому|кем|что|чего|чему|чем|какой|какое|какая|какие|какого|каких|какому|каким|какую|какою|какими|каком|чей|чье|чья|чьи|чьего|чьей|чьих|чьему|чьим|чью|чьею|чьими|чьем)')
-re_split_4 = re.compile(r'([Нн]е)(где|куда|когда|откуда)')
+re_split_4 = re.compile(r'([Нн]е)(где|куда|когда|откуда|кого|чего|зачем)')
 def split_word(token):
     """
     '...-то'     -> '...@' & '-то'
