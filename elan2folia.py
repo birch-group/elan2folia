@@ -60,7 +60,7 @@ def create_conversation(aas): #aas: iterable of alinable annotation info
     return sorted(aas,key=itemgetter(2,3))
 
 SET_LEMMA = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_lemma.foliaset.xml"
-SET_POS = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos_03_without_constraints_1.foliaset.xml"
+SET_POS = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos_03_without_constraints_2.foliaset.xml"
 # SET_SU = "https://url/to/set_of_su"     # syntactic units
 
 def convert(f_i, f_o=None):
@@ -80,6 +80,8 @@ def convert(f_i, f_o=None):
     doc_o = folia.Document(id=os.path.basename(f_o))
     # https://github.com/proycon/folia/blob/master/foliatools/conllu2folia.py
     # future: https://foliapy.readthedocs.io/en/latest/folia.html#provenance-information 
+    doc_o.declare(folia.Word)
+    doc_o.declare(folia.Hiddenword)
     doc_o.declare(folia.LemmaAnnotation, set=SET_LEMMA)
     doc_o.declare(folia.PosAnnotation, set=SET_POS)    
     # doc_o.declare(folia.SyntacticUnit, set=SET_SU, annotator="BiRCh group")

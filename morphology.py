@@ -71,8 +71,8 @@ def analyze_morphology(t): # t: contextualized token (str) (see demo())
         # handle upper/lower cases
         t_bare = t_bare.lower()
 
-        # '@-|то|нибудь|либо' or 'кое-@' 
-        if t_bare.startswith('@-') or t_bare.endswith('-@') or t_bare=='ни@':
+        # '@-(то|нибудь|либо)' or 'кое-@' or 'н(и|e)@'
+        if t_bare.startswith('@-') or t_bare.endswith('-@') or t_bare=='ни@' or t_bare=='не@':
             lemma = t_bare.replace('@','').replace('-','')
             pos = 'PART'
         # >>> m.analyze('что@ @-нибудь')
@@ -86,7 +86,7 @@ def analyze_morphology(t): # t: contextualized token (str) (see demo())
                 pos_plus = m.analyze(t)[0]['analysis'][0]['gr'].strip()
                 pos,features = analyze_mystem_gr(pos_plus)
             except:
-                pass
+                pass        
         else:
             analysis_mystem = m.analyze(t)[0]['analysis']
             if analysis_mystem:
@@ -99,6 +99,9 @@ def analyze_morphology(t): # t: contextualized token (str) (see demo())
             # add diminutive feature 
             if t_bare[:2] in dod and t_bare in dod[t_bare[:2]]:
                 features = ','.join([features,'ул'])
+            # 'мс' (instead of 'муж|сред') for 'два|оба|полтора'
+            if lemma in {'два','оба','полтора'}:
+                features = re.sub(r'муж|сред', r'мс', features)
     return (lemma, pos, features)    
 
 # contextualize: # e.g.: 'в' as 'PR' vs 'S,сокр'
