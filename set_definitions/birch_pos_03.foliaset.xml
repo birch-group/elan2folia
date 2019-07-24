@@ -167,14 +167,14 @@
       <class xml:id="nd" label="неиз" />
       <constrain id="N" />
     </subset>
-    <!--subset xml:id="дискурсивное_ADV_ADVPRO" type="closed">
-      <class xml:id="discr" label="дискр" />
+    <subset xml:id="квантор_ADV_ADVPRO" type="closed">
+      <class xml:id="quant" label="квант" />
       <constrain id="c.ADVADVPRO" />
     </subset>
     <constraint xml:id="c.ADVADVPRO" type="any">
       <constrain id="ADV" />
       <constrain id="ADVPRO" />
-    </constraint-->
+    </constraint>
     <subset xml:id="значение_CONJ" type="closed">
       <class xml:id="coord" label="соч" />
       <class xml:id="subrd" label="подч" />
@@ -192,6 +192,5 @@
       <class xml:id="col" label="разг" />
       <class xml:id="sneg" label="отрп" />
       <class xml:id="discr" label="дискр" />
-      <class xml:id="quant" label="квант" />
     </subset>
 </set> 

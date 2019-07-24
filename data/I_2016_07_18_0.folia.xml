@@ -6,7 +6,7 @@
       <token-annotation/>
       <hiddentoken-annotation/>
       <lemma-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_lemma.foliaset.xml"/>
-      <pos-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos_03_without_constraints_2.foliaset.xml"/>
+      <pos-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos_03_without_constraints_3.foliaset.xml"/>
       <description-annotation/>
       <comment-annotation/>
     </annotations>
