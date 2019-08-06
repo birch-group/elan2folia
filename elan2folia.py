@@ -65,13 +65,14 @@ SET_POS = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_d
 
 def convert(f_i, f_o=None):
     """
-    f_i/f_o: input/output file name/path without extension (str)
+    f_i: input (ELAN) files (full path, with extension) (str)
+    f_o: output (FoLiA) file (full path, with extension) (str)
     ...
     """
-    doc_i = Eaf(''.join([f_i, '.eaf']))
+    doc_i = Eaf(f)
 
     if not f_o:
-        f_o = f_i
+        f_o = '.'.join([f_i.rpartition('.')[0], 'folia.xml'])
     
     # https://foliapy.readthedocs.io/en/latest/folia.html#editing-folia
     # https://foliapy.readthedocs.io/en/latest/folia.html#adding-structure
@@ -125,7 +126,7 @@ def convert(f_i, f_o=None):
                               annotator='Mystem+'
                              )
 
-    doc_o.save(''.join([f_i, '.folia.xml']))
+    doc_o.save(f_o)
 
 if __name__ == "__main__":
     # get arguments from command line
@@ -140,4 +141,4 @@ if __name__ == "__main__":
     import sys
 
     f = sys.argv[1]
-    convert(''.join(['data/',f]))
+    convert(f)
