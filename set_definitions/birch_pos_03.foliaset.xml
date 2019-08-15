@@ -101,12 +101,13 @@
       <class xml:id="f" label="жен" />
       <constrain id="NUM" />
     </subset>
-    <subset xml:id="у-л_A_N" type="closed">
+    <subset xml:id="у-л_A_ADV_N" type="closed">
       <class xml:id="dim" label="ул" />
-      <constrain id="c.AN" />
+      <constrain id="c.AADVN" />
     </subset>
-    <constraint xml:id="c.AN" type="any">
+    <constraint xml:id="c.AADVN" type="any">
       <constrain id="A" />
+      <constrain id="ADV" />
       <constrain id="N" />
     </constraint>
     <subset xml:id="число_A_N_V" type="closed">
