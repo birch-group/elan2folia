@@ -58,7 +58,15 @@ def analyze_mystem_gr(gr_value): # type(gr_value): str
         features = re.sub(nd, r'неиз', features)        
     return (pos,features)
 
-def analyze_morphology(t): # t: contextualized token (str) (see demo())
+lemmas_colloquial2standard = { # lower cases
+    'щас': 'сейчас',
+    'че': 'что',
+    # 'чё': 'что',
+    'шо': 'что',
+}
+
+# def analyze_morphology(t): # t: contextualized token (str) (see demo())
+def analyze_morphology(pre_t, t): # pre_t: list of previous tokens (list of str); t: contextualized token (str) (see demo())
     """
     -> (lemma, pos, morphological_features)
     """    
@@ -66,14 +74,18 @@ def analyze_morphology(t): # t: contextualized token (str) (see demo())
     # if is_token_mystem(t):
         # # handle upper/lower cases
         # t = t.lower()
-    t_bare = t.split()[0]
-    if is_token_mystem(t_bare):
+    # t_bare = t.split()[0]
+    t_bare_original = t.split()[0]
+    # if is_token_mystem(t_bare):
+    if is_token_mystem(t_bare_original):
         # handle upper/lower cases
-        t_bare = t_bare.lower()
+        # t_bare = t_bare.lower()
+        t_bare = t_bare_original.lower()
 
         # '@-(то|нибудь|либо)' or 'кое-@' or 'н(и|e)@'
         if t_bare.startswith('@-') or t_bare.endswith('-@') or t_bare=='ни@' or t_bare=='не@':
-            lemma = t_bare.replace('@','').replace('-','')
+            # lemma = t_bare.replace('@','').replace('-','')
+            lemma = t_bare.replace('@','')
             pos = 'PART'
         # >>> m.analyze('что@ @-нибудь')
         # [{'analysis': [{'lex': 'что', 'wt': 0.6885325909000001, 'gr': 'CONJ='}], 'text': 'что'}, {'analysis': [{'lex': 'нибудь', 'wt': 1, 'gr': 'ADVPRO='}], 'text': 'нибудь'}]
@@ -86,8 +98,14 @@ def analyze_morphology(t): # t: contextualized token (str) (see demo())
                 pos_plus = m.analyze(t)[0]['analysis'][0]['gr'].strip()
                 pos,features = analyze_mystem_gr(pos_plus)
             except:
-                pass        
+                pass
+        elif t_bare in {'да','нет'}:
+            lemma = t_bare
+            pos = 'INTJ'
+
         else:
+            if t_bare in lemmas_colloquial2standard:
+                t = t.replace(t_bare_original,lemmas_colloquial2standard[t_bare],1)
             analysis_mystem = m.analyze(t)[0]['analysis']
             if analysis_mystem:
                 # mystem's lexeme -> lemma annotation
@@ -102,6 +120,17 @@ def analyze_morphology(t): # t: contextualized token (str) (see demo())
             # 'мс' (instead of 'муж|сред') for 'два|оба|полтора'
             if lemma in {'два','оба','полтора'}:
                 features = re.sub(r'муж|сред', r'мс', features)
+            # 'соч' for 'а|и|но|или|либо'
+            if lemma in {'а','и','но','или','либо'} and pos=='CONJ': # 2nd condition may be redundant
+                features = ''.join([features,'соч'])
+            # 'подч' for 'если|чтобы|хотя'
+            if lemma in {'если','чтобы','хотя'} and pos=='CONJ': # 2nd condition may be redundant
+                features = ''.join([features,'подч'])            
+            if lemma=='что' and pos=='CONJ' and pre_t[-1]:
+                if pre_t[-1].lower()=='потому' or \
+                (pre_t[-1]==',' and pre_t[-2] and pre_t[-2].lower()=='потому'):
+                    features = ''.join([features,'подч']) 
+
     return (lemma, pos, features)    
 
 # contextualize: # e.g.: 'в' as 'PR' vs 'S,сокр'
