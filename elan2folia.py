@@ -60,7 +60,7 @@ def create_conversation(aas): #aas: iterable of alinable annotation info
     return sorted(aas,key=itemgetter(2,3))
 
 SET_LEMMA = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_lemma.foliaset.xml"
-SET_POS = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos_03_without_constraints_3.foliaset.xml"
+SET_POS = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos_03_without_constraints_4.foliaset.xml"
 # SET_SU = "https://url/to/set_of_su"     # syntactic units
 
 def convert(f_i, f_o=None):
@@ -77,8 +77,11 @@ def convert(f_i, f_o=None):
     # https://foliapy.readthedocs.io/en/latest/folia.html#editing-folia
     # https://foliapy.readthedocs.io/en/latest/folia.html#adding-structure
     # https://foliapy.readthedocs.io/en/latest/folia.html#structure-annotation-types
-    print(os.path.basename(f_o))
-    doc_o = folia.Document(id=os.path.basename(f_o))
+    # print(os.path.basename(f_o))
+    id_doc_o = os.path.basename(f_o).partition('.')[0]
+    print(id_doc_o)
+    # doc_o = folia.Document(id=os.path.basename(f_o))
+    doc_o = folia.Document(id=id_doc_o)
     # https://github.com/proycon/folia/blob/master/foliatools/conllu2folia.py
     # future: https://foliapy.readthedocs.io/en/latest/folia.html#provenance-information 
     doc_o.declare(folia.Word)
@@ -99,10 +102,20 @@ def convert(f_i, f_o=None):
         len_tokens = len(tokens)
         for i in range(len_tokens):
             t = tokens[i]
+            # consider the previous token in morphological analysis
+            # pre_t = None
+            # if i:
+            #     pre_t = tokens[i-1]
+            pre_t = [None, None]
+            if i>1:
+                pre_t = [tokens[i-2],tokens[i-1]]
+            elif i==1:
+                pre_t[1] = tokens[i-1]
             token = utterance.append(folia.Word,t)
             if i < (len_tokens - 1):
                 t = ' '.join([t, tokens[i+1]])
-            lemma, pos, features = analyze_morphology(t)
+            # lemma, pos, features = analyze_morphology(t)
+            lemma, pos, features = analyze_morphology(pre_t,t)
             if lemma:
                 token.append(folia.LemmaAnnotation,
                              cls=lemma,
