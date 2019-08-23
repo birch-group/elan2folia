@@ -63,7 +63,8 @@ def get_token_offsets(t): # t: ELAN transcript text of a segment
 # https://birch.flowlu.com/_module/knowledgebase/view/article/279--word-splitting
 # r'^...$' + re.match = r'...' + re.fullmatch
 # re_split = re.compile(r'^[а-яА-Я]+-(то|нибудь|либо)|кое-[а-яА-Я]+$')
-re_split_1 = re.compile(r'([а-яА-Я]+)-(то|нибудь|либо)')
+# re_split_1 = re.compile(r'([а-яА-Я]+)-(то|нибудь|либо)')
+re_split_1 = re.compile(r'([а-яА-Я]+)-(то|нибудь|либо|таки|ка|кась|с|де)')
 # 'кой-': разговорный вариант
 re_split_2 = re.compile(r'([Кк]о[ей])-([а-яА-Я]+)')
 # https://en.wiktionary.org/wiki/%D0%BD%D0%B8%D0%BA%D1%82%D0%BE
@@ -74,6 +75,7 @@ def split_word(token):
     '...-то'     -> '...@' & '@-то'
     '...-нибудь' -> '...@' & '@-нибудь'
     '...-либо'   -> '...@' & '@-либо'
+    ...
     'кое-...'    -> 'кое-@' & '@...'
     'ни...'     -> 'ни@' & '@...'
     'не...'     -> 'не@' & '@...'

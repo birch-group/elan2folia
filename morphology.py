@@ -82,7 +82,7 @@ def analyze_morphology(pre_t, t): # pre_t: list of previous tokens (list of str)
         # t_bare = t_bare.lower()
         t_bare = t_bare_original.lower()
 
-        # '@-(то|нибудь|либо)' or 'кое-@' or 'н(и|e)@'
+        # '@-(то|нибудь|либо|...)' or 'кое-@' or 'н(и|e)@'
         if t_bare.startswith('@-') or t_bare.endswith('-@') or t_bare=='ни@' or t_bare=='не@':
             # lemma = t_bare.replace('@','').replace('-','')
             lemma = t_bare.replace('@','')
