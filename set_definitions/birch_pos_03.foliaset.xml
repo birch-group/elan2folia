@@ -193,6 +193,6 @@
       <class xml:id="famn" label="фам" />
       <class xml:id="col" label="разг" />
       <class xml:id="sneg" label="отрп" />
-      <class xml:id="discr" label="дискр" />
+      <!--class xml:id="discr" label="дискр" /-->
     </subset>
 </set> 
