@@ -120,8 +120,8 @@ def analyze_morphology(pre_t, t): # pre_t: list of previous tokens (list of str)
             # 'мс' (instead of 'муж|сред') for 'два|оба|полтора'
             if lemma in {'два','оба','полтора'}:
                 features = re.sub(r'муж|сред', r'мс', features)
-            # 'соч' for 'а|и|но|или|либо'
-            if lemma in {'а','и','но','или','либо'} and pos=='CONJ': # 2nd condition may be redundant
+            # 'соч' for 'а|и|но|или|либо|зато'
+            if lemma in {'а','и','но','или','либо', 'зато'} and pos=='CONJ': # 2nd condition may be redundant
                 features = ''.join([features,'соч'])
             # 'подч' for 'если|чтобы|хотя'
             if lemma in {'если','чтобы','хотя'} and pos=='CONJ': # 2nd condition may be redundant
