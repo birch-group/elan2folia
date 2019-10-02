@@ -120,23 +120,23 @@ def convert(f_i, f_o=None):
                 token.append(folia.LemmaAnnotation,
                              cls=lemma,
                              set=SET_LEMMA,
-                             annotator='Mystem+'
+                            #  annotator='Mystem+'
                             )
             if pos:                
                 an_pos = token.append(folia.PosAnnotation,
                                       cls=pos,
                                       set=SET_POS,
-                                      annotator='Mystem+'
+                                    #   annotator='Mystem+'
                                      )
             if features:                                          
                 # https://foliapy.readthedocs.io/en/latest/folia.html#features                
                 an_pos.append(folia.Description,
                               value = re.sub(r'=', r',', features),
-                              annotator='Mystem+'
+                            #   annotator='Mystem+'
                              )
                 an_pos.append(folia.Comment,
                               value = ' '.join(['Mystem+ features:',features]),
-                              annotator='Mystem+'
+                            #   annotator='Mystem+'
                              )
 
     doc_o.save(f_o)
