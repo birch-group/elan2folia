@@ -169,9 +169,9 @@ if __name__ == "__main__":
     
     if sys.argv[-1].endswith('.csv'):
         if len(sys.argv)>3:
-            f_o = sys.argv[-1]
+            f_o = sys.argv[-1].strip()
             if all(f.endswith('.folia.xml') for f in sys.argv[1:-1]):
-                fs_i = sys.argv[1:-1]
+                fs_i = [f.strip() for f in sys.argv[1:-1]]
                 compare(fs_i, f_o)
             else:
                 print(message_1)
@@ -180,7 +180,7 @@ if __name__ == "__main__":
     else:
         if len(sys.argv)>=3:
             if all(f.endswith('.folia.xml') for f in sys.argv[1:]):
-                fs_i = sys.argv[1:]
+                fs_i = [f.strip() for f in sys.argv[1:]]
                 compare(fs_i)
             else:
                 print(message_1)
