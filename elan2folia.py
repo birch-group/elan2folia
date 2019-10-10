@@ -83,12 +83,19 @@ def convert(f_i, f_o=None):
     # doc_o = folia.Document(id=os.path.basename(f_o))
     doc_o = folia.Document(id=id_doc_o)
     # https://github.com/proycon/folia/blob/master/foliatools/conllu2folia.py
-    # future: https://foliapy.readthedocs.io/en/latest/folia.html#provenance-information 
+    # future: 
+    # https://foliapy.readthedocs.io/en/latest/folia.html#declarations
+    # https://foliapy.readthedocs.io/en/latest/folia.html#provenance-information 
     doc_o.declare(folia.Word)
     doc_o.declare(folia.Hiddenword)
-    doc_o.declare(folia.LemmaAnnotation, set=SET_LEMMA)
-    doc_o.declare(folia.PosAnnotation, set=SET_POS)    
+    # doc_o.declare(folia.LemmaAnnotation, set=SET_LEMMA)
+    # processor_mystem as a single processor for all annotation performed by this script
+    processor_mystem = doc_o.declare(folia.LemmaAnnotation, set=SET_LEMMA, processor=folia.Processor(name="Mystem+"))
+    # doc_o.declare(folia.PosAnnotation, set=SET_POS)
+    doc_o.declare(folia.PosAnnotation, set=SET_POS, processor=processor_mystem)
     # doc_o.declare(folia.SyntacticUnit, set=SET_SU, annotator="BiRCh group")
+    doc_o.declare(folia.Description, processor=processor_mystem)
+    doc_o.declare(folia.Comment, processor=processor_mystem)
     speech = doc_o.append(folia.Speech)
     for aa in create_conversation(get_aas(doc_i)):
         utterance = speech.append(folia.Utterance,
@@ -120,22 +127,26 @@ def convert(f_i, f_o=None):
                 token.append(folia.LemmaAnnotation,
                              cls=lemma,
                              set=SET_LEMMA,
+                             processor=processor_mystem
                             #  annotator='Mystem+'
                             )
             if pos:                
                 an_pos = token.append(folia.PosAnnotation,
                                       cls=pos,
                                       set=SET_POS,
+                                      processor=processor_mystem
                                     #   annotator='Mystem+'
                                      )
             if features:                                          
                 # https://foliapy.readthedocs.io/en/latest/folia.html#features                
                 an_pos.append(folia.Description,
                               value = re.sub(r'=', r',', features),
+                              processor=processor_mystem
                             #   annotator='Mystem+'
                              )
                 an_pos.append(folia.Comment,
                               value = ' '.join(['Mystem+ features:',features]),
+                              processor=processor_mystem
                             #   annotator='Mystem+'
                              )
 
@@ -153,5 +164,5 @@ if __name__ == "__main__":
     
     import sys
 
-    f = sys.argv[1]
+    f = sys.argv[1].strip()
     convert(f)
