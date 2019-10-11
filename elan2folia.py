@@ -85,9 +85,7 @@ def convert(f_i, f_o=None):
     # https://github.com/proycon/folia/blob/master/foliatools/conllu2folia.py
     # future: 
     # https://foliapy.readthedocs.io/en/latest/folia.html#declarations
-    # https://foliapy.readthedocs.io/en/latest/folia.html#provenance-information 
-    doc_o.declare(folia.Word)
-    doc_o.declare(folia.Hiddenword)
+    # https://foliapy.readthedocs.io/en/latest/folia.html#provenance-information     
     # doc_o.declare(folia.LemmaAnnotation, set=SET_LEMMA)
     # processor_mystem as a single processor for all annotation performed by this script
     processor_mystem = doc_o.declare(folia.LemmaAnnotation, set=SET_LEMMA, processor=folia.Processor(name="Mystem+"))
@@ -96,14 +94,21 @@ def convert(f_i, f_o=None):
     # doc_o.declare(folia.SyntacticUnit, set=SET_SU, annotator="BiRCh group")
     doc_o.declare(folia.Description, processor=processor_mystem)
     doc_o.declare(folia.Comment, processor=processor_mystem)
+    doc_o.declare(folia.Utterance, processor=processor_mystem)
+    doc_o.declare(folia.Word, processor=processor_mystem)
+    doc_o.declare(folia.Hiddenword)
+
+    # folia.Speech cannot be declared as an annotation type
     speech = doc_o.append(folia.Speech)
     for aa in create_conversation(get_aas(doc_i)):
         utterance = speech.append(folia.Utterance,
                                   id=aa[0],speaker=aa[1],
-                                  begintime=aa[2],endtime=aa[3])
+                                  begintime=aa[2],endtime=aa[3],
+                                  processor=processor_mystem)
         
         # https://docs.python.org/3/library/string.html#formatspec
-        utterance.append(folia.Word,'{}:'.format(aa[1].upper()))
+        utterance.append(folia.Word,'{}:'.format(aa[1].upper()),
+                         processor=processor_mystem)
         # aa[4]: utterance text
         tokens = get_tokens(aa[4])
         len_tokens = len(tokens)
@@ -118,7 +123,7 @@ def convert(f_i, f_o=None):
                 pre_t = [tokens[i-2],tokens[i-1]]
             elif i==1:
                 pre_t[1] = tokens[i-1]
-            token = utterance.append(folia.Word,t)
+            token = utterance.append(folia.Word,t, processor=processor_mystem)
             if i < (len_tokens - 1):
                 t = ' '.join([t, tokens[i+1]])
             # lemma, pos, features = analyze_morphology(t)
