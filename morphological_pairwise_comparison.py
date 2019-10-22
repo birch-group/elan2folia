@@ -67,25 +67,37 @@ def get_ids(l1, l2): # l1, l2: list of elements possessing "id" attribute
     i1 = i2 = 0
     common_ids = {e.id for e in l1}.intersection({e.id for e in l2})
     while not (eol1 and eol2):
-        if l1[i1].id == l2[i2].id:
-            output.append(l1[i1].id)
-            i1 += 1
-            i2 += 1
-        elif l1[i1].id in common_ids and l2[i2].id not in common_ids:
-            output.append(l2[i2].id)
-            i2 += 1
-        elif l1[i1].id not in common_ids and l2[i2].id in common_ids:
-            output.append(l1[i1].id)
-            i1 += 1
+        if not (eol1 or eol2):
+            if l1[i1].id == l2[i2].id:
+                output.append(l1[i1].id)
+                i1 += 1
+                i2 += 1
+            elif l1[i1].id in common_ids and l2[i2].id not in common_ids:
+                output.append(l2[i2].id)
+                i2 += 1
+            elif l1[i1].id not in common_ids and l2[i2].id in common_ids:
+                output.append(l1[i1].id)
+                i1 += 1
+            else:
+                output.append(l1[i1].id)
+                i1 += 1
+                output.append(l2[i2].id)
+                i2 += 1
+            if i1 == len(l1):
+                eol1 = True
+            if i2 == len(l2):
+                eol2 = True
         else:
-            output.append(l1[i1].id)
-            i1 += 1
-            output.append(l2[i2].id)
-            i2 += 1
-        if i1 == len(l1):
-            eol1 = True
-        if i2 == len(l2):
-            eol2 = True
+            if eol1:
+                output.append(l2[i2].id)
+                i2 += 1
+                if i2 == len(l2):
+                    eol2 = True
+            else: # eol2
+                output.append(l1[i1].id)
+                i1 += 1
+                if i1 == len(l1):
+                    eol1 = True        
     return output
 
 
