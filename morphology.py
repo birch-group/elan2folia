@@ -81,9 +81,17 @@ def analyze_morphology(pre_t, t): # pre_t: list of previous tokens (list of str)
         # handle upper/lower cases
         # t_bare = t_bare.lower()
         t_bare = t_bare_original.lower()
+        
+        if t_bare in {'аа', 'оо', 'уу', 'ээ'}:
+            lemma = t_bare
+            pos = 'INTJ'
+        elif t_bare in {'ма'}:
+            lemma = 'мама'
+            pos = 'N'
+            features = 'ед,жен,зват,од'
 
         # '@-(то|нибудь|либо|...)' or 'кое-@' or 'н(и|e)@'
-        if t_bare.startswith('@-') or t_bare.endswith('-@') or t_bare=='ни@' or t_bare=='не@':
+        elif t_bare.startswith('@-') or t_bare.endswith('-@') or t_bare=='ни@' or t_bare=='не@':
             # lemma = t_bare.replace('@','').replace('-','')
             lemma = t_bare.replace('@','')
             pos = 'PART'
@@ -99,9 +107,6 @@ def analyze_morphology(pre_t, t): # pre_t: list of previous tokens (list of str)
                 pos,features = analyze_mystem_gr(pos_plus)
             except:
                 pass
-        elif t_bare in {'да','нет'}:
-            lemma = t_bare
-            pos = 'INTJ'
 
         else:
             if t_bare in lemmas_colloquial2standard:
@@ -121,15 +126,104 @@ def analyze_morphology(pre_t, t): # pre_t: list of previous tokens (list of str)
             if lemma in {'два','оба','полтора'}:
                 features = re.sub(r'муж|сред', r'мс', features)
             # 'соч' for 'а|и|но|или|либо|зато'
-            if lemma in {'а','и','но','или','либо', 'зато'} and pos=='CONJ': # 2nd condition may be redundant
+            elif lemma in {'а','и','но','или','либо', 'зато'} and pos=='CONJ': # 2nd condition may be redundant
                 features = ''.join([features,'соч'])
             # 'подч' for 'если|чтобы|хотя'
-            if lemma in {'если','чтобы','хотя'} and pos=='CONJ': # 2nd condition may be redundant
+            elif lemma in {'если','чтобы','хотя'} and pos=='CONJ': # 2nd condition may be redundant
                 features = ''.join([features,'подч'])            
-            if lemma=='что' and pos=='CONJ' and pre_t[-1]:
-                if pre_t[-1].lower()=='потому' or \
-                (pre_t[-1]==',' and pre_t[-2] and pre_t[-2].lower()=='потому'):
-                    features = ''.join([features,'подч']) 
+            # if lemma=='что' and pos=='CONJ' and pre_t[-1]:
+            elif lemma=='что' and pos=='CONJ':
+                if pre_t[-1] and (pre_t[-1].lower()=='потому' or \
+                (pre_t[-1]==',' and pre_t[-2] and pre_t[-2].lower()=='потому')):
+                    features = ''.join([features,'подч'])
+                else:
+                    pos = 'NPRO'
+                    features = 'им,ед,неод,сред'
+            # https://docs.google.com/spreadsheets/d/1Oq3U-8YiucFqtMdNtqW6QOI1pq-zWRNfpx8JM994kd4/edit#gid=489388285
+            elif t_bare in {'просто', 'прямо'} and pos=='PART':
+                pos = 'ADV'
+            elif t_bare in {'итак'} and pos=='CONJ':
+                pos = 'ADV'
+            elif t_bare in {'вон', 'вот'} and pos=='PART':
+                pos = 'ADVPRO'
+            elif t_bare in {'как'} and pos=='CONJ':
+                pos = 'ADVPRO'
+            # ('ADV', ('вводн',))
+            elif t_bare in {'по-моему'} and pos=='ADV':
+                pos = 'ADVPRO'
+            elif t_bare in {'да','нет', 'ага', 'ладно'} and pos=='PART':
+                pos = 'INTJ'
+            elif t_bare in {'да'} and pos=='CONJ':
+                pos = 'INTJ'            
+            # 'мм' ('N', ('муж', 'неиз', 'неод'))
+            # 'мда' ('N', ('муж', 'неиз', 'од'))
+            # 'кач' ('N', ('ед', 'им', 'муж', 'од', 'фам'))
+            # 'кач' needs some post-processing (~качать~ (идеофон))
+            elif t_bare in {'мм', 'кач', 'мда'} and pos=='N':
+                pos = 'INTJ'
+                features = ''
+            # ('N', ('муж', 'неиз', 'неод'))
+            elif t_bare == 'мм-мм-мм' and pos=='N':
+                lemma = 'мм'
+                pos = 'INTJ'
+                features = ''
+            elif t_bare=='у-у' and pos=='PR':
+                lemma = t_bare
+                pos = 'INTJ'            
+            # ('N', ('имя', 'муж', 'неиз', 'од'))
+            elif t_bare in {'ауа'} and pos=='N':
+                pos = 'NW'
+                features = ''
+            # ('N', ('неиз', 'сокр'))
+            elif t_bare in {'в', 'с'} and pos=='N':
+                pos = 'PR'
+                features = ''
+
+            # the modification involves features
+            elif t_bare in {'интересно', 'отлично', 'правильно', 'верно', 'нужно'} and pos=='ADV':
+                lemma = ''.join([t_bare[:-1], 'ый'])
+                pos = 'A'
+                features = 'ед,кр,прдк,сред'
+            elif t_bare in {'сколько'} and (pos=='CONJ' or pos=='ADV'):
+                pos = 'ADVPRO'
+                features = 'квант'
+            # ('N', ('неиз', 'сокр')) or ('PART', ())              
+            elif t_bare in {'а'} and (pos=='N' or pos=='PART'):
+                pos = 'CONJ'
+                features = 'соч'
+            elif t_bare in {'не-а'} and pos=='PART':
+                lemma = t_bare
+                pos = 'INTJ'
+                features = 'разг'
+            elif t_bare in {'пожалуйста'} and pos=='PART':
+                pos = 'N'
+                features = 'неиз,неод,сред'
+            elif t_bare in {'это'} and pos=='PART':
+                pos = 'NPRO'
+                features = 'неиз,неод,сред'        
+            elif t_bare in {'@что'} and pos=='CONJ':
+                pos = 'NPRO'
+                features = 'им,ед,неод,сред'
+            elif t_bare in {'@чего'} and pos=='ADVPRO':
+                lemma = 'что'
+                pos = 'NPRO'
+                features = 'род,ед,неод,сред'
+            # 'ADV', ('прдк',))
+            elif t_bare in {'нету'} and pos=='ADV':
+                pos = 'PART'
+                features = 'отрп,прдк'
+            # ('ADV', ('вводн',))
+            elif t_bare=='значит' and pos=='ADV':
+                lemma = 'значить'
+                pos = 'V'
+                # 'вводн'?
+                features = '3-л,вводн,ед,изъяв,непрош,несов'
+            # ('ADV', ('вводн',))
+            elif t_bare=='кажется' and pos=='ADV':
+                lemma = 'казаться'
+                pos = 'V'
+                # 'вводн'?
+                features = '3-л,вводн,ед,изъяв,непрош,несов'
 
     return (lemma, pos, features)    
 
