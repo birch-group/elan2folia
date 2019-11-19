@@ -81,6 +81,7 @@ def get_features_re_a_01(fs):
             return ','.join(sorted(s1&s2|{'им'}))
     return fs
 
+re_features = re.compile(r'[а-я123-]+')
 re_v_01 = re.compile(r'\(([а-я123,-]+)\|([а-я123,-]+)\)')
 def get_features_re_v_01(fs):
     """
@@ -256,6 +257,10 @@ def analyze_morphology(pre_t, t): # pre_t: list of previous tokens (list of str)
             # https://docs.google.com/spreadsheets/d/1obsEkDX0ChzFkvjA9nURmqVpkSrg802U-kvtHnO6faA/edit#gid=1114179687
             elif pos in {'A', 'APRO'}:
                 features = get_features_re_a_01(features)
+                # https://birch.flowlu.com/_module/knowledgebase/view/article/650--prdk
+                feats = re_features.findall(features)
+                if pos=='A' and 'кр' in feats and 'прдк' not in feats:
+                    features = ','.join([features,'прдк'])                
             elif lemma in {
                 'много', 'мало', 'немного', 'немало', 'недостаточно',
                 'достаточно', 'более', 'больше', 'менее', 'чуток', 
@@ -284,7 +289,8 @@ def analyze_morphology(pre_t, t): # pre_t: list of previous tokens (list of str)
             # 'будем' needs both steps (e.g. "И будем может быть летом даже ночевать .")
             elif pos=='V':
                 features = get_features_re_v_01(features)
-                if lemma in {'быть'} and ('непрош' in features or 'пов' in features):
+                if lemma in {'быть'} and ('непрош' in features or 'пов' in features) and \
+                   'несов' not in features:
                     features = ','.join([features,'несов'])
 
             # add diminutive feature
