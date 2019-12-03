@@ -194,5 +194,6 @@
       <class xml:id="col" label="разг" />
       <class xml:id="sneg" label="отрп" />
       <!--class xml:id="discr" label="дискр" /-->
+      <class xml:id="anom" label="аном" />
     </subset>
 </set> 
