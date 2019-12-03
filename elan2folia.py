@@ -60,7 +60,7 @@ def create_conversation(aas): #aas: iterable of alinable annotation info
     return sorted(aas,key=itemgetter(2,3))
 
 SET_LEMMA = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_lemma.foliaset.xml"
-SET_POS = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos_03_without_constraints_5.foliaset.xml"
+SET_POS = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos_03_without_constraints_6.foliaset.xml"
 # SET_SU = "https://url/to/set_of_su"     # syntactic units
 
 def convert(f_i, f_o=None):

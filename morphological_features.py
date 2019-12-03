@@ -82,6 +82,7 @@ feats_en2ru = {
     "col": "разг",
     "sneg": "отрп",
     "discr": "дискр",
+    "anom": "аном",
     # </subset>
     # total: 57
 }
