@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--https://github.com/proycon/folia/blob/master/setdefinitions/naf_pos.foliaset.xml-->
+<set xml:id="birch_pos" type="closed" xmlns="http://ilk.uvt.nl/folia">
+    <!-- https://docs.google.com/document/d/1pLZdm3x-9Ob_Lo6WHPNVvHoOvUGuqqG8NdPi5ESqWfk/edit# -->
+    <class xml:id="A" label="A (прилагательное)" />
+    <class xml:id="ADV" label="ADV (наречие)" />
+    <class xml:id="ADVPRO" label="ADVPRO (местоименное наречие)" />
+    <class xml:id="ANUM" label="ANUM (числительное-прилагательное)" />
+    <class xml:id="APRO" label="APRO (местоимение-прилагательное)" />
+    <class xml:id="COM" label="COM (часть композита - сложного слова)" />
+    <class xml:id="CONJ" label="CONJ (союз)" />
+    <class xml:id="INTJ" label="INTJ (междометие)" />
+    <class xml:id="NUM" label="NUM (числительное)" />
+    <class xml:id="PART" label="PART (частица)" />
+    <class xml:id="PR" label="PR (предлог)" />
+    <class xml:id="N" label="N (существительное)" />
+    <class xml:id="NPRO" label="NPRO (местоимение-существительное)" />
+    <class xml:id="V" label="V (глагол)" />
+    <!--class xml:id="Q" label="Q (квантор)" /-->
+    <class xml:id="NW" label="NW (nonce word)" />
+</set>
