@@ -215,7 +215,7 @@ def analyze_morphology(pre_t, t): # pre_t: list of previous tokens (list of str)
                 features = 'ед,кр,прдк,сред'
             elif lemma in {'сколько'} and (pos=='CONJ' or pos=='ADV'):
                 pos = 'ADVPRO'
-                features = 'квант'
+                # features = 'квант'
             # ('N', ('неиз', 'сокр')) or ('PART', ())              
             elif lemma in {'а'} and (pos=='N' or pos=='PART'):
                 pos = 'CONJ'
@@ -261,12 +261,12 @@ def analyze_morphology(pre_t, t): # pre_t: list of previous tokens (list of str)
                 feats = re_features.findall(features)
                 if pos=='A' and 'кр' in feats and 'прдк' not in feats:
                     features = ','.join([features,'прдк'])                
-            elif lemma in {
-                'много', 'мало', 'немного', 'немало', 'недостаточно',
-                'достаточно', 'более', 'больше', 'менее', 'чуток', 
-                'чуть', 'чуть-чуть', 'маловато', 'многовато'
-            } and pos=='ADV':
-                features = ','.join([features,'квант'])
+            # elif lemma in {
+            #     'много', 'мало', 'немного', 'немало', 'недостаточно',
+            #     'достаточно', 'более', 'больше', 'менее', 'чуток', 
+            #     'чуть', 'чуть-чуть', 'маловато', 'многовато'
+            # } and pos=='ADV':
+            #     features = ','.join([features,'квант'])
             elif lemma in {'кофе'} and pos=='N':
                 features = 'неод,неиз,мс'
             elif lemma in {
