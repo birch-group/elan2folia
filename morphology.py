@@ -101,6 +101,8 @@ def get_features_re_v_01(fs):
 def analyze_morphology(pre_t, t): # pre_t: list of previous tokens (list of str); t: contextualized token (str) (see demo())
     """
     -> (lemma, pos, morphological_features)
+
+    Notes: t_bare or lemma are in lower case and do not contain 'ё'
     """    
     lemma = pos = features = str() 
     # if is_token_mystem(t):
@@ -112,7 +114,9 @@ def analyze_morphology(pre_t, t): # pre_t: list of previous tokens (list of str)
     if is_token_mystem(t_bare_original):
         # handle upper/lower cases
         # t_bare = t_bare.lower()
-        t_bare = t_bare_original.lower()
+        t_bare = t_bare_original.lower()        
+        # replace 'ё' with 'е'
+        t_bare = t_bare.replace('ё','е')
 
         # without Mystem analysis        
         if t_bare in {'аа', 'оо', 'уу', 'ээ'}:
@@ -147,7 +151,7 @@ def analyze_morphology(pre_t, t): # pre_t: list of previous tokens (list of str)
                 t = t.replace(t_bare_original,lemmas_colloquial2standard[t_bare],1)
             analysis_mystem = m.analyze(t)[0]['analysis']
             if analysis_mystem:
-                # mystem's lexeme -> lemma annotation
+                # mystem's lexeme (not containing 'ё') -> lemma annotation
                 if 'lex' in analysis_mystem[0]:
                     lemma = analysis_mystem[0]['lex']
                 if 'gr' in analysis_mystem[0]:
