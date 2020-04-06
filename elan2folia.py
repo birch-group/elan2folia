@@ -124,7 +124,7 @@ def convert(f_i, f_o=None):
                 pre_t = [tokens[i-2],tokens[i-1]]
             elif i==1:
                 pre_t[1] = tokens[i-1]
-            token = utterance.append(folia.Word,t, processor=processor_mystem)
+            token = utterance.append(folia.Word, t, processor=processor_mystem)
             if i < (len_tokens - 1):
                 t = ' '.join([t, tokens[i+1]])
             # lemma, pos, features = analyze_morphology(t)
