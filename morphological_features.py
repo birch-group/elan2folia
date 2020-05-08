@@ -83,8 +83,9 @@ feats_en2ru = {
     "sneg": "отрп",
     "discr": "дискр",
     "anom": "аном",
+    "posa": "впрл",
     # </subset>
-    # total: 57
+    # total: 58
 }
 
 # print(len(feats_en2ru))
