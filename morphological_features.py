@@ -84,8 +84,9 @@ feats_en2ru = {
     "discr": "дискр",
     "anom": "аном",
     "posa": "впрл",
+    "praedic": "предик", # under debate (starting on Jul 09)
     # </subset>
-    # total: 58
+    # total: 59
 }
 
 # print(len(feats_en2ru))
