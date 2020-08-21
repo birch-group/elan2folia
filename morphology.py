@@ -164,8 +164,11 @@ def analyze_morphology(pre_t, t): # pre_t: list of previous tokens (list of str)
             if lemma in {'два','оба','полтора'}:
                 features = re.sub(r'муж|сред', r'мс', features)
             # 'соч' for 'а|и|но|или|либо|зато'
-            elif lemma in {'а','и','но','или','либо', 'зато', 'иначе', 'итак'} and pos=='CONJ': # 2nd condition may be redundant
+            elif lemma in {'а','и','но','или','либо', 'зато', 'итак'} and pos=='CONJ': # 2nd condition may be redundant
                 features = ''.join([features,'соч'])
+            # https://birch.flowlu.com/_module/knowledgebase/view/article/487--inache-segmentation
+            elif lemma in {'иначе'} and pos=='CONJ':
+                pos = 'ADV'
             # 'подч' for 'если|чтобы|хотя'
             elif lemma in {'если','чтобы','хотя', 'чтоб'} and pos=='CONJ': # 2nd condition may be redundant
                 features = ''.join([features,'подч'])            
