@@ -264,7 +264,7 @@ def analyze_morphology(pre_t,
             # 'ADV', ('прдк',))
             elif lemma in {'нету'} and pos == 'ADV':
                 pos = 'PART'
-                features = 'отрп,предик'
+                features = 'отрп,предик' 
             # ('ADV', ('вводн',))
             elif t_bare == 'значит' and pos == 'ADV':
                 lemma = 'значить'
