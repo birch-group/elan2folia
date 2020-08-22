@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-07-05T06:54:31-05:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///C:/Users/erini/Desktop/Segmentation Files/2.1/B_2015_01_03_0.MP3" MIME_TYPE="audio/*" RELATIVE_MEDIA_URL="../2.1/B_2015_01_03_0.MP3"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:952feb1d-478c-4e95-b90d-7e15f2863501</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">9</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="170"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="1440"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="1780"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="1780"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="2010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="4530"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="4530"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="8850"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="9193"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="9193"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="12353"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="12610"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="default"/>
+    <TIER DEFAULT_LOCALE="ru" LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="ребенок" TIER_ID="Ребенок">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts2" TIME_SLOT_REF2="ts5">
+                <ANNOTATION_VALUE>{NS}</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts8" TIME_SLOT_REF2="ts11">
+                <ANNOTATION_VALUE>Мама-мама-мама ма.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER DEFAULT_LOCALE="ru" LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="Мама" TIER_ID="Мама">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts3">
+                <ANNOTATION_VALUE>Короче говоря нужно переорганизовать. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>Нужно повесить эти полки, которые мы заказали. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts9">
+                <ANNOTATION_VALUE>Мы их заказали пока что еще мало, их нужно в три раза {SN} больше. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts10" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>Я думаю вот этот вот шкаф перенести туда, &lt;ELAB&gt; в ту спальню &lt;$$ELAB&gt; и по- &lt;BREAK&gt; .</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="Папа" TIER_ID="Папа"/>
+    <TIER ANNOTATOR="Ян" LINGUISTIC_TYPE_REF="Ударения" PARENT_REF="Ребенок" PARTICIPANT="Ребенок" TIER_ID="Ребенок ударения">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a4" ANNOTATION_REF="a3">
+                <ANNOTATION_VALUE>{NS}</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a5" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Ма'ма-ма'ма-ма'ма-ма'.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="Ян" LINGUISTIC_TYPE_REF="Ударения" PARENT_REF="Мама" PARTICIPANT="Мама" TIER_ID="Мама ударения">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a6" ANNOTATION_REF="a2">
+                <ANNOTATION_VALUE>Коро'че говоря' ну'жно переорганизова'ть. Ну'жно пове'сить э'ти по'лки, кото'рые мы' заказа'ли. Мы' и'х заказа'ли пока' что' еще' ма'ло, и'х ну'жно в три' ра'за {SN} бо'льше. Я' ду'маю во'т э'тот во'т шка'ф перенести' туда', в ту' спа'льню и' по-.</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Ударения" TIME_ALIGNABLE="false"/>
+    <LOCALE LANGUAGE_CODE="ru" VARIANT="YAWERTY (Phonetic)"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
