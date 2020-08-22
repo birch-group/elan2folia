@@ -13,9 +13,9 @@ https://github.com/proycon/folia/blob/master/foliatools/conllu2folia.py
 """
 
 # https://stackoverflow.com/questions/35365344/python-sys-argv-and-argparse
-#import argparse
+# import argparse
 import os
-#import sys
+# import sys
 from pympi import Eaf
 # from pynlpl.formats import folia
 import folia.main as folia
@@ -25,21 +25,23 @@ from pymystem3 import Mystem
 from tokenization import *
 from morphology import *
 
+
 # Helper function
 # https://docs.python.org/3.6/library/time.html
 # Potential reference: recording_time.py (in "workspace/birch/nsf_report" folder)
-def millisec2foliatime(ms): # type(ms) == int
+def millisec2foliatime(ms):  # type(ms) == int
     """ -> hh:mm:ss.mmm """
-    mmm = ms%1000
-    ss = ms//1000
-    mm = ss//60
-    hh = mm//60
-    mm = mm%60
-    ss = ss%60
-    return "{:02d}:{:02d}:{:02d}.{:03d}".format(hh,mm,ss,mmm)
+    mmm = ms % 1000
+    ss = ms // 1000
+    mm = ss // 60
+    hh = mm // 60
+    mm = mm % 60
+    ss = ss % 60
+    return "{:02d}:{:02d}:{:02d}.{:03d}".format(hh, mm, ss, mmm)
+
 
 # Reference: chronological_order.py (in "workspace/birch/nsf_report" folder)
-def get_aas(doc_elan): # alignable annotation info
+def get_aas(doc_elan):  # alignable annotation info
     """ -> iterable of tuples of 
                                  aa's ID (key of aa)
                                  speaker (key of tier)
@@ -48,20 +50,24 @@ def get_aas(doc_elan): # alignable annotation info
                                  transcript value    
     """
     for k in doc_elan.tiers:
-        aas = doc_elan.tiers[k][0] # alignable annotations
+        aas = doc_elan.tiers[k][0]  # alignable annotations
         for kk in aas:
             time_b = millisec2foliatime(doc_elan.timeslots[aas[kk][0]])
             time_e = millisec2foliatime(doc_elan.timeslots[aas[kk][1]])
-            yield (kk,k,time_b,time_e,aas[kk][2])
+            yield (kk, k, time_b, time_e, aas[kk][2])
 
-def create_conversation(aas): #aas: iterable of alinable annotation info
+
+def create_conversation(aas):  # aas: iterable of alinable annotation info
     """ in chronological order """
     # https://stackoverflow.com/questions/4233476/sort-a-list-by-multiple-attributes
-    return sorted(aas,key=itemgetter(2,3))
+    return sorted(aas, key=itemgetter(2, 3))
+
 
 SET_LEMMA = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_lemma.foliaset.xml"
 # SET_POS = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos_03_without_constraints_6.foliaset.xml"
 SET_POS = "https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos_temp_20200228.foliaset.xml"
+
+
 # SET_SU = "https://url/to/set_of_su"     # syntactic units
 
 def convert(f_i, f_o=None):
@@ -74,7 +80,7 @@ def convert(f_i, f_o=None):
 
     if not f_o:
         f_o = '.'.join([f_i.rpartition('.')[0], 'folia.xml'])
-    
+
     # https://foliapy.readthedocs.io/en/latest/folia.html#editing-folia
     # https://foliapy.readthedocs.io/en/latest/folia.html#adding-structure
     # https://foliapy.readthedocs.io/en/latest/folia.html#structure-annotation-types
@@ -103,12 +109,12 @@ def convert(f_i, f_o=None):
     speech = doc_o.append(folia.Speech)
     for aa in create_conversation(get_aas(doc_i)):
         utterance = speech.append(folia.Utterance,
-                                  id=aa[0],speaker=aa[1],
-                                  begintime=aa[2],endtime=aa[3],
+                                  id=aa[0], speaker=aa[1],
+                                  begintime=aa[2], endtime=aa[3],
                                   processor=processor_mystem)
-        
+
         # https://docs.python.org/3/library/string.html#formatspec
-        utterance.append(folia.Word,'{}:'.format(aa[1].upper()),
+        utterance.append(folia.Word, '{}:'.format(aa[1].upper()),
                          processor=processor_mystem)
         # aa[4]: utterance text
         tokens = get_tokens(aa[4])
@@ -120,43 +126,44 @@ def convert(f_i, f_o=None):
             # if i:
             #     pre_t = tokens[i-1]
             pre_t = [None, None]
-            if i>1:
-                pre_t = [tokens[i-2],tokens[i-1]]
-            elif i==1:
-                pre_t[1] = tokens[i-1]
+            if i > 1:
+                pre_t = [tokens[i - 2], tokens[i - 1]]
+            elif i == 1:
+                pre_t[1] = tokens[i - 1]
             token = utterance.append(folia.Word, t, processor=processor_mystem)
             if i < (len_tokens - 1):
-                t = ' '.join([t, tokens[i+1]])
+                t = ' '.join([t, tokens[i + 1]])
             # lemma, pos, features = analyze_morphology(t)
-            lemma, pos, features = analyze_morphology(pre_t,t)
+            lemma, pos, features = analyze_morphology(pre_t, t)
             if lemma:
                 token.append(folia.LemmaAnnotation,
                              cls=lemma,
                              set=SET_LEMMA,
                              processor=processor_mystem
-                            #  annotator='Mystem+'
-                            )
-            if pos:                
+                             #  annotator='Mystem+'
+                             )
+            if pos:
                 an_pos = token.append(folia.PosAnnotation,
                                       cls=pos,
                                       set=SET_POS,
                                       processor=processor_mystem
-                                    #   annotator='Mystem+'
-                                     )
-            if features:                                          
+                                      #   annotator='Mystem+'
+                                      )
+            if features:
                 # https://foliapy.readthedocs.io/en/latest/folia.html#features                
                 an_pos.append(folia.Description,
-                              value = re.sub(r'=', r',', features),
+                              value=re.sub(r'=', r',', features),
                               processor=processor_mystem
-                            #   annotator='Mystem+'
-                             )
+                              #   annotator='Mystem+'
+                              )
                 an_pos.append(folia.Comment,
-                              value = ' '.join(['Mystem+ features:',features]),
+                              value=' '.join(['Mystem+ features:', features]),
                               processor=processor_mystem
-                            #   annotator='Mystem+'
-                             )
+                              #   annotator='Mystem+'
+                              )
 
     doc_o.save(f_o)
+
 
 if __name__ == "__main__":
     # get arguments from command line
@@ -167,8 +174,18 @@ if __name__ == "__main__":
     # parser = argparse.ArgumentParser(description="Convert from ELAN EAF to FoLiA XML.")
     # parser.add_argument("-i", help="input file name (no extension)")
     # parser.add_argument("-o", help="output file name (no extension)", default=None)
-    
+
     import sys
 
-    f = sys.argv[1].strip()
-    convert(f)
+    # converting one file:
+    # f = sys.argv[1].strip()
+    # convert(f)
+
+    # converting batch of files from data/ELAN folder to data/FoLiA folder:
+    for f in os.listdir('data/ELAN/'):
+        f = 'data/ELAN/' + f.strip()
+        fo = f.replace('.eaf', '.folia.xml')
+        fo = fo.replace('data/ELAN', 'data/FoLiA')
+        convert(f, fo)
+
+    # (Note: on Windows10, works only with pymystem3-0.1.9 version)
