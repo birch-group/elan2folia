@@ -202,7 +202,8 @@ def analyze_morphology(pre_t,
                 pos = 'ADV'
             elif lemma in {'итак'} and pos == 'CONJ':
                 pos = 'ADV'
-            elif lemma in {'вон', 'вот'} and pos == 'PART':
+            # https://docs.google.com/document/d/1pLZdm3x-9Ob_Lo6WHPNVvHoOvUGuqqG8NdPi5ESqWfk/edit?disco=AAAAG9koUG4?
+            elif lemma in {'вон', 'вот', 'во'} and pos == 'PART':
                 pos = 'ADVPRO'
             elif lemma in {'как'} and pos == 'CONJ':
                 pos = 'ADVPRO'
