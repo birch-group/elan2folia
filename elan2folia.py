@@ -183,9 +183,10 @@ if __name__ == "__main__":
 
     # converting batch of files from data/ELAN folder to data/FoLiA folder:
     for f in os.listdir('data/ELAN/'):
-        f = 'data/ELAN/' + f.strip()
-        fo = f.replace('.eaf', '.folia.xml')
-        fo = fo.replace('data/ELAN', 'data/FoLiA')
-        convert(f, fo)
+        if f.endswith('.eaf'):
+            f = 'data/ELAN/' + f.strip()
+            fo = f.replace('.eaf', '.folia.xml')
+            fo = fo.replace('data/ELAN', 'data/FoLiA')
+            convert(f, fo)
 
     # (Note: on Windows10, works only with pymystem3-0.1.9 version)
