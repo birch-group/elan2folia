@@ -202,7 +202,8 @@ def analyze_morphology(pre_t,
                 pos = 'ADV'
             elif lemma in {'итак'} and pos == 'CONJ':
                 pos = 'ADV'
-            elif lemma in {'вон', 'вот'} and pos == 'PART':
+            # https://docs.google.com/document/d/1pLZdm3x-9Ob_Lo6WHPNVvHoOvUGuqqG8NdPi5ESqWfk/edit?disco=AAAAG9koUG4?
+            elif lemma in {'вон', 'вот', 'во'} and pos == 'PART':
                 pos = 'ADVPRO'
             elif lemma in {'как'} and pos == 'CONJ':
                 pos = 'ADVPRO'
@@ -261,10 +262,19 @@ def analyze_morphology(pre_t,
                 lemma = 'что'
                 pos = 'NPRO'
                 features = 'род,ед,неод,сред'
-            # 'ADV', ('прдк',))
-            elif lemma in {'нету'} and pos == 'ADV':
+            # https://birch.flowlu.com/_module/knowledgebase/view/article/898--praedic-predik-net-i-sintaksis
+            # >>> m.analyze(" У меня нет")
+            # [{'analysis': [{'lex': 'у', 'wt': 0.9993940324, 'gr': 'PR='}], 'text': 'У'}, 
+            # {'analysis': [{'lex': 'я', 'wt': 0.9999549915, 'gr': 'SPRO,ед,1-л=(вин|род)'}], 'text': 'меня'}, {'analysis': [{'lex': 'нет', 'wt': 0.464233437, 'gr': 'ADV,прдк='}], 'text': 'нет'}]
+            # ('ADV', ('прдк',))
+            elif lemma in {'нету', 'нет'} and pos == 'ADV':
                 pos = 'PART'
-                features = 'отрп,предик' 
+                features = 'отрп,предик'
+            # >>> m.analyze("нет, шоколадка.") 
+            # [{'analysis': [{'lex': 'нет', 'wt': 0.5356555854, 'gr': 'PART='}], 'text': 'нет'}, {'analysis': [{'lex': 'шоколадка', 'wt': 1, 'gr': 'S,жен,неод=им,ед'}], 'text': 'шоколадка'}]
+            # ('PART', ())
+            elif lemma in {'нет'} and pos == 'PART':
+                pos = 'INTJ'
             # ('ADV', ('вводн',))
             elif t_bare == 'значит' and pos == 'ADV':
                 lemma = 'значить'
