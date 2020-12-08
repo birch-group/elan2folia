@@ -76,7 +76,7 @@ def convert(f_i, f_o=None):
     f_o: output (FoLiA) file (full path, with extension) (str)
     ...
     """
-    doc_i = Eaf(f)
+    doc_i = Eaf(f_i)
 
     if not f_o:
         f_o = '.'.join([f_i.rpartition('.')[0], 'folia.xml'])
