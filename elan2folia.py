@@ -189,4 +189,11 @@ if __name__ == "__main__":
             fo = fo.replace('data/ELAN', 'data/FoLiA')
             convert(f, fo)
 
+    # # print IDs of converted files:
+    # n = []
+    # for f in os.listdir('data/FoLiA/'):
+    #     n = n + [(f.strip().replace('.folia.xml', ''))]
+    # for nn in sorted(n):
+    #     print(nn)
+
     # (Note: on Windows10, works only with pymystem3-0.1.9 version)
