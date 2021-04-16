@@ -1,0 +1,1840 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FoLiA xmlns="http://ilk.uvt.nl/folia" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="I_2016_10_11_1" version="2.2.1" generator="foliapy-v2.2.5">
+  <metadata type="native">
+    <annotations>
+      <text-annotation set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/text.foliaset.ttl"/>
+      <lemma-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_lemma.foliaset.xml">
+        <annotator processor="proc.mystem.711b2625"/>
+      </lemma-annotation>
+      <pos-annotation set="https://raw.githubusercontent.com/birch-group/elan2folia/master/set_definitions/birch_pos_temp_20200228.foliaset.xml">
+        <annotator processor="proc.mystem.711b2625"/>
+      </pos-annotation>
+      <description-annotation>
+        <annotator processor="proc.mystem.711b2625"/>
+      </description-annotation>
+      <comment-annotation>
+        <annotator processor="proc.mystem.711b2625"/>
+      </comment-annotation>
+      <utterance-annotation>
+        <annotator processor="proc.mystem.711b2625"/>
+      </utterance-annotation>
+      <token-annotation>
+        <annotator processor="proc.mystem.711b2625"/>
+      </token-annotation>
+      <hiddentoken-annotation/>
+    </annotations>
+    <provenance>
+      <processor xml:id="proc.mystem.711b2625" name="Mystem+" type="auto">
+        <processor xml:id="proc.mystem.711b2625.generator" name="foliapy" type="generator" version="2.2.5" folia_version="2.2.1"/>
+      </processor>
+    </provenance>
+  </metadata>
+  <speech xml:id="I_2016_10_11_1.speech.1">
+    <utt xml:id="a23" speaker="Папа" begintime="00:00:00.000" endtime="00:00:05.074">
+      <w xml:id="a23.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a23.w.2">
+        <t>У</t>
+        <lemma class="у"/>
+        <pos class="PR"/>
+      </w>
+      <w xml:id="a23.w.3">
+        <t>нас</t>
+        <lemma class="мы"/>
+        <pos class="NPRO">
+          <desc>мн,1-л,род</desc>
+          <comment>Mystem+ features: мн,1-л=род</comment>
+        </pos>
+      </w>
+      <w xml:id="a23.w.4">
+        <t>такой</t>
+        <lemma class="такой"/>
+        <pos class="APRO">
+          <desc>(пр,ед,жен|дат,ед,жен|род,ед,жен|твор,ед,жен|вин,ед,муж,неод|им,ед,муж)</desc>
+          <comment>Mystem+ features: (пр,ед,жен|дат,ед,жен|род,ед,жен|твор,ед,жен|вин,ед,муж,неод|им,ед,муж)</comment>
+        </pos>
+      </w>
+      <w xml:id="a23.w.5">
+        <t>интересный</t>
+        <lemma class="интересный"/>
+        <pos class="A">
+          <desc>ед,им,муж,полн</desc>
+          <comment>Mystem+ features: ед,им,муж,полн</comment>
+        </pos>
+      </w>
+      <w xml:id="a23.w.6">
+        <t>разговор</t>
+        <lemma class="разговор"/>
+        <pos class="N">
+          <desc>муж,неод,(вин,ед|им,ед)</desc>
+          <comment>Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a23.w.7">
+        <t>с</t>
+        <lemma class="с"/>
+        <pos class="PR"/>
+      </w>
+      <w xml:id="a23.w.8">
+        <t>Игорем</t>
+        <lemma class="игорь"/>
+        <pos class="N">
+          <desc>имя,муж,од,твор,ед</desc>
+          <comment>Mystem+ features: имя,муж,од=твор,ед</comment>
+        </pos>
+      </w>
+      <w xml:id="a23.w.9">
+        <t>был</t>
+        <lemma class="быть"/>
+        <pos class="V">
+          <desc>нп,прош,ед,изъяв,муж,несов</desc>
+          <comment>Mystem+ features: нп=прош,ед,изъяв,муж,несов</comment>
+        </pos>
+      </w>
+      <w xml:id="a23.w.10">
+        <t>машине</t>
+        <lemma class="машина"/>
+        <pos class="N">
+          <desc>жен,неод,(пр,ед|дат,ед)</desc>
+          <comment>Mystem+ features: жен,неод=(пр,ед|дат,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a23.w.11">
+        <t>{BR}</t>
+      </w>
+      <w xml:id="a23.w.12">
+        <t>&lt;$ELAB&gt;</t>
+      </w>
+      <w xml:id="a23.w.13">
+        <t>про</t>
+        <lemma class="про"/>
+        <pos class="PR"/>
+      </w>
+      <w xml:id="a23.w.14">
+        <t>космос</t>
+        <lemma class="космос"/>
+        <pos class="N">
+          <desc>муж,неод,(вин,ед|им,ед)</desc>
+          <comment>Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a23.w.15">
+        <t>&lt;$$ELAB&gt;</t>
+      </w>
+      <w xml:id="a23.w.16">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a24" speaker="Папа" begintime="00:00:05.897" endtime="00:00:11.950">
+      <w xml:id="a24.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a24.w.2">
+        <t>Игорюша</t>
+        <lemma class="игорюша"/>
+        <pos class="N">
+          <desc>имя,муж,од,им,ед</desc>
+          <comment>Mystem+ features: имя,муж,од=им,ед</comment>
+        </pos>
+      </w>
+      <w xml:id="a24.w.3">
+        <t>все</t>
+        <lemma class="все"/>
+        <pos class="NPRO">
+          <desc>мн,(вин|им)</desc>
+          <comment>Mystem+ features: мн=(вин|им)</comment>
+        </pos>
+      </w>
+      <w xml:id="a24.w.4">
+        <t>пытался</t>
+        <lemma class="пытаться"/>
+        <pos class="V">
+          <desc>несов,нп,прош,ед,изъяв,муж</desc>
+          <comment>Mystem+ features: несов,нп=прош,ед,изъяв,муж</comment>
+        </pos>
+      </w>
+      <w xml:id="a24.w.5">
+        <t>выяснить</t>
+        <lemma class="выяснять"/>
+        <pos class="V">
+          <desc>пе,инф,сов</desc>
+          <comment>Mystem+ features: пе=инф,сов</comment>
+        </pos>
+      </w>
+      <w xml:id="a24.w.6">
+        <t>что</t>
+        <lemma class="что"/>
+        <pos class="NPRO">
+          <desc>ед,сред,неод,(вин|им)</desc>
+          <comment>Mystem+ features: ед,сред,неод=(вин|им)</comment>
+        </pos>
+      </w>
+      <w xml:id="a24.w.7">
+        <t>будет</t>
+        <lemma class="быть"/>
+        <pos class="V">
+          <desc>нп,непрош,ед,изъяв,3-л,несов</desc>
+          <comment>Mystem+ features: нп=непрош,ед,изъяв,3-л,несов</comment>
+        </pos>
+      </w>
+      <w xml:id="a24.w.8">
+        <t>если</t>
+        <lemma class="если"/>
+        <pos class="CONJ">
+          <desc>подч</desc>
+          <comment>Mystem+ features: подч</comment>
+        </pos>
+      </w>
+      <w xml:id="a24.w.9">
+        <t>ракета</t>
+        <lemma class="ракета"/>
+        <pos class="N">
+          <desc>жен,неод,им,ед</desc>
+          <comment>Mystem+ features: жен,неод=им,ед</comment>
+        </pos>
+      </w>
+      <w xml:id="a24.w.10">
+        <t>полетит</t>
+        <lemma class="полететь"/>
+        <pos class="V">
+          <desc>сов,нп,непрош,ед,изъяв,3-л</desc>
+          <comment>Mystem+ features: сов,нп=непрош,ед,изъяв,3-л</comment>
+        </pos>
+      </w>
+      <w xml:id="a24.w.11">
+        <t>{BREAK}</t>
+      </w>
+      <w xml:id="a24.w.12">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a48" speaker="Папа" begintime="00:00:11.950" endtime="00:00:13.640">
+      <w xml:id="a48.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a48.w.2">
+        <t>Что</t>
+        <lemma class="что"/>
+        <pos class="NPRO">
+          <desc>ед,сред,неод,(вин|им)</desc>
+          <comment>Mystem+ features: ед,сред,неод=(вин|им)</comment>
+        </pos>
+      </w>
+      <w xml:id="a48.w.3">
+        <t>ты</t>
+        <lemma class="ты"/>
+        <pos class="NPRO">
+          <desc>ед,2-л,им</desc>
+          <comment>Mystem+ features: ед,2-л=им</comment>
+        </pos>
+      </w>
+      <w xml:id="a48.w.4">
+        <t>пытался</t>
+        <lemma class="пытаться"/>
+        <pos class="V">
+          <desc>несов,нп,прош,ед,изъяв,муж</desc>
+          <comment>Mystem+ features: несов,нп=прош,ед,изъяв,муж</comment>
+        </pos>
+      </w>
+      <w xml:id="a48.w.5">
+        <t>выяснить</t>
+        <lemma class="выяснять"/>
+        <pos class="V">
+          <desc>пе,инф,сов</desc>
+          <comment>Mystem+ features: пе=инф,сов</comment>
+        </pos>
+      </w>
+      <w xml:id="a48.w.6">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt xml:id="a1" speaker="Ребенок" begintime="00:00:14.535" endtime="00:00:22.020">
+      <w xml:id="a1.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a1.w.2">
+        <t>{NS}</t>
+      </w>
+      <w xml:id="a1.w.3">
+        <t>Я</t>
+        <lemma class="я"/>
+        <pos class="NPRO">
+          <desc>ед,1-л,им</desc>
+          <comment>Mystem+ features: ед,1-л=им</comment>
+        </pos>
+      </w>
+      <w xml:id="a1.w.4">
+        <t>пытался</t>
+        <lemma class="пытаться"/>
+        <pos class="V">
+          <desc>несов,нп,прош,ед,изъяв,муж</desc>
+          <comment>Mystem+ features: несов,нп=прош,ед,изъяв,муж</comment>
+        </pos>
+      </w>
+      <w xml:id="a1.w.5">
+        <t>выяснить</t>
+        <lemma class="выяснять"/>
+        <pos class="V">
+          <desc>пе,инф,сов</desc>
+          <comment>Mystem+ features: пе=инф,сов</comment>
+        </pos>
+      </w>
+      <w xml:id="a1.w.6">
+        <t>&lt;$UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a1.w.7">
+        <t>если</t>
+        <lemma class="если"/>
+        <pos class="CONJ">
+          <desc>подч</desc>
+          <comment>Mystem+ features: подч</comment>
+        </pos>
+      </w>
+      <w xml:id="a1.w.8">
+        <t>&lt;$$UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a1.w.9">
+        <t>ракета</t>
+        <lemma class="ракета"/>
+        <pos class="N">
+          <desc>жен,неод,им,ед</desc>
+          <comment>Mystem+ features: жен,неод=им,ед</comment>
+        </pos>
+      </w>
+      <w xml:id="a1.w.10">
+        <t>врежется</t>
+        <lemma class="врезаться"/>
+        <pos class="V">
+          <desc>сов,нп,непрош,ед,изъяв,3-л</desc>
+          <comment>Mystem+ features: сов,нп=непрош,ед,изъяв,3-л</comment>
+        </pos>
+      </w>
+      <w xml:id="a1.w.11">
+        <t>в</t>
+        <lemma class="в"/>
+        <pos class="PR"/>
+      </w>
+      <w xml:id="a1.w.12">
+        <t>конец</t>
+        <lemma class="конец"/>
+        <pos class="N">
+          <desc>муж,неод,(вин,ед|им,ед)</desc>
+          <comment>Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a1.w.13">
+        <t>вселенной</t>
+        <lemma class="вселенная"/>
+        <pos class="N">
+          <desc>жен,неод,(пр,ед|дат,ед|род,ед|твор,ед)</desc>
+          <comment>Mystem+ features: жен,неод=(пр,ед|дат,ед|род,ед|твор,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a1.w.14">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a25" speaker="Папа" begintime="00:00:22.060" endtime="00:00:23.270">
+      <w xml:id="a25.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a25.w.2">
+        <t>Да</t>
+        <lemma class="да"/>
+        <pos class="INTJ"/>
+      </w>
+      <w xml:id="a25.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a12" speaker="Мама" begintime="00:00:23.308" endtime="00:00:25.553">
+      <w xml:id="a12.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a12.w.2">
+        <t>Ракета</t>
+        <lemma class="ракета"/>
+        <pos class="N">
+          <desc>жен,неод,им,ед</desc>
+          <comment>Mystem+ features: жен,неод=им,ед</comment>
+        </pos>
+      </w>
+      <w xml:id="a12.w.3">
+        <t>врежется</t>
+        <lemma class="врезаться"/>
+        <pos class="V">
+          <desc>сов,нп,непрош,ед,изъяв,3-л</desc>
+          <comment>Mystem+ features: сов,нп=непрош,ед,изъяв,3-л</comment>
+        </pos>
+      </w>
+      <w xml:id="a12.w.4">
+        <t>в</t>
+        <lemma class="в"/>
+        <pos class="PR"/>
+      </w>
+      <w xml:id="a12.w.5">
+        <t>конец</t>
+        <lemma class="конец"/>
+        <pos class="N">
+          <desc>муж,неод,(вин,ед|им,ед)</desc>
+          <comment>Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a12.w.6">
+        <t>вселенной</t>
+        <lemma class="вселенная"/>
+        <pos class="N">
+          <desc>жен,неод,(пр,ед|дат,ед|род,ед|твор,ед)</desc>
+          <comment>Mystem+ features: жен,неод=(пр,ед|дат,ед|род,ед|твор,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a12.w.7">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt xml:id="a2" speaker="Ребенок" begintime="00:00:24.810" endtime="00:00:25.760">
+      <w xml:id="a2.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a2.w.2">
+        <t>Угу</t>
+        <lemma class="угу"/>
+        <pos class="INTJ"/>
+      </w>
+      <w xml:id="a2.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a26" speaker="Папа" begintime="00:00:26.110" endtime="00:00:31.870">
+      <w xml:id="a26.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a26.w.2">
+        <t>Он</t>
+        <lemma class="он"/>
+        <pos class="NPRO">
+          <desc>ед,3-л,муж,им</desc>
+          <comment>Mystem+ features: ед,3-л,муж=им</comment>
+        </pos>
+      </w>
+      <w xml:id="a26.w.3">
+        <t>спрашивал</t>
+        <lemma class="спрашивать"/>
+        <pos class="V">
+          <desc>прош,ед,изъяв,муж,несов,пе</desc>
+          <comment>Mystem+ features: прош,ед,изъяв,муж,несов,пе</comment>
+        </pos>
+      </w>
+      <w xml:id="a26.w.4">
+        <t>сначала</t>
+        <lemma class="сначала"/>
+        <pos class="ADV"/>
+      </w>
+      <w xml:id="a26.w.5">
+        <t>что</t>
+        <lemma class="что"/>
+        <pos class="NPRO">
+          <desc>им,ед,неод,сред</desc>
+          <comment>Mystem+ features: им,ед,неод,сред</comment>
+        </pos>
+      </w>
+      <w xml:id="a26.w.6">
+        <t>под</t>
+        <lemma class="под"/>
+        <pos class="PR"/>
+      </w>
+      <w xml:id="a26.w.7">
+        <t>планетой</t>
+        <lemma class="планета"/>
+        <pos class="N">
+          <desc>жен,неод,твор,ед</desc>
+          <comment>Mystem+ features: жен,неод=твор,ед</comment>
+        </pos>
+      </w>
+      <w xml:id="a26.w.8">
+        <t>находится</t>
+        <lemma class="находиться"/>
+        <pos class="V">
+          <desc>нп,непрош,ед,изъяв,3-л,несов</desc>
+          <comment>Mystem+ features: нп=непрош,ед,изъяв,3-л,несов</comment>
+        </pos>
+      </w>
+      <w xml:id="a26.w.9">
+        <t>.</t>
+      </w>
+      <w xml:id="a26.w.10">
+        <t>Да</t>
+        <lemma class="да"/>
+        <pos class="INTJ"/>
+      </w>
+      <w xml:id="a26.w.11">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt xml:id="a3" speaker="Ребенок" begintime="00:00:31.520" endtime="00:00:32.792">
+      <w xml:id="a3.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a3.w.2">
+        <t>Угу</t>
+        <lemma class="угу"/>
+        <pos class="INTJ"/>
+      </w>
+      <w xml:id="a3.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a27" speaker="Папа" begintime="00:00:32.330" endtime="00:00:39.400">
+      <w xml:id="a27.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a27.w.2">
+        <t>А</t>
+        <lemma class="а"/>
+        <pos class="CONJ">
+          <desc>соч</desc>
+          <comment>Mystem+ features: соч</comment>
+        </pos>
+      </w>
+      <w xml:id="a27.w.3">
+        <t>потом</t>
+        <lemma class="потом"/>
+        <pos class="ADVPRO"/>
+      </w>
+      <w xml:id="a27.w.4">
+        <t>срашивал</t>
+        <lemma class="срашивать"/>
+        <pos class="V">
+          <desc>сов,пе,прош,ед,изъяв,муж</desc>
+          <comment>Mystem+ features: сов,пе=прош,ед,изъяв,муж</comment>
+        </pos>
+      </w>
+      <w xml:id="a27.w.5">
+        <t>,</t>
+      </w>
+      <w xml:id="a27.w.6">
+        <t>"</t>
+      </w>
+      <w xml:id="a27.w.7">
+        <t>Если</t>
+        <lemma class="если"/>
+        <pos class="CONJ">
+          <desc>подч</desc>
+          <comment>Mystem+ features: подч</comment>
+        </pos>
+      </w>
+      <w xml:id="a27.w.8">
+        <t>ракета</t>
+        <lemma class="ракета"/>
+        <pos class="N">
+          <desc>жен,неод,им,ед</desc>
+          <comment>Mystem+ features: жен,неод=им,ед</comment>
+        </pos>
+      </w>
+      <w xml:id="a27.w.9">
+        <t>будет</t>
+        <lemma class="быть"/>
+        <pos class="V">
+          <desc>нп,непрош,ед,изъяв,3-л,несов</desc>
+          <comment>Mystem+ features: нп=непрош,ед,изъяв,3-л,несов</comment>
+        </pos>
+      </w>
+      <w xml:id="a27.w.10">
+        <t>лететь</t>
+        <lemma class="лететь"/>
+        <pos class="V">
+          <desc>несов,нп,инф</desc>
+          <comment>Mystem+ features: несов,нп=инф</comment>
+        </pos>
+      </w>
+      <w xml:id="a27.w.11">
+        <t>"</t>
+      </w>
+      <w xml:id="a27.w.12">
+        <t>{BREAK}</t>
+      </w>
+      <w xml:id="a27.w.13">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a28" speaker="Папа" begintime="00:00:43.337" endtime="00:00:45.322">
+      <w xml:id="a28.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a28.w.2">
+        <t>Что</t>
+        <lemma class="что"/>
+        <pos class="NPRO">
+          <desc>ед,сред,неод,(вин|им)</desc>
+          <comment>Mystem+ features: ед,сред,неод=(вин|им)</comment>
+        </pos>
+      </w>
+      <w xml:id="a28.w.3">
+        <t>ты</t>
+        <lemma class="ты"/>
+        <pos class="NPRO">
+          <desc>ед,2-л,им</desc>
+          <comment>Mystem+ features: ед,2-л=им</comment>
+        </pos>
+      </w>
+      <w xml:id="a28.w.4">
+        <t>спрашивал</t>
+        <lemma class="спрашивать"/>
+        <pos class="V">
+          <desc>прош,ед,изъяв,муж,несов,пе</desc>
+          <comment>Mystem+ features: прош,ед,изъяв,муж,несов,пе</comment>
+        </pos>
+      </w>
+      <w xml:id="a28.w.5">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt xml:id="a4" speaker="Ребенок" begintime="00:00:45.085" endtime="00:00:47.187">
+      <w xml:id="a4.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a4.w.2">
+        <t>{LS}</t>
+      </w>
+      <w xml:id="a4.w.3">
+        <t>День</t>
+        <lemma class="день"/>
+        <pos class="N">
+          <desc>муж,неод,(вин,ед|им,ед)</desc>
+          <comment>Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a4.w.4">
+        <t>и</t>
+        <lemma class="и"/>
+        <pos class="CONJ">
+          <desc>соч</desc>
+          <comment>Mystem+ features: соч</comment>
+        </pos>
+      </w>
+      <w xml:id="a4.w.5">
+        <t>ночь</t>
+        <lemma class="ночь"/>
+        <pos class="N">
+          <desc>жен,неод,(вин,ед|им,ед)</desc>
+          <comment>Mystem+ features: жен,неод=(вин,ед|им,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a4.w.6">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a29" speaker="Папа" begintime="00:00:46.810" endtime="00:00:49.190">
+      <w xml:id="a29.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a29.w.2">
+        <t>День</t>
+        <lemma class="день"/>
+        <pos class="N">
+          <desc>муж,неод,(вин,ед|им,ед)</desc>
+          <comment>Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a29.w.3">
+        <t>и</t>
+        <lemma class="и"/>
+        <pos class="CONJ">
+          <desc>соч</desc>
+          <comment>Mystem+ features: соч</comment>
+        </pos>
+      </w>
+      <w xml:id="a29.w.4">
+        <t>ночь</t>
+        <lemma class="ночь"/>
+        <pos class="N">
+          <desc>жен,неод,(вин,ед|им,ед)</desc>
+          <comment>Mystem+ features: жен,неод=(вин,ед|им,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a29.w.5">
+        <t>а</t>
+        <lemma class="а"/>
+        <pos class="CONJ">
+          <desc>соч</desc>
+          <comment>Mystem+ features: соч</comment>
+        </pos>
+      </w>
+      <w xml:id="a29.w.6">
+        <t>потом</t>
+        <lemma class="потом"/>
+        <pos class="ADVPRO"/>
+      </w>
+      <w xml:id="a29.w.7">
+        <t>{BREAK}</t>
+      </w>
+      <w xml:id="a29.w.8">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a5" speaker="Ребенок" begintime="00:00:50.320" endtime="00:00:53.610">
+      <w xml:id="a5.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a5.w.2">
+        <t>Врежется</t>
+        <lemma class="врезаться"/>
+        <pos class="V">
+          <desc>сов,нп,непрош,ед,изъяв,3-л</desc>
+          <comment>Mystem+ features: сов,нп=непрош,ед,изъяв,3-л</comment>
+        </pos>
+      </w>
+      <w xml:id="a5.w.3">
+        <t>в</t>
+        <lemma class="в"/>
+        <pos class="PR"/>
+      </w>
+      <w xml:id="a5.w.4">
+        <t>конец</t>
+        <lemma class="конец"/>
+        <pos class="N">
+          <desc>муж,неод,(вин,ед|им,ед)</desc>
+          <comment>Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a5.w.5">
+        <t>вселенной</t>
+        <lemma class="вселенная"/>
+        <pos class="N">
+          <desc>жен,неод,(пр,ед|дат,ед|род,ед|твор,ед)</desc>
+          <comment>Mystem+ features: жен,неод=(пр,ед|дат,ед|род,ед|твор,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a5.w.6">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a46" speaker="Ребенок" begintime="00:00:53.610" endtime="00:00:56.400">
+      <w xml:id="a46.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a46.w.2">
+        <t>И</t>
+        <lemma class="и"/>
+        <pos class="CONJ">
+          <desc>соч</desc>
+          <comment>Mystem+ features: соч</comment>
+        </pos>
+      </w>
+      <w xml:id="a46.w.3">
+        <t>вот</t>
+        <lemma class="вот"/>
+        <pos class="ADVPRO"/>
+      </w>
+      <w xml:id="a46.w.4">
+        <t>там</t>
+        <lemma class="там"/>
+        <pos class="ADVPRO"/>
+      </w>
+      <w xml:id="a46.w.5">
+        <t>под</t>
+        <lemma class="под"/>
+        <pos class="PR"/>
+      </w>
+      <w xml:id="a46.w.6">
+        <t>этим</t>
+        <lemma class="это"/>
+        <pos class="NPRO">
+          <desc>ед,сред,неод,твор</desc>
+          <comment>Mystem+ features: ед,сред,неод=твор</comment>
+        </pos>
+      </w>
+      <w xml:id="a46.w.7">
+        <t>выяснить</t>
+        <lemma class="выяснять"/>
+        <pos class="V">
+          <desc>пе,инф,сов</desc>
+          <comment>Mystem+ features: пе=инф,сов</comment>
+        </pos>
+      </w>
+      <w xml:id="a46.w.8">
+        <t>{inaudible}</t>
+      </w>
+      <w xml:id="a46.w.9">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a13" speaker="Мама" begintime="00:00:56.020" endtime="00:00:58.590">
+      <w xml:id="a13.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a13.w.2">
+        <t>Так</t>
+        <lemma class="так"/>
+        <pos class="ADVPRO"/>
+      </w>
+      <w xml:id="a13.w.3">
+        <t>я</t>
+        <lemma class="я"/>
+        <pos class="NPRO">
+          <desc>ед,1-л,им</desc>
+          <comment>Mystem+ features: ед,1-л=им</comment>
+        </pos>
+      </w>
+      <w xml:id="a13.w.4">
+        <t>щас</t>
+        <lemma class="сейчас"/>
+        <pos class="ADV"/>
+      </w>
+      <w xml:id="a13.w.5">
+        <t>ниче</t>
+        <lemma class="нич"/>
+        <pos class="N">
+          <desc>гео,муж,неод,пр,ед</desc>
+          <comment>Mystem+ features: гео,муж,неод=пр,ед</comment>
+        </pos>
+      </w>
+      <w xml:id="a13.w.6">
+        <t>не</t>
+        <lemma class="не"/>
+        <pos class="PART">
+          <desc>отрп</desc>
+          <comment>Mystem+ features: отрп</comment>
+        </pos>
+      </w>
+      <w xml:id="a13.w.7">
+        <t>понимаю</t>
+        <lemma class="понимать"/>
+        <pos class="V">
+          <desc>непрош,ед,изъяв,1-л,несов,пе</desc>
+          <comment>Mystem+ features: непрош,ед,изъяв,1-л,несов,пе</comment>
+        </pos>
+      </w>
+      <w xml:id="a13.w.8">
+        <t>еще</t>
+        <lemma class="еще"/>
+        <pos class="ADV"/>
+      </w>
+      <w xml:id="a13.w.9">
+        <t>раз</t>
+        <lemma class="раз"/>
+        <pos class="N">
+          <desc>муж,неод,(вин,ед|род,мн|им,ед)</desc>
+          <comment>Mystem+ features: муж,неод=(вин,ед|род,мн|им,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a13.w.10">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a30" speaker="Папа" begintime="00:01:02.144" endtime="00:01:03.630">
+      <w xml:id="a30.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a30.w.2">
+        <t>Пополоскай</t>
+        <lemma class="пополоскать"/>
+        <pos class="V">
+          <desc>сов,ед,пов,2-л,пе</desc>
+          <comment>Mystem+ features: сов=ед,пов,2-л,пе</comment>
+        </pos>
+      </w>
+      <w xml:id="a30.w.3">
+        <t>рот</t>
+        <lemma class="рот"/>
+        <pos class="N">
+          <desc>муж,неод,(вин,ед|им,ед)</desc>
+          <comment>Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a30.w.4">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a31" speaker="Папа" begintime="00:01:05.850" endtime="00:01:07.580">
+      <w xml:id="a31.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a31.w.2">
+        <t>Угу</t>
+        <lemma class="угу"/>
+        <pos class="INTJ"/>
+      </w>
+      <w xml:id="a31.w.3">
+        <t>.</t>
+      </w>
+      <w xml:id="a31.w.4">
+        <t>Проглоти</t>
+        <lemma class="проглатывать"/>
+        <pos class="V">
+          <desc>пе,ед,пов,2-л,сов</desc>
+          <comment>Mystem+ features: пе=ед,пов,2-л,сов</comment>
+        </pos>
+      </w>
+      <w xml:id="a31.w.5">
+        <t>теперь</t>
+        <lemma class="теперь"/>
+        <pos class="ADV"/>
+      </w>
+      <w xml:id="a31.w.6">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a14" speaker="Мама" begintime="00:01:08.780" endtime="00:01:11.850">
+      <w xml:id="a14.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a14.w.2">
+        <t>{LG}</t>
+      </w>
+      <w xml:id="a14.w.3">
+        <t>&lt;$UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a14.w.4">
+        <t>Ох</t>
+        <lemma class="ох"/>
+        <pos class="INTJ"/>
+      </w>
+      <w xml:id="a14.w.5">
+        <t>|</t>
+      </w>
+      <w xml:id="a14.w.6">
+        <t>ах</t>
+        <lemma class="ах"/>
+        <pos class="INTJ"/>
+      </w>
+      <w xml:id="a14.w.7">
+        <t>&lt;$$UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a14.w.8">
+        <t>уж</t>
+        <lemma class="уж"/>
+        <pos class="PART"/>
+      </w>
+      <w xml:id="a14.w.9">
+        <t>эти</t>
+        <lemma class="этот"/>
+        <pos class="APRO">
+          <desc>им,мн</desc>
+          <comment>Mystem+ features: им,мн</comment>
+        </pos>
+      </w>
+      <w xml:id="a14.w.10">
+        <t>ириски</t>
+        <lemma class="ириска"/>
+        <pos class="N">
+          <desc>жен,неод,(вин,мн|род,ед|им,мн)</desc>
+          <comment>Mystem+ features: жен,неод=(вин,мн|род,ед|им,мн)</comment>
+        </pos>
+      </w>
+      <w xml:id="a14.w.11">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a32" speaker="Папа" begintime="00:01:12.150" endtime="00:01:14.479">
+      <w xml:id="a32.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a32.w.2">
+        <t>&lt;$PAREN&gt;</t>
+      </w>
+      <w xml:id="a32.w.3">
+        <t>Все</t>
+        <lemma class="все"/>
+        <pos class="NPRO">
+          <desc>мн,(вин|им)</desc>
+          <comment>Mystem+ features: мн=(вин|им)</comment>
+        </pos>
+      </w>
+      <w xml:id="a32.w.4">
+        <t>&lt;$$PAREN&gt;</t>
+      </w>
+      <w xml:id="a32.w.5">
+        <t>Игорька</t>
+        <lemma class="игорька"/>
+        <pos class="N">
+          <desc>имя,муж,од,им,ед</desc>
+          <comment>Mystem+ features: имя,муж,од=им,ед</comment>
+        </pos>
+      </w>
+      <w xml:id="a32.w.6">
+        <t>на</t>
+        <lemma class="на"/>
+        <pos class="PR"/>
+      </w>
+      <w xml:id="a32.w.7">
+        <t>сегодня</t>
+        <lemma class="сегодня"/>
+        <pos class="ADV"/>
+      </w>
+      <w xml:id="a32.w.8">
+        <t>достаточно</t>
+        <lemma class="достаточно"/>
+        <pos class="ADV"/>
+      </w>
+      <w xml:id="a32.w.9">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a6" speaker="Ребенок" begintime="00:01:17.330" endtime="00:01:18.913">
+      <w xml:id="a6.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a6.w.2">
+        <t>Можно</t>
+        <lemma class="можно"/>
+        <pos class="ADV">
+          <desc>прдк,</desc>
+          <comment>Mystem+ features: прдк=</comment>
+        </pos>
+      </w>
+      <w xml:id="a6.w.3">
+        <t>вот</t>
+        <lemma class="вот"/>
+        <pos class="ADVPRO"/>
+      </w>
+      <w xml:id="a6.w.4">
+        <t>эту</t>
+        <lemma class="этот"/>
+        <pos class="APRO">
+          <desc>вин,ед,жен</desc>
+          <comment>Mystem+ features: вин,ед,жен</comment>
+        </pos>
+      </w>
+      <w xml:id="a6.w.5">
+        <t>съем</t>
+        <lemma class="съедать"/>
+        <pos class="V">
+          <desc>непрош,ед,изъяв,1-л,сов</desc>
+          <comment>Mystem+ features: непрош,ед,изъяв,1-л,сов</comment>
+        </pos>
+      </w>
+      <w xml:id="a6.w.6">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt xml:id="a33" speaker="Папа" begintime="00:01:18.564" endtime="00:01:19.780">
+      <w xml:id="a33.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a33.w.2">
+        <t>Покажи</t>
+        <lemma class="показывать"/>
+        <pos class="V">
+          <desc>ед,пов,2-л,сов</desc>
+          <comment>Mystem+ features: ед,пов,2-л,сов</comment>
+        </pos>
+      </w>
+      <w xml:id="a33.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a34" speaker="Папа" begintime="00:01:19.870" endtime="00:01:21.790">
+      <w xml:id="a34.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a34.w.2">
+        <t>Ну</t>
+        <lemma class="ну"/>
+        <pos class="PART"/>
+      </w>
+      <w xml:id="a34.w.3">
+        <t>покажи</t>
+        <lemma class="показывать"/>
+        <pos class="V">
+          <desc>ед,пов,2-л,сов</desc>
+          <comment>Mystem+ features: ед,пов,2-л,сов</comment>
+        </pos>
+      </w>
+      <w xml:id="a34.w.4">
+        <t>что</t>
+        <lemma class="что"/>
+        <pos class="NPRO">
+          <desc>им,ед,неод,сред</desc>
+          <comment>Mystem+ features: им,ед,неод,сред</comment>
+        </pos>
+      </w>
+      <w xml:id="a34.w.5">
+        <t>ты</t>
+        <lemma class="ты"/>
+        <pos class="NPRO">
+          <desc>ед,2-л,им</desc>
+          <comment>Mystem+ features: ед,2-л=им</comment>
+        </pos>
+      </w>
+      <w xml:id="a34.w.6">
+        <t>там</t>
+        <lemma class="там"/>
+        <pos class="ADVPRO"/>
+      </w>
+      <w xml:id="a34.w.7">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a35" speaker="Папа" begintime="00:01:23.897" endtime="00:01:24.790">
+      <w xml:id="a35.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a35.w.2">
+        <t>Да</t>
+        <lemma class="да"/>
+        <pos class="INTJ"/>
+      </w>
+      <w xml:id="a35.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a36" speaker="Папа" begintime="00:01:28.664" endtime="00:01:32.090">
+      <w xml:id="a36.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a36.w.2">
+        <t>&lt;$FS&gt;</t>
+      </w>
+      <w xml:id="a36.w.3">
+        <t>Что</t>
+        <lemma class="что"/>
+        <pos class="NPRO">
+          <desc>ед,сред,неод,(вин|им)</desc>
+          <comment>Mystem+ features: ед,сред,неод=(вин|им)</comment>
+        </pos>
+      </w>
+      <w xml:id="a36.w.4">
+        <t>там</t>
+        <lemma class="там"/>
+        <pos class="ADVPRO"/>
+      </w>
+      <w xml:id="a36.w.5">
+        <t>&lt;$$FS&gt;</t>
+      </w>
+      <w xml:id="a36.w.6">
+        <t>дорасскажи</t>
+        <lemma class="дорассказать"/>
+        <pos class="V">
+          <desc>сов,пе,ед,пов,2-л</desc>
+          <comment>Mystem+ features: сов,пе=ед,пов,2-л</comment>
+        </pos>
+      </w>
+      <w xml:id="a36.w.7">
+        <t>мне</t>
+        <lemma class="я"/>
+        <pos class="NPRO">
+          <desc>ед,1-л,(пр|дат)</desc>
+          <comment>Mystem+ features: ед,1-л=(пр|дат)</comment>
+        </pos>
+      </w>
+      <w xml:id="a36.w.8">
+        <t>про</t>
+        <lemma class="про"/>
+        <pos class="PR"/>
+      </w>
+      <w xml:id="a36.w.9">
+        <t>космос</t>
+        <lemma class="космос"/>
+        <pos class="N">
+          <desc>муж,неод,(вин,ед|им,ед)</desc>
+          <comment>Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a36.w.10">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a15" speaker="Мама" begintime="00:01:31.390" endtime="00:01:33.090">
+      <w xml:id="a15.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a15.w.2">
+        <t>Что</t>
+        <lemma class="что"/>
+        <pos class="NPRO">
+          <desc>ед,сред,неод,(вин|им)</desc>
+          <comment>Mystem+ features: ед,сред,неод=(вин|им)</comment>
+        </pos>
+      </w>
+      <w xml:id="a15.w.3">
+        <t>ты</t>
+        <lemma class="ты"/>
+        <pos class="NPRO">
+          <desc>ед,2-л,им</desc>
+          <comment>Mystem+ features: ед,2-л=им</comment>
+        </pos>
+      </w>
+      <w xml:id="a15.w.4">
+        <t>спрашивал</t>
+        <lemma class="спрашивать"/>
+        <pos class="V">
+          <desc>прош,ед,изъяв,муж,несов,пе</desc>
+          <comment>Mystem+ features: прош,ед,изъяв,муж,несов,пе</comment>
+        </pos>
+      </w>
+      <w xml:id="a15.w.5">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt xml:id="a37" speaker="Папа" begintime="00:01:32.454" endtime="00:01:34.170">
+      <w xml:id="a37.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a37.w.2">
+        <t>{inaudible}</t>
+      </w>
+      <w xml:id="a37.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a38" speaker="Папа" begintime="00:01:37.980" endtime="00:01:39.630">
+      <w xml:id="a38.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a38.w.2">
+        <t>Игорь</t>
+        <lemma class="игорь"/>
+        <pos class="N">
+          <desc>имя,муж,од,им,ед</desc>
+          <comment>Mystem+ features: имя,муж,од=им,ед</comment>
+        </pos>
+      </w>
+      <w xml:id="a38.w.3">
+        <t>ну</t>
+        <lemma class="ну"/>
+        <pos class="PART"/>
+      </w>
+      <w xml:id="a38.w.4">
+        <t>расскажи</t>
+        <lemma class="рассказывать"/>
+        <pos class="V">
+          <desc>ед,пов,2-л,сов</desc>
+          <comment>Mystem+ features: ед,пов,2-л,сов</comment>
+        </pos>
+      </w>
+      <w xml:id="a38.w.5">
+        <t>маме</t>
+        <lemma class="мама"/>
+        <pos class="N">
+          <desc>жен,од,(пр,ед|дат,ед)</desc>
+          <comment>Mystem+ features: жен,од=(пр,ед|дат,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a38.w.6">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a39" speaker="Папа" begintime="00:01:41.396" endtime="00:01:42.080">
+      <w xml:id="a39.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a39.w.2">
+        <t>Понятно</t>
+        <lemma class="понятно"/>
+        <pos class="ADV">
+          <desc>вводн</desc>
+          <comment>Mystem+ features: вводн</comment>
+        </pos>
+      </w>
+      <w xml:id="a39.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a16" speaker="Мама" begintime="00:01:41.960" endtime="00:01:43.647">
+      <w xml:id="a16.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a16.w.2">
+        <t>Ну</t>
+        <lemma class="ну"/>
+        <pos class="PART"/>
+      </w>
+      <w xml:id="a16.w.3">
+        <t>{BREAK}</t>
+      </w>
+      <w xml:id="a16.w.4">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a49" speaker="Папа" begintime="00:01:42.080" endtime="00:01:43.040">
+      <w xml:id="a49.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a49.w.2">
+        <t>Вообще</t>
+        <lemma class="вообще"/>
+        <pos class="ADV">
+          <desc>вводн,</desc>
+          <comment>Mystem+ features: вводн=</comment>
+        </pos>
+      </w>
+      <w xml:id="a49.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a17" speaker="Мама" begintime="00:01:50.860" endtime="00:01:53.000">
+      <w xml:id="a17.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a17.w.2">
+        <t>&lt;$UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a17.w.3">
+        <t>&lt;$FS&gt;</t>
+      </w>
+      <w xml:id="a17.w.4">
+        <t>Ну</t>
+        <lemma class="ну"/>
+        <pos class="PART"/>
+      </w>
+      <w xml:id="a17.w.5">
+        <t>&lt;$$FS&gt;</t>
+      </w>
+      <w xml:id="a17.w.6">
+        <t>&lt;$$UNCLEAR&gt;</t>
+      </w>
+      <w xml:id="a17.w.7">
+        <t>ну</t>
+        <lemma class="ну"/>
+        <pos class="PART"/>
+      </w>
+      <w xml:id="a17.w.8">
+        <t>ты</t>
+        <lemma class="ты"/>
+        <pos class="NPRO">
+          <desc>ед,2-л,им</desc>
+          <comment>Mystem+ features: ед,2-л=им</comment>
+        </pos>
+      </w>
+      <w xml:id="a17.w.9">
+        <t>хочешь</t>
+        <lemma class="хотеть"/>
+        <pos class="V">
+          <desc>несов,пе,непрош,ед,изъяв,2-л</desc>
+          <comment>Mystem+ features: несов,пе=непрош,ед,изъяв,2-л</comment>
+        </pos>
+      </w>
+      <w xml:id="a17.w.10">
+        <t>чтоб</t>
+        <lemma class="чтоб"/>
+        <pos class="CONJ">
+          <desc>подч</desc>
+          <comment>Mystem+ features: подч</comment>
+        </pos>
+      </w>
+      <w xml:id="a17.w.11">
+        <t>он</t>
+        <lemma class="он"/>
+        <pos class="NPRO">
+          <desc>ед,3-л,муж,им</desc>
+          <comment>Mystem+ features: ед,3-л,муж=им</comment>
+        </pos>
+      </w>
+      <w xml:id="a17.w.12">
+        <t>рас-</t>
+      </w>
+      <w xml:id="a17.w.13">
+        <t>+</t>
+      </w>
+      <w xml:id="a17.w.14">
+        <t>рассказал</t>
+        <lemma class="рассказывать"/>
+        <pos class="V">
+          <desc>прош,ед,изъяв,муж,сов</desc>
+          <comment>Mystem+ features: прош,ед,изъяв,муж,сов</comment>
+        </pos>
+      </w>
+      <w xml:id="a17.w.15">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a47" speaker="Мама" begintime="00:01:53.000" endtime="00:01:54.260">
+      <w xml:id="a47.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a47.w.2">
+        <t>А</t>
+        <lemma class="а"/>
+        <pos class="CONJ">
+          <desc>соч</desc>
+          <comment>Mystem+ features: соч</comment>
+        </pos>
+      </w>
+      <w xml:id="a47.w.3">
+        <t>он</t>
+        <lemma class="он"/>
+        <pos class="NPRO">
+          <desc>ед,3-л,муж,им</desc>
+          <comment>Mystem+ features: ед,3-л,муж=им</comment>
+        </pos>
+      </w>
+      <w xml:id="a47.w.4">
+        <t>не</t>
+        <lemma class="не"/>
+        <pos class="PART">
+          <desc>отрп</desc>
+          <comment>Mystem+ features: отрп</comment>
+        </pos>
+      </w>
+      <w xml:id="a47.w.5">
+        <t>хочет</t>
+        <lemma class="хотеть"/>
+        <pos class="V">
+          <desc>несов,пе,непрош,ед,изъяв,3-л</desc>
+          <comment>Mystem+ features: несов,пе=непрош,ед,изъяв,3-л</comment>
+        </pos>
+      </w>
+      <w xml:id="a47.w.6">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a18" speaker="Мама" begintime="00:01:55.890" endtime="00:01:57.600">
+      <w xml:id="a18.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a18.w.2">
+        <t>Ну</t>
+        <lemma class="ну"/>
+        <pos class="PART"/>
+      </w>
+      <w xml:id="a18.w.3">
+        <t>че</t>
+        <lemma class="что"/>
+        <pos class="NPRO">
+          <desc>им,ед,неод,сред</desc>
+          <comment>Mystem+ features: им,ед,неод,сред</comment>
+        </pos>
+      </w>
+      <w xml:id="a18.w.4">
+        <t>ты</t>
+        <lemma class="ты"/>
+        <pos class="NPRO">
+          <desc>ед,2-л,им</desc>
+          <comment>Mystem+ features: ед,2-л=им</comment>
+        </pos>
+      </w>
+      <w xml:id="a18.w.5">
+        <t>придираешься</t>
+        <lemma class="придираться"/>
+        <pos class="V">
+          <desc>нп,непрош,ед,изъяв,2-л,несов</desc>
+          <comment>Mystem+ features: нп=непрош,ед,изъяв,2-л,несов</comment>
+        </pos>
+      </w>
+      <w xml:id="a18.w.6">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt xml:id="a40" speaker="Папа" begintime="00:01:57.010" endtime="00:01:58.320">
+      <w xml:id="a40.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a40.w.2">
+        <t>Да</t>
+        <lemma class="да"/>
+        <pos class="INTJ"/>
+      </w>
+      <w xml:id="a40.w.3">
+        <t>ниче</t>
+        <lemma class="нич"/>
+        <pos class="N">
+          <desc>гео,муж,неод,пр,ед</desc>
+          <comment>Mystem+ features: гео,муж,неод=пр,ед</comment>
+        </pos>
+      </w>
+      <w xml:id="a40.w.4">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a7" speaker="Ребенок" begintime="00:01:58.178" endtime="00:02:00.470">
+      <w xml:id="a7.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a7.w.2">
+        <t>Так</t>
+        <lemma class="так"/>
+        <pos class="ADVPRO"/>
+      </w>
+      <w xml:id="a7.w.3">
+        <t>открой</t>
+        <lemma class="открывать"/>
+        <pos class="V">
+          <desc>ед,пов,2-л,сов</desc>
+          <comment>Mystem+ features: ед,пов,2-л,сов</comment>
+        </pos>
+      </w>
+      <w xml:id="a7.w.4">
+        <t>мне</t>
+        <lemma class="я"/>
+        <pos class="NPRO">
+          <desc>ед,1-л,(пр|дат)</desc>
+          <comment>Mystem+ features: ед,1-л=(пр|дат)</comment>
+        </pos>
+      </w>
+      <w xml:id="a7.w.5">
+        <t>пап</t>
+        <lemma class="папа"/>
+        <pos class="N">
+          <desc>муж,од,(вин,мн|род,мн|зват,ед)</desc>
+          <comment>Mystem+ features: муж,од=(вин,мн|род,мн|зват,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a7.w.6">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a19" speaker="Мама" begintime="00:02:01.127" endtime="00:02:02.752">
+      <w xml:id="a19.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a19.w.2">
+        <t>А</t>
+        <lemma class="а"/>
+        <pos class="CONJ">
+          <desc>соч</desc>
+          <comment>Mystem+ features: соч</comment>
+        </pos>
+      </w>
+      <w xml:id="a19.w.3">
+        <t>волшебное</t>
+        <lemma class="волшебный"/>
+        <pos class="A">
+          <desc>(вин,ед,полн,сред|им,ед,полн,сред)</desc>
+          <comment>Mystem+ features: (вин,ед,полн,сред|им,ед,полн,сред)</comment>
+        </pos>
+      </w>
+      <w xml:id="a19.w.4">
+        <t>слово</t>
+        <lemma class="слово"/>
+        <pos class="N">
+          <desc>сред,неод,(вин,ед|им,ед)</desc>
+          <comment>Mystem+ features: сред,неод=(вин,ед|им,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a19.w.5">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt xml:id="a8" speaker="Ребенок" begintime="00:02:02.626" endtime="00:02:04.210">
+      <w xml:id="a8.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a8.w.2">
+        <t>Пожалуйста</t>
+        <lemma class="пожалуйста"/>
+        <pos class="N">
+          <desc>неиз,неод,сред</desc>
+          <comment>Mystem+ features: неиз,неод,сред</comment>
+        </pos>
+      </w>
+      <w xml:id="a8.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a41" speaker="Папа" begintime="00:02:04.140" endtime="00:02:07.470">
+      <w xml:id="a41.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a41.w.2">
+        <t>Да</t>
+        <lemma class="да"/>
+        <pos class="INTJ"/>
+      </w>
+      <w xml:id="a41.w.3">
+        <t>он</t>
+        <lemma class="он"/>
+        <pos class="NPRO">
+          <desc>ед,3-л,муж,им</desc>
+          <comment>Mystem+ features: ед,3-л,муж=им</comment>
+        </pos>
+      </w>
+      <w xml:id="a41.w.4">
+        <t>спрашивал</t>
+        <lemma class="спрашивать"/>
+        <pos class="V">
+          <desc>прош,ед,изъяв,муж,несов,пе</desc>
+          <comment>Mystem+ features: прош,ед,изъяв,муж,несов,пе</comment>
+        </pos>
+      </w>
+      <w xml:id="a41.w.5">
+        <t>почему</t>
+        <lemma class="почему"/>
+        <pos class="ADVPRO"/>
+      </w>
+      <w xml:id="a41.w.6">
+        <t>космос</t>
+        <lemma class="космос"/>
+        <pos class="N">
+          <desc>муж,неод,(вин,ед|им,ед)</desc>
+          <comment>Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a41.w.7">
+        <t>безначальный</t>
+        <lemma class="безначальный"/>
+        <pos class="A">
+          <desc>ед,им,муж,полн</desc>
+          <comment>Mystem+ features: ед,им,муж,полн</comment>
+        </pos>
+      </w>
+      <w xml:id="a41.w.8">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a20" speaker="Мама" begintime="00:02:08.150" endtime="00:02:09.380">
+      <w xml:id="a20.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a20.w.2">
+        <t>{LG}</t>
+      </w>
+      <w xml:id="a20.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a42" speaker="Папа" begintime="00:02:08.760" endtime="00:02:11.060">
+      <w xml:id="a42.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a42.w.2">
+        <t>Бесконечный</t>
+        <lemma class="бесконечный"/>
+        <pos class="A">
+          <desc>ед,им,муж,полн</desc>
+          <comment>Mystem+ features: ед,им,муж,полн</comment>
+        </pos>
+      </w>
+      <w xml:id="a42.w.3">
+        <t>и</t>
+        <lemma class="и"/>
+        <pos class="CONJ">
+          <desc>соч</desc>
+          <comment>Mystem+ features: соч</comment>
+        </pos>
+      </w>
+      <w xml:id="a42.w.4">
+        <t>безначальный</t>
+        <lemma class="безначальный"/>
+        <pos class="A">
+          <desc>ед,им,муж,полн</desc>
+          <comment>Mystem+ features: ед,им,муж,полн</comment>
+        </pos>
+      </w>
+      <w xml:id="a42.w.5">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a21" speaker="Мама" begintime="00:02:10.530" endtime="00:02:12.287">
+      <w xml:id="a21.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a21.w.2">
+        <t>{LG}</t>
+      </w>
+      <w xml:id="a21.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a9" speaker="Ребенок" begintime="00:02:12.000" endtime="00:02:13.280">
+      <w xml:id="a9.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a9.w.2">
+        <t>Мм</t>
+        <lemma class="мм"/>
+        <pos class="INTJ"/>
+      </w>
+      <w xml:id="a9.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a43" speaker="Папа" begintime="00:02:13.980" endtime="00:02:19.390">
+      <w xml:id="a43.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a43.w.2">
+        <t>Как</t>
+        <lemma class="как"/>
+        <pos class="ADVPRO"/>
+      </w>
+      <w xml:id="a43.w.3">
+        <t>долго</t>
+        <lemma class="долго"/>
+        <pos class="ADV"/>
+      </w>
+      <w xml:id="a43.w.4">
+        <t>надо</t>
+        <lemma class="надо"/>
+        <pos class="ADV">
+          <desc>прдк,</desc>
+          <comment>Mystem+ features: прдк=</comment>
+        </pos>
+      </w>
+      <w xml:id="a43.w.5">
+        <t>лететь</t>
+        <lemma class="лететь"/>
+        <pos class="V">
+          <desc>несов,нп,инф</desc>
+          <comment>Mystem+ features: несов,нп=инф</comment>
+        </pos>
+      </w>
+      <w xml:id="a43.w.6">
+        <t>ракете</t>
+        <lemma class="ракета"/>
+        <pos class="N">
+          <desc>жен,неод,(пр,ед|дат,ед)</desc>
+          <comment>Mystem+ features: жен,неод=(пр,ед|дат,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a43.w.7">
+        <t>чтобы</t>
+        <lemma class="чтобы"/>
+        <pos class="CONJ">
+          <desc>подч</desc>
+          <comment>Mystem+ features: подч</comment>
+        </pos>
+      </w>
+      <w xml:id="a43.w.8">
+        <t>врезаться</t>
+        <lemma class="врезаться"/>
+        <pos class="V">
+          <desc>сов,нп,инф</desc>
+          <comment>Mystem+ features: сов,нп=инф</comment>
+        </pos>
+      </w>
+      <w xml:id="a43.w.9">
+        <t>в</t>
+        <lemma class="в"/>
+        <pos class="PR"/>
+      </w>
+      <w xml:id="a43.w.10">
+        <t>конец</t>
+        <lemma class="конец"/>
+        <pos class="N">
+          <desc>муж,неод,(вин,ед|им,ед)</desc>
+          <comment>Mystem+ features: муж,неод=(вин,ед|им,ед)</comment>
+        </pos>
+      </w>
+      <w xml:id="a43.w.11">
+        <t>космоса</t>
+        <lemma class="космос"/>
+        <pos class="N">
+          <desc>муж,неод,род,ед</desc>
+          <comment>Mystem+ features: муж,неод=род,ед</comment>
+        </pos>
+      </w>
+      <w xml:id="a43.w.12">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a22" speaker="Мама" begintime="00:02:18.891" endtime="00:02:20.294">
+      <w xml:id="a22.w.1">
+        <t>МАМА:</t>
+      </w>
+      <w xml:id="a22.w.2">
+        <t>{LG}</t>
+      </w>
+      <w xml:id="a22.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a44" speaker="Папа" begintime="00:02:20.778" endtime="00:02:21.350">
+      <w xml:id="a44.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a44.w.2">
+        <t>Да</t>
+        <lemma class="да"/>
+        <pos class="INTJ"/>
+      </w>
+      <w xml:id="a44.w.3">
+        <t>Игорюш</t>
+        <lemma class="игорюша"/>
+        <pos class="N">
+          <desc>имя,муж,од,(вин,мн|род,мн)</desc>
+          <comment>Mystem+ features: имя,муж,од=(вин,мн|род,мн)</comment>
+        </pos>
+      </w>
+      <w xml:id="a44.w.4">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a50" speaker="Папа" begintime="00:02:21.350" endtime="00:02:22.680">
+      <w xml:id="a50.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a50.w.2">
+        <t>Правильно</t>
+        <lemma class="правильный"/>
+        <pos class="A">
+          <desc>ед,кр,прдк,сред</desc>
+          <comment>Mystem+ features: ед,кр,прдк,сред</comment>
+        </pos>
+      </w>
+      <w xml:id="a50.w.3">
+        <t>я</t>
+        <lemma class="я"/>
+        <pos class="NPRO">
+          <desc>ед,1-л,им</desc>
+          <comment>Mystem+ features: ед,1-л=им</comment>
+        </pos>
+      </w>
+      <w xml:id="a50.w.4">
+        <t>рассказываю</t>
+        <lemma class="рассказывать"/>
+        <pos class="V">
+          <desc>непрош,ед,изъяв,1-л,несов,пе</desc>
+          <comment>Mystem+ features: непрош,ед,изъяв,1-л,несов,пе</comment>
+        </pos>
+      </w>
+      <w xml:id="a50.w.5">
+        <t>?</t>
+      </w>
+    </utt>
+    <utt xml:id="a10" speaker="Ребенок" begintime="00:02:22.642" endtime="00:02:23.540">
+      <w xml:id="a10.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a10.w.2">
+        <t>Да</t>
+        <lemma class="да"/>
+        <pos class="INTJ"/>
+      </w>
+      <w xml:id="a10.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a45" speaker="Папа" begintime="00:02:25.190" endtime="00:02:26.890">
+      <w xml:id="a45.w.1">
+        <t>ПАПА:</t>
+      </w>
+      <w xml:id="a45.w.2">
+        <t>Пожалуйста</t>
+        <lemma class="пожалуйста"/>
+        <pos class="N">
+          <desc>неиз,неод,сред</desc>
+          <comment>Mystem+ features: неиз,неод,сред</comment>
+        </pos>
+      </w>
+      <w xml:id="a45.w.3">
+        <t>запивай</t>
+        <lemma class="запивать"/>
+        <pos class="V">
+          <desc>пе,ед,пов,2-л,несов</desc>
+          <comment>Mystem+ features: пе=ед,пов,2-л,несов</comment>
+        </pos>
+      </w>
+      <w xml:id="a45.w.4">
+        <t>.</t>
+      </w>
+    </utt>
+    <utt xml:id="a11" speaker="Ребенок" begintime="00:02:26.926" endtime="00:02:28.250">
+      <w xml:id="a11.w.1">
+        <t>РЕБЕНОК:</t>
+      </w>
+      <w xml:id="a11.w.2">
+        <t>Хорошо</t>
+        <lemma class="хорошо"/>
+        <pos class="ADV">
+          <desc>вводн</desc>
+          <comment>Mystem+ features: вводн</comment>
+        </pos>
+      </w>
+      <w xml:id="a11.w.3">
+        <t>.</t>
+      </w>
+    </utt>
+  </speech>
+</FoLiA>
