@@ -89,7 +89,9 @@ feats_en2ru = {
     "anom": "аном",
     "posa": "впрл",
     "praedic": "предик", # under debate (starting on Jul 09)
-    # </subset>
+    # 20210611
+    # преувеличительно-оценочные (аффектные) формы (augmentative)
+    "aug": "па",
     # total: 59
 }
 
