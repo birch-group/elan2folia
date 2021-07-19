@@ -91,10 +91,13 @@ feats_en2ru = {
     "praedic": "предик", # under debate (starting on Jul 09)
     # 20210629
     "prof": "проф",
+    # 20210719
+    # https://birch.flowlu.com/_module/knowledgebase/view/article/703--stoya-deeprichastie-ili-narechie
+    "padv": "внар",
     # 20210611
     # преувеличительно-оценочные (аффектные) формы (augmentative)
     "aug": "па",
-    # total: 61
+    # total: 62
 }
 
 # print(len(feats_en2ru))
