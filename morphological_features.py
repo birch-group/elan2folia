@@ -97,7 +97,7 @@ feats_en2ru = {
     # 20210611
     # преувеличительно-оценочные (аффектные) формы (augmentative)
     "aug": "па",
-    # total: 62
+    # total: 63
 }
 
 # print(len(feats_en2ru))
