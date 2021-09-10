@@ -117,7 +117,7 @@ def compare(fs_i, f_o='data/comparison.csv'):
 
     for d in docs_i:
         # list of lists of utterances
-        speeches_i.append([u for u in d[0]])
+        speeches_i.append([u for u in d[0] if isinstance(u, folia.Utterance)])
 
     ids_utterance = get_ids(*speeches_i)
 
