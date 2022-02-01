@@ -31,6 +31,18 @@ def tokenize_curly_brackets(t):
                                            else x.group(0),
                                  t)
 
+# 20220201 - handle <RD ...> - using the strategy of tokenize_curly_brackets()
+re_rd = re.compile(r'<RD[^>]*>')
+def tokenize_rd(t):
+    """
+    Consider '<RD ...>' as a (word) token, replacing whitespaces with '_'
+    t: text string
+    """
+    return re_rd.sub(lambda x: '_'.join(x.group(0).split()) \
+                                           if ' ' in x.group(0) \
+                                           else x.group(0),
+                                 t)
+
 # Reference: potential_passives.py (in "workspace/birch/nsf_report" folder)
 #re_token_ru = re.compile(r'[а-яА-Я][а-яА-Я-]*[а-яА-Я]|[а-яА-Я]')
 #re_token_ru = re.compile(r'[а-яА-Я+-]+')
@@ -111,6 +123,7 @@ def get_tokens(t):
     # replace '<BREAK>' with '{BREAK}' in utterance text
     t = re.sub(r'<[Bb][Rr][Ee][Aa][Kk]>',r'{BREAK}',t)
     t = tokenize_curly_brackets(t)
+    t = tokenize_rd(t)
     offsets = get_token_offsets(t)
     for i in range(len(offsets)-1):
         temp = t[offsets[i]:offsets[i+1]].strip().split()
