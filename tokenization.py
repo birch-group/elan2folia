@@ -60,7 +60,7 @@ def tokenize_rd(t):
 # re_token_for_sure = re.compile(r'[а-яА-Я-]+|[.,!?:+]|<BREAK>|\{[^\}]*\}')
 # re_token_for_sure = re.compile(r'[а-яА-Я-]+|[.,!?:+]|\{[^\}]*\}')
 # re_token_for_sure = re.compile(r'[а-яА-Я-]{2,}|[.,!?:+]|\{[^\}]*\}')
-re_token_for_sure = re.compile(r'[ёЁа-яА-Я-]{2,}|[.,!?:+]|\{[^\}]*\}')
+re_token_for_sure = re.compile(r'[ёЁа-яА-Я-]{2,}|[.,;!?:+]|\{[^\}]*\}')
 def get_tokens_for_sure(t): # t: ELAN transcript text of a segment
     """ -> Cyrillic tokens, punctuation marks, and unary tags """
     return re_token_for_sure.finditer(t)
