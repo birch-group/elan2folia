@@ -108,6 +108,7 @@ def convert(f_i, f_o=None):
     # folia.Speech cannot be declared as an annotation type
     speech = doc_o.append(folia.Speech)
     for aa in create_conversation(get_aas(doc_i)):
+        print('-',end='')
         utterance = speech.append(folia.Utterance,
                                   id=aa[0], speaker=aa[1],
                                   begintime=aa[2], endtime=aa[3],
