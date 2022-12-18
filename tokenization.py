@@ -129,10 +129,18 @@ def get_tokens(t):
     offsets = get_token_offsets(t)
     for i in range(len(offsets)-1):
         temp = t[offsets[i]:offsets[i+1]].strip().split()
+
         # word splitting 
         # (future consideration: more sophisticated handling of letter case)        
         if len(temp)==1:
             temp = split_word(temp[0])
+
+        # 20221218: handle the cases such as token "A>" in "<$PR A> Да <$$PR> ." (B_2012_08_16_0), in which one-letter Russian word undesirably attached to symbol ">"        
+        if len(temp)>0 and temp[-1].endswith('>'):
+            token = temp[-1] # the last token in temp    
+            if len(token)==2 and token[0].lower() in set('абвгдеёжзийклмнопрстуфхцчшщъыьэюя'):
+                temp = temp[:-1] + [token[0], '>']
+
         tokens.extend(temp)
     # handle XML-based visibility of tokens in the form of tags
     # e.g. '<REP> ... <$$REP>' -> '<$REP> ... <$$REP>'
