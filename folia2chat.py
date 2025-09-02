@@ -102,6 +102,125 @@ MAIN_TIER_REGEX_CONVERSIONS = {
     r'^\s+': ''
 }
 
+FEATURE_MAP = {
+    # Conjunctions
+    "соч": "coord",
+    "подч": "sybrd",
+
+    # Adverbs
+    "квант": "quant",
+    "срав": "comp",
+    "дискр": "discr",
+    "pred": "pred",
+
+    # Pronoun person
+    "1-л": "1p",
+    "2-л": "2p",
+    "3-л": "3p",
+
+    # Animacy
+    "од": "anim",
+    "неод": "inan",
+
+    # Gender
+    "муж": "m",
+    "жен": "f",
+    "мж": "mf",
+    "сред": "n",
+    "проф": "prof",
+
+    # Frozen
+    "неиз": "nd",
+
+    # Case
+    "им": "nom",
+    "род": "gen",
+    "род2": "gen2",
+    "дат": "dat",
+    "вин": "acc",
+    "вин2": "acc2",
+    "твор": "ins",
+    "пр": "abl",
+    "местн": "loc",
+    "зват": "voc",
+
+    # Number
+    "ед": "sg",
+    "мн": "pl",
+
+    # Diminutive/Augmentative
+    "ул": "dim",
+    "па": "aug",
+
+    # Adjective form
+    "кр": "brev",
+    "полн": "plen",
+    "притяж": "poss",
+
+    # Degree
+    "прев": "supr",
+    "срав": "comp",
+
+    # Verb forms
+    "деепр": "ger",
+    "инф": "inf",
+    "прич": "partcp",
+    "изъяв": "indic",
+    "пов": "imper",
+
+    # Transitivity
+    "пе": "tran",
+    "нп": "intr",
+
+    # Tense
+    "наст": "pres",
+    "непрош": "inpres",
+    "прош": "pret",
+
+    # Aspect
+    "несов": "ipf",
+    "сов": "pf",
+
+    # Voice
+    "действ": "act",
+    "страд": "pass",
+
+    # Other features
+    "Вводн": "parenth",
+    "Аном": "anom",
+    "Гео": "geo",
+    "Имя": "persn",
+    "Обсц": "obsc",
+    "Отч": "patrn",
+    "pred": "praed",
+    "Предик": "praedic",
+    "Сокр": "abbr",
+    "Фам": "famn",
+    "Разг": "col",
+    "Впрл": "posa",
+    "внар": "padv"
+}
+
+
+def extract_features_from_pos(word_elem, namespace):
+    pos_elem = word_elem.find('.//folia:pos', namespaces=namespace)
+    if pos_elem is None:
+        return []
+
+    desc_elem = pos_elem.find('./folia:desc', namespaces=namespace)
+    if desc_elem is None or not desc_elem.text:
+        return []
+
+    features = []
+    for feat in desc_elem.text.split(','):
+        feat = feat.strip()
+        if not feat:
+            continue
+        mapped = FEATURE_MAP.get(feat)
+        if mapped:
+            features.append(mapped)
+    return features
+
 def determine_languages(filename: str) -> str:
     """Determine @Languages value based on filename prefix."""
     prefix = filename.split("_")[0]  # e.g., "T" from "T_4-2-24_0.folia.xml"
@@ -307,12 +426,17 @@ def convert_folia_to_chat(folia_file_path, chat_output_path):
                 if pos_elem is not None:
                     folia_pos_class = pos_elem.get('class', '').strip()
                     mor_pos = convert_folia_pos_to_mor(folia_pos_class)
+
                     if mor_pos == "punct":
                         mor_tier_tokens.append(token_text_raw)
                     else:
-                        mor_tier_tokens.append(f"{mor_pos}|{token_text_raw}")
+                        # Extract mapped features
+                        features = extract_features_from_pos(word_elem, namespace)
+                        feature_str = "-" + "-".join(features) if features else ""
+                        mor_tier_tokens.append(f"{mor_pos}|{token_text_raw}{feature_str}")
                 else:
                     mor_tier_tokens.append(f"unk|{token_text_raw}")
+
 
             if main_tier_tokens or mor_tier_tokens:
                 main_line = apply_main_tier_regex_conversions(clean_special_tags(" ".join(main_tier_tokens))).strip()
@@ -355,3 +479,4 @@ if __name__ == '__main__':
                 print(f"--- Done. Output in {actual_chat_output} ---")
             except FileNotFoundError:
                 print(f"--- SKIPPING (not found): '{actual_folia_file}' ---")
+
