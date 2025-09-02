@@ -4,7 +4,6 @@ import os
 import glob
 
 # --- Configuration ---
-
 # Speaker code mapping from FoLiA speaker ID to CHAT code
 SPEAKER_CODES = {
     "РЕБЕНОК": "CHI", "CHILD": "CHI",
@@ -68,7 +67,7 @@ FOLIA_T_CONTENT_TO_CHAT_MARKER = {
     "{NS}": "[^ non-speech noise]",
     "{SP}": "[^ speech noise]",
     "{SE}": "&=imit:sound",
-    # "<BREAK>": "(..)",
+    # "<BREAK>": "(..)",  # angle brackets no longer used?
     "{BREAK}": "(..)",
 }
 
@@ -78,11 +77,11 @@ MAIN_TIER_REGEX_CONVERSIONS = {
     r'\{C\s+(.+?)\}': r'[%com: \1]',
     r'<PR\s+(.+?)>\s*C\s*<\$\$PR>': r'\1 [/? C]',
     # r'""(.+?)""': r'[+mention] "\1"',
-    r'(об-|об-\s*\+\s*.+)': r'[+omission \1]',
-    r'<BOR\s+(.+?)><\$\$BOR>': r'[+borrowing: \1]',
-    r'<L\s+(.+?)><\$\$L>': r'[+lang: \1]',
-    r'<PR\s+(.+?)>\s*\{neo\}\s*<\$\$PR>': r'[+neo: \1]',
-    r'<PR\s+(.+?)>\s*(.+?)\s*<\$\$PR>': r'\1 [%pho \2]',
+    # r'(об-|об-\s*\+\s*.+)': r'[+omission \1]',
+    # r'<BOR\s+(.+?)><\$\$BOR>': r'[+borrowing: \1]',
+    # r'<L\s+(.+?)><\$\$L>': r'[+lang: \1]',
+    # r'<PR\s+(.+?)>\s*\{neo\}\s*<\$\$PR>': r'[+neo: \1]',
+    # r'<PR\s+(.+?)>\s*(.+?)\s*<\$\$PR>': r'\1 [%pho \2]',
     r'<UNCLEAR>\s*(.+?)\s*\|\s*(.+?)\s*<\$\$UNCLEAR>': r'[%unk \1 | \2]',
     r'<UNCLEAR>\s*(.+?)\s*<\$\$UNCLEAR>': r'[? \1]',
     r'\{BR\}': r'[%pau]', r'\{CG\}': r'[%com: cough/throat clear]',
@@ -115,7 +114,7 @@ def determine_languages(filename: str) -> str:
 
 def extract_child_age(filename: str) -> str:
     """
-    Extract child age in CHAT format (Y;MM.DD) from filename like T_4-2-24_0.folia.xml.
+    Extract child age in CHAT format (Y;MM.DD) from filename.
     """
     try:
         parts = filename.split("_")[1].split("-")  # ["4", "2", "24"]
@@ -147,8 +146,7 @@ def clean_special_tags(text: str) -> str:
     # Handle UNCLEAR tags: <$UNCLEAR> ... <$$UNCLEAR> -> content [?]
     text = re.sub(r"<\$UNCLEAR>\s*(.*?)\s*<\$\$UNCLEAR>", r"\1 [?]", text)
 
-    # Handle REP and REP-C tags: <REP>...<$$REP> or <REP-C>...<$$REP-C>
-    # → <...> [/] ...
+    # Handle REP and REP-C tags: <REP>...<$$REP> or <REP-C>...<$$REP-C> -> <...> [/] ...
     text = re.sub(
         r"<\s*\$?\s*REP\s*\t*(?:-\s*\t*C)?\s*>\s*(.*?)\s*<\s*\$\$\s*REP\s*\t*(?:-\s*\t*C)?\s*>",
         r"<\1> [/] \1",
@@ -164,7 +162,7 @@ def clean_special_tags(text: str) -> str:
         flags=re.DOTALL
     )
 
-    # Mispronunciations: <$PR wrong > correct <$$PR>
+    # Mispronunciations: <$PR wrong> correct <$$PR>
     text = re.sub(
         r"<\s*\$PR\s+(.+?)\s*>\s*(.+?)\s*<\s*\$\$PR>",
         r"\1 [*] \2",
@@ -189,9 +187,7 @@ def clean_special_tags(text: str) -> str:
     return text
 
 
-
 # --- Core Functions ---
-
 def get_folia_namespace(root_element):
     ns_match = re.match(r'\{(.+)\}', root_element.tag)
     return {'folia': ns_match.group(1)} if ns_match else {'folia': 'http://ilk.uvt.nl/folia'}
@@ -249,7 +245,7 @@ def convert_folia_to_chat(folia_file_path, chat_output_path):
         for name, chat_code in speakers_dict.items():
             lang_code = languages.split(",")[0].strip()
             age_field = child_age if chat_code == "CHI" else ""
-            chat_file.write(f"@ID: {lang_code}|{filename_only[0]}|{chat_code}|{age_field}|||||{name}|||\n")
+            chat_file.write(f"@ID: {lang_code}|{filename_only[0]}|{chat_code}|{age_field}|||||{name}|||\n")  # format inspired by other CHILDES Slavic corpora
         chat_file.write("\n")
 
         for utt_elem in root.findall('.//folia:utt', namespaces=namespace):
@@ -335,25 +331,8 @@ def convert_folia_to_chat(folia_file_path, chat_output_path):
     print(f"Conversion complete. Output saved to {chat_output_path}")
 
 
-'''
-# --- Main Execution ---
 if __name__ == '__main__':
-    # clean_special_tags("<$REP - C> да <$$REP - C> Вот так вот да жалела чтобы <$REP> да <$$REP>.")
-    actual_folia_file = "T/T_4-2-24_0.folia.xml"  # file name/path
-    actual_chat_output = "output_chat_4.cha"
-    try:
-        with open(actual_folia_file, 'r', encoding='utf-8') as f_check:
-            pass
-        print(f"--- Converting ACTUAL FoLiA file: {actual_folia_file} ---")
-        convert_folia_to_chat(actual_folia_file, actual_chat_output)
-        print(f"--- ACTUAL Conversion Done. Output in {actual_chat_output} ---")
-    except FileNotFoundError:
-        print(f"--- SKIPPING ACTUAL FoLiA file conversion: '{actual_folia_file}' not found. ---")
-'''
-
-
-if __name__ == '__main__':
-    base_dir = "."  # or the path where your T, Zh, P, ... folders are
+    base_dir = "."  # or some other path where the FoLiA folders are
     pattern = os.path.join(base_dir, "*", "*.folia.xml")
 
     folia_files = glob.glob(pattern)
